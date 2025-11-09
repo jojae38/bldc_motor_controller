@@ -4208,7 +4208,7 @@
 	)
 	(symbol
 		(lib_id "SamacSys_Parts:IS42S32800J-6TLI")
-		(at 259.08 73.66 0)
+		(at 233.68 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4217,7 +4217,7 @@
 		(fields_autoplaced yes)
 		(uuid "e729d766-ba3a-43fb-b397-0a64ea46c5a4")
 		(property "Reference" "IC1"
-			(at 275.59 66.04 0)
+			(at 250.19 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4225,7 +4225,7 @@
 			)
 		)
 		(property "Value" "IS42S32800J-6TLI"
-			(at 275.59 68.58 0)
+			(at 250.19 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4233,7 +4233,7 @@
 			)
 		)
 		(property "Footprint" "SOP50P1176X120-86N"
-			(at 288.29 71.12 0)
+			(at 262.89 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4243,7 +4243,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.arrow.com/en/products/is42s32800j-6tli/integrated-silicon-solution-inc?region=nac"
-			(at 288.29 73.66 0)
+			(at 262.89 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4253,7 +4253,7 @@
 			)
 		)
 		(property "Description" "DRAM 256M, 3.3V, SDRAM, 8Mx32, 166Mhz, 86 pin TSOP II RoHS, IT"
-			(at 259.08 73.66 0)
+			(at 233.68 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4262,7 +4262,7 @@
 			)
 		)
 		(property "Description_1" "DRAM 256M, 3.3V, SDRAM, 8Mx32, 166Mhz, 86 pin TSOP II RoHS, IT"
-			(at 288.29 76.2 0)
+			(at 262.89 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4272,7 +4272,7 @@
 			)
 		)
 		(property "Height" "1.2"
-			(at 288.29 78.74 0)
+			(at 262.89 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4282,7 +4282,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Integrated Silicon Solution Inc."
-			(at 288.29 81.28 0)
+			(at 262.89 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4292,7 +4292,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "IS42S32800J-6TLI"
-			(at 288.29 83.82 0)
+			(at 262.89 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4302,7 +4302,7 @@
 			)
 		)
 		(property "Mouser Part Number" "N/A"
-			(at 288.29 86.36 0)
+			(at 262.89 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4312,7 +4312,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=N%2FA"
-			(at 288.29 88.9 0)
+			(at 262.89 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4322,7 +4322,7 @@
 			)
 		)
 		(property "Arrow Part Number" "IS42S32800J-6TLI"
-			(at 288.29 91.44 0)
+			(at 262.89 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4332,7 +4332,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/is42s32800j-6tli/integrated-silicon-solution-inc?utm_currency=USD&region=nac"
-			(at 288.29 93.98 0)
+			(at 262.89 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)

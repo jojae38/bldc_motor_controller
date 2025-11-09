@@ -5,6 +5,46 @@
 	(uuid "ce41f1d6-4d8b-44ba-a424-9b04753f0e3c")
 	(paper "A4")
 	(lib_symbols)
+	(text "I2C"
+		(exclude_from_sim no)
+		(at 58.674 71.628 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3e8f3738-4e84-485d-801a-43dad2f07e87")
+	)
+	(text "CAN"
+		(exclude_from_sim no)
+		(at 58.674 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "42d308ed-355d-424e-9a22-7fb60333d221")
+	)
+	(text "UART"
+		(exclude_from_sim no)
+		(at 58.674 75.692 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "77d688f7-c223-449a-b72b-a4376bfbcfb1")
+	)
+	(text "USB"
+		(exclude_from_sim no)
+		(at 58.674 69.596 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9fe60f32-6cb7-48c1-b1ed-52a92324da73")
+	)
 	(global_label "USB_DP"
 		(shape passive)
 		(at 44.45 48.26 0)

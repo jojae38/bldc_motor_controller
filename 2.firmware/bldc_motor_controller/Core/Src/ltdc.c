@@ -125,7 +125,7 @@ void HAL_LTDC_MspInit(LTDC_HandleTypeDef* ltdcHandle)
     PeriphClkInitStruct.PLL3.PLL3R = 1;
     PeriphClkInitStruct.PLL3.PLL3RGE = RCC_PLL3VCIRANGE_3;
     PeriphClkInitStruct.PLL3.PLL3VCOSEL = RCC_PLL3VCOMEDIUM;
-    PeriphClkInitStruct.PLL3.PLL3FRACN = 0.0;
+    PeriphClkInitStruct.PLL3.PLL3FRACN = 0;
     if (HAL_RCCEx_PeriphCLKConfig(&PeriphClkInitStruct) != HAL_OK)
     {
       Error_Handler();
@@ -134,7 +134,6 @@ void HAL_LTDC_MspInit(LTDC_HandleTypeDef* ltdcHandle)
     /* LTDC clock enable */
     __HAL_RCC_LTDC_CLK_ENABLE();
 
-    __HAL_RCC_GPIOE_CLK_ENABLE();
     __HAL_RCC_GPIOI_CLK_ENABLE();
     __HAL_RCC_GPIOF_CLK_ENABLE();
     __HAL_RCC_GPIOC_CLK_ENABLE();
@@ -145,9 +144,6 @@ void HAL_LTDC_MspInit(LTDC_HandleTypeDef* ltdcHandle)
     __HAL_RCC_GPIOK_CLK_ENABLE();
     __HAL_RCC_GPIOG_CLK_ENABLE();
     /**LTDC GPIO Configuration
-    PE4     ------> LTDC_B0
-    PE5     ------> LTDC_G0
-    PE6     ------> LTDC_G1
     PI11     ------> LTDC_G6
     PI12     ------> LTDC_HSYNC
     PI13     ------> LTDC_VSYNC
@@ -162,25 +158,16 @@ void HAL_LTDC_MspInit(LTDC_HandleTypeDef* ltdcHandle)
     PA6     ------> LTDC_G2
     PB0     ------> LTDC_R3
     PB1     ------> LTDC_R6
-    PI15     ------> LTDC_R0
     PJ0     ------> LTDC_R7
     PB10     ------> LTDC_G4
     PJ10     ------> LTDC_G3
     PK2     ------> LTDC_G7
     PC9     ------> LTDC_B2
     PA8     ------> LTDC_B3
-    PJ13     ------> LTDC_B1
     PG12     ------> LTDC_B4
     PK5     ------> LTDC_B6
     PK6     ------> LTDC_B7
     */
-    GPIO_InitStruct.Pin = GPIO_PIN_4|GPIO_PIN_5|GPIO_PIN_6;
-    GPIO_InitStruct.Mode = GPIO_MODE_AF_PP;
-    GPIO_InitStruct.Pull = GPIO_NOPULL;
-    GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
-    GPIO_InitStruct.Alternate = GPIO_AF14_LTDC;
-    HAL_GPIO_Init(GPIOE, &GPIO_InitStruct);
-
     GPIO_InitStruct.Pin = GPIO_PIN_11;
     GPIO_InitStruct.Mode = GPIO_MODE_AF_PP;
     GPIO_InitStruct.Pull = GPIO_NOPULL;
@@ -188,7 +175,7 @@ void HAL_LTDC_MspInit(LTDC_HandleTypeDef* ltdcHandle)
     GPIO_InitStruct.Alternate = GPIO_AF9_LTDC;
     HAL_GPIO_Init(GPIOI, &GPIO_InitStruct);
 
-    GPIO_InitStruct.Pin = GPIO_PIN_12|GPIO_PIN_13|GPIO_PIN_14|GPIO_PIN_15;
+    GPIO_InitStruct.Pin = GPIO_PIN_12|GPIO_PIN_13|GPIO_PIN_14;
     GPIO_InitStruct.Mode = GPIO_MODE_AF_PP;
     GPIO_InitStruct.Pull = GPIO_NOPULL;
     GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
@@ -251,7 +238,7 @@ void HAL_LTDC_MspInit(LTDC_HandleTypeDef* ltdcHandle)
     GPIO_InitStruct.Alternate = GPIO_AF14_LTDC;
     HAL_GPIO_Init(GPIOB, &GPIO_InitStruct);
 
-    GPIO_InitStruct.Pin = GPIO_PIN_10|GPIO_PIN_13;
+    GPIO_InitStruct.Pin = GPIO_PIN_10;
     GPIO_InitStruct.Mode = GPIO_MODE_AF_PP;
     GPIO_InitStruct.Pull = GPIO_NOPULL;
     GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
@@ -297,9 +284,6 @@ void HAL_LTDC_MspDeInit(LTDC_HandleTypeDef* ltdcHandle)
     __HAL_RCC_LTDC_CLK_DISABLE();
 
     /**LTDC GPIO Configuration
-    PE4     ------> LTDC_B0
-    PE5     ------> LTDC_G0
-    PE6     ------> LTDC_G1
     PI11     ------> LTDC_G6
     PI12     ------> LTDC_HSYNC
     PI13     ------> LTDC_VSYNC
@@ -314,22 +298,17 @@ void HAL_LTDC_MspDeInit(LTDC_HandleTypeDef* ltdcHandle)
     PA6     ------> LTDC_G2
     PB0     ------> LTDC_R3
     PB1     ------> LTDC_R6
-    PI15     ------> LTDC_R0
     PJ0     ------> LTDC_R7
     PB10     ------> LTDC_G4
     PJ10     ------> LTDC_G3
     PK2     ------> LTDC_G7
     PC9     ------> LTDC_B2
     PA8     ------> LTDC_B3
-    PJ13     ------> LTDC_B1
     PG12     ------> LTDC_B4
     PK5     ------> LTDC_B6
     PK6     ------> LTDC_B7
     */
-    HAL_GPIO_DeInit(GPIOE, GPIO_PIN_4|GPIO_PIN_5|GPIO_PIN_6);
-
-    HAL_GPIO_DeInit(GPIOI, GPIO_PIN_11|GPIO_PIN_12|GPIO_PIN_13|GPIO_PIN_14
-                          |GPIO_PIN_15);
+    HAL_GPIO_DeInit(GPIOI, GPIO_PIN_11|GPIO_PIN_12|GPIO_PIN_13|GPIO_PIN_14);
 
     HAL_GPIO_DeInit(GPIOF, GPIO_PIN_10);
 
@@ -342,7 +321,7 @@ void HAL_LTDC_MspDeInit(LTDC_HandleTypeDef* ltdcHandle)
 
     HAL_GPIO_DeInit(GPIOB, GPIO_PIN_0|GPIO_PIN_1|GPIO_PIN_10);
 
-    HAL_GPIO_DeInit(GPIOJ, GPIO_PIN_0|GPIO_PIN_10|GPIO_PIN_13);
+    HAL_GPIO_DeInit(GPIOJ, GPIO_PIN_0|GPIO_PIN_10);
 
     HAL_GPIO_DeInit(GPIOK, GPIO_PIN_2|GPIO_PIN_5|GPIO_PIN_6);
 

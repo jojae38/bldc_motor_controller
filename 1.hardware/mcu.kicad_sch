@@ -6953,16 +6953,6 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 195.58) (xy 245.11 195.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2b86c888-9015-4587-87de-60d7c2142b38")
-	)
-	(wire
-		(pts
 			(xy 257.81 66.04) (xy 262.89 66.04)
 		)
 		(stroke
@@ -7413,16 +7403,6 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 124.46) (xy 245.11 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6794b2c5-950a-437a-afb8-86165bfa5cad")
-	)
-	(wire
-		(pts
 			(xy 265.43 71.12) (xy 265.43 66.04)
 		)
 		(stroke
@@ -7480,16 +7460,6 @@
 			(type default)
 		)
 		(uuid "6ab91e98-6f9b-456a-95f7-83e12af34838")
-	)
-	(wire
-		(pts
-			(xy 237.49 114.3) (xy 245.11 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6c74d88c-b9e0-4d9a-8eb1-5cd1065e8499")
 	)
 	(wire
 		(pts
@@ -7783,16 +7753,6 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 106.68) (xy 245.11 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "908eeb25-83ff-4c5a-84fa-3a6f6099ff89")
-	)
-	(wire
-		(pts
 			(xy 293.37 66.04) (xy 290.83 66.04)
 		)
 		(stroke
@@ -8053,16 +8013,6 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 116.84) (xy 245.11 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ab673122-b491-4307-b09c-e4f33139d020")
-	)
-	(wire
-		(pts
 			(xy 77.47 175.26) (xy 82.55 175.26)
 		)
 		(stroke
@@ -8260,16 +8210,6 @@
 			(type default)
 		)
 		(uuid "ccd8d2ba-8d92-43a2-bf39-83e2fe839c9a")
-	)
-	(wire
-		(pts
-			(xy 321.31 127) (xy 328.93 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cd6fb18c-859b-4959-accf-e2e9941464f3")
 	)
 	(wire
 		(pts
@@ -9247,28 +9187,6 @@
 			)
 		)
 	)
-	(global_label "LTDC_R7"
-		(shape passive)
-		(at 237.49 124.46 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "46e29679-1aee-4c92-8584-c1c5d3972a97")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 227.6333 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "FMC_D17"
 		(shape passive)
 		(at 238.76 233.68 180)
@@ -9331,28 +9249,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "LTDC_B6"
-		(shape passive)
-		(at 237.49 114.3 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "4fe5c5ee-77f0-4333-a40e-84c77bbd3951")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 227.6333 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -9511,28 +9407,6 @@
 			)
 		)
 	)
-	(global_label "LTDC_G7"
-		(shape passive)
-		(at 237.49 106.68 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "57517920-ce9a-46d7-8425-64b468faf2e1")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 227.6333 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "LTDC_G4"
 		(shape passive)
 		(at 328.93 149.86 0)
@@ -9661,28 +9535,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "LTDC_G6"
-		(shape passive)
-		(at 238.76 195.58 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "62cc7865-898f-4e64-9214-1271e73aedf4")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 228.9033 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -10413,28 +10265,6 @@
 			)
 		)
 	)
-	(global_label "LTDC_B7"
-		(shape passive)
-		(at 237.49 116.84 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c11f6622-2f3e-488b-b248-8cc384d8e86d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 227.6333 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "FMC_A3"
 		(shape passive)
 		(at 328.93 312.42 0)
@@ -10827,28 +10657,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "LTDC_R6"
-		(shape passive)
-		(at 328.93 127 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ea80e064-131b-4806-ae16-c1edb24d23f8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 338.7867 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
