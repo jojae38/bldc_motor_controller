@@ -1,0 +1,74 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "ce41f1d6-4d8b-44ba-a424-9b04753f0e3c")
+	(paper "A4")
+	(lib_symbols)
+	(global_label "USB_DP"
+		(shape passive)
+		(at 44.45 48.26 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "738da141-b81a-4d70-8f75-f41043c6288d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 53.6415 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB_ID"
+		(shape passive)
+		(at 44.45 43.18 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "820d4c90-6cc5-4244-8257-e5bdfe1507c1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 52.9763 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB_DM"
+		(shape passive)
+		(at 44.45 45.72 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d38c0203-8a9d-434f-814a-584324620c85")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 53.8229 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+)
