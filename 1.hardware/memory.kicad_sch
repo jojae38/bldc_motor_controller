@@ -283,6 +283,232 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Memory_Flash:W25Q128JVS"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -6.35 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "W25Q128JVS"
+				(at 7.62 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_SO:SOIC-8_5.3x5.3mm_P1.27mm"
+				(at 0 22.86 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.winbond.com/resource-files/w25q128jv_dtr%20revc%2003272018%20plus.pdf"
+				(at 0 25.4 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "128Mbit / 16MiB Serial Flash Memory, Standard/Dual/Quad SPI, 2.7-3.6V, SOIC-8"
+				(at 0 27.94 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flash memory SPI QPI DTR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*SOIC*5.3x5.3mm*P1.27mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "W25Q128JVS_0_1"
+				(rectangle
+					(start -7.62 10.16)
+					(end 10.16 -10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "W25Q128JVS_1_1"
+				(pin input line
+					(at -10.16 7.62 0)
+					(length 2.54)
+					(name "~{CS}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 5.08 0)
+					(length 2.54)
+					(name "CLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "DI/IO_{0}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 0 0)
+					(length 2.54)
+					(name "DO/IO_{1}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "~{WP}/IO_{2}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 -5.08 0)
+					(length 2.54)
+					(name "~{HOLD}/~{RESET}/IO_{3}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 12.7 270)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -12.7 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Memory_RAM:IS42S16400J-xC"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3156,6 +3382,12 @@
 		(uuid "05fdd342-9ce7-4448-a180-eb11903a716a")
 	)
 	(junction
+		(at 96.52 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "06521a27-f243-4ddd-a33c-2356a4f7f2e9")
+	)
+	(junction
 		(at 234.95 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3412,6 +3644,16 @@
 			(type default)
 		)
 		(uuid "09c2ef9e-1421-4ab5-a2d0-3ced542e9c70")
+	)
+	(wire
+		(pts
+			(xy 96.52 100.33) (xy 96.52 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09e9afe2-2d07-4720-8a42-b5cd3f95cf35")
 	)
 	(wire
 		(pts
@@ -3945,6 +4187,16 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 92.71) (xy 96.52 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32f807dc-dd06-4ce7-8fa3-5624c26f008d")
+	)
+	(wire
+		(pts
 			(xy 388.62 173.99) (xy 393.7 173.99)
 		)
 		(stroke
@@ -4112,6 +4364,16 @@
 			(type default)
 		)
 		(uuid "4216dc02-8f8d-4f23-b298-923f8f91d269")
+	)
+	(wire
+		(pts
+			(xy 101.6 92.71) (xy 96.52 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43bebf66-5b69-4312-997f-47ce948d07df")
 	)
 	(wire
 		(pts
@@ -5265,6 +5527,16 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 92.71) (xy 88.9 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa31af70-ff11-48a7-bed7-e19bf61cd071")
+	)
+	(wire
+		(pts
 			(xy 388.62 107.95) (xy 393.7 107.95)
 		)
 		(stroke
@@ -5895,6 +6167,16 @@
 	)
 	(wire
 		(pts
+			(xy 96.52 92.71) (xy 96.52 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e91613a7-b8fe-4131-a4e6-31e93f129b71")
+	)
+	(wire
+		(pts
 			(xy 204.47 110.49) (xy 208.28 110.49)
 		)
 		(stroke
@@ -5962,6 +6244,16 @@
 			(type default)
 		)
 		(uuid "ed8f51ff-1818-43b2-8ed6-cb5fcb517ca5")
+	)
+	(wire
+		(pts
+			(xy 88.9 130.81) (xy 88.9 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef42577e-94f8-4c1b-b301-00644a164f9f")
 	)
 	(wire
 		(pts
@@ -6652,6 +6944,28 @@
 		(uuid "16630f1c-e142-4b4d-abbb-c2efe8772f71")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 261.861 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "3V3_MCU"
+		(shape passive)
+		(at 101.6 92.71 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1698f2ba-08dc-4121-9628-08b20c342fd6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 112.001 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11064,6 +11378,94 @@
 		)
 	)
 	(symbol
+		(lib_id "Memory_Flash:W25Q128JVS")
+		(at 88.9 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0d8ef0ce-1c05-417b-9c15-6fbf2de6bcf6")
+		(property "Reference" "U6"
+			(at 100.33 116.8399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "W25Q128JVS"
+			(at 100.33 119.3799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_5.3x5.3mm_P1.27mm"
+			(at 88.9 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.winbond.com/resource-files/w25q128jv_dtr%20revc%2003272018%20plus.pdf"
+			(at 88.9 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "128Mbit / 16MiB Serial Flash Memory, Standard/Dual/Quad SPI, 2.7-3.6V, SOIC-8"
+			(at 88.9 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "f70d958e-b1f8-4ce4-adc1-bb27f1324860")
+		)
+		(pin "7"
+			(uuid "ea719445-cd68-4399-9f30-03a169bfb6b7")
+		)
+		(pin "6"
+			(uuid "fa20ffbf-37c2-4aa0-ae3e-d4a95f22a6ca")
+		)
+		(pin "1"
+			(uuid "68d73d65-d8ab-4cfe-b070-8965cc4ec332")
+		)
+		(pin "5"
+			(uuid "82288b5f-2573-4f0b-a6d6-6be50dbee3eb")
+		)
+		(pin "2"
+			(uuid "3f094896-1256-4b47-b633-0eb06337082e")
+		)
+		(pin "3"
+			(uuid "f715fe84-cc1e-4d76-a736-dbd994f0754b")
+		)
+		(pin "4"
+			(uuid "b38dc418-490e-41ac-b8e2-ec304feea82a")
+		)
+		(instances
+			(project ""
+				(path "/a25adab6-a8c3-4e0e-8ba9-baac00aaa394/9f644060-1b86-41d4-818c-d38193d04e6e"
+					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small_US")
 		(at 234.95 58.42 0)
 		(unit 1)
@@ -12353,6 +12755,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 88.9 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3fecd23d-a732-4df8-b534-e9e9d257e56b")
+		(property "Reference" "#PWR035"
+			(at 88.9 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 88.9 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 88.9 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 88.9 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cce059e5-9429-4bc4-ad11-ed5d9d82d833")
+		)
+		(instances
+			(project "bldc_motor_controller"
+				(path "/a25adab6-a8c3-4e0e-8ba9-baac00aaa394/9f644060-1b86-41d4-818c-d38193d04e6e"
+					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 201.93 163.83 90)
 		(unit 1)
@@ -13447,6 +13915,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small_US")
+		(at 96.52 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7b70f62b-772a-493c-aa5a-ae82fa6fbd80")
+		(property "Reference" "C24"
+			(at 99.06 96.6469 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF/16V"
+			(at 99.06 99.1869 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 96.52 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "capacitor, small US symbol"
+			(at 96.52 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5b93eb98-4d8b-4a39-b183-54d68a41fb48")
+		)
+		(pin "2"
+			(uuid "d479c5a5-2758-4abc-ba30-7b845274c988")
+		)
+		(instances
+			(project "bldc_motor_controller"
+				(path "/a25adab6-a8c3-4e0e-8ba9-baac00aaa394/9f644060-1b86-41d4-818c-d38193d04e6e"
+					(reference "C24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 201.93 107.95 90)
 		(unit 1)
@@ -14413,6 +14951,72 @@
 			(project "bldc_motor_controller"
 				(path "/a25adab6-a8c3-4e0e-8ba9-baac00aaa394/9f644060-1b86-41d4-818c-d38193d04e6e"
 					(reference "R66")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 96.52 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b1c3470b-fec5-48f2-be10-d891911e03bd")
+		(property "Reference" "#PWR036"
+			(at 96.52 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 96.52 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 96.52 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 96.52 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8042b87d-ba53-42cc-b89e-c9754381ca21")
+		)
+		(instances
+			(project "bldc_motor_controller"
+				(path "/a25adab6-a8c3-4e0e-8ba9-baac00aaa394/9f644060-1b86-41d4-818c-d38193d04e6e"
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
