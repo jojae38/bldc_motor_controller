@@ -8303,16 +8303,6 @@
 	)
 	(wire
 		(pts
-			(xy 321.31 106.68) (xy 328.93 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d790a9db-bbd4-4e5d-9404-7a1356ddb298")
-	)
-	(wire
-		(pts
 			(xy 238.76 180.34) (xy 245.11 180.34)
 		)
 		(stroke
@@ -9187,6 +9177,28 @@
 			)
 		)
 	)
+	(global_label "FMC_SDNWE"
+		(shape passive)
+		(at 238.76 223.52 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "462aaf09-724b-4edb-9090-8c13e7d46ced")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 225.6981 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "FMC_D17"
 		(shape passive)
 		(at 238.76 233.68 180)
@@ -9728,28 +9740,6 @@
 		(uuid "76e9b80a-4537-4204-a0be-4a3394f60a32")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 97.5472 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "USB_ID"
-		(shape passive)
-		(at 328.93 106.68 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "778f0998-ec70-476f-9d98-31fcb1c53491")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 337.4563 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
