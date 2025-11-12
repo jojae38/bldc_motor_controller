@@ -574,6 +574,144 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:R_Small_US"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0.762 0.508 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "R_Small_US"
+				(at 0.762 -1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, small US symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "r resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Small_US_1_1"
+				(polyline
+					(pts
+						(xy 0 1.524) (xy 1.016 1.143) (xy 0 0.762) (xy -1.016 0.381) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 1.016 -0.381) (xy 0 -0.762) (xy -1.016 -1.143) (xy 0 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 2.54 270)
+					(length 1.016)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 1.016)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "MCU_ST_STM32H7:STM32H743BITx"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -6516,6 +6654,12 @@
 		(uuid "2c1dc059-5cd8-41c8-bf3d-d32e77c2f46a")
 	)
 	(junction
+		(at 212.09 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2ff6e130-f93b-4f1e-84f2-ad467fcd6a80")
+	)
+	(junction
 		(at 267.97 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6598,6 +6742,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b03b6259-6009-425b-b08d-93c801237710")
+	)
+	(junction
+		(at 212.09 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b05db8b9-4d89-452a-aabe-c2e13bd4e07d")
 	)
 	(junction
 		(at 107.95 35.56)
@@ -6730,6 +6880,16 @@
 			(type default)
 		)
 		(uuid "0c94c4c3-df52-4e73-bf84-2557bcdc8b1a")
+	)
+	(wire
+		(pts
+			(xy 224.79 90.17) (xy 224.79 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ca702af-5037-4fd8-8e39-85a7cecb6c2f")
 	)
 	(wire
 		(pts
@@ -6973,6 +7133,16 @@
 	)
 	(wire
 		(pts
+			(xy 224.79 85.09) (xy 224.79 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30f56629-0113-4656-8f44-b46c44876cb8")
+	)
+	(wire
+		(pts
 			(xy 80.01 194.31) (xy 80.01 182.88)
 		)
 		(stroke
@@ -7133,6 +7303,16 @@
 	)
 	(wire
 		(pts
+			(xy 224.79 93.98) (xy 212.09 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44ccd0e8-482a-4c5d-b9dc-f12c19e29f22")
+	)
+	(wire
+		(pts
 			(xy 283.21 71.12) (xy 283.21 66.04)
 		)
 		(stroke
@@ -7200,6 +7380,16 @@
 			(type default)
 		)
 		(uuid "4cec72a9-bb0d-4a39-acee-f790c4b32443")
+	)
+	(wire
+		(pts
+			(xy 224.79 78.74) (xy 212.09 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e3a07d5-d6ad-46f8-8272-b28e9742dba7")
 	)
 	(wire
 		(pts
@@ -7400,6 +7590,16 @@
 			(type default)
 		)
 		(uuid "66f76c23-92b3-4ae2-9dd0-4cabd9585a19")
+	)
+	(wire
+		(pts
+			(xy 212.09 78.74) (xy 212.09 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6772612c-ad4b-4702-8b3b-9248f78edfbf")
 	)
 	(wire
 		(pts
@@ -7683,6 +7883,16 @@
 	)
 	(wire
 		(pts
+			(xy 217.17 68.58) (xy 212.09 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88b18e8c-33d9-4f71-bbb1-fdddfaa9a6a8")
+	)
+	(wire
+		(pts
 			(xy 137.16 35.56) (xy 123.19 35.56)
 		)
 		(stroke
@@ -7830,6 +8040,16 @@
 			(type default)
 		)
 		(uuid "9d433c78-0682-472c-b20f-326f9e48dd17")
+	)
+	(wire
+		(pts
+			(xy 212.09 92.71) (xy 212.09 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e5527b7-235e-4401-b145-584f499c9379")
 	)
 	(wire
 		(pts
@@ -8203,6 +8423,16 @@
 	)
 	(wire
 		(pts
+			(xy 212.09 76.2) (xy 212.09 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbe0f040-4ef5-4c1c-9c36-8a42cd962442")
+	)
+	(wire
+		(pts
 			(xy 278.13 66.04) (xy 275.59 66.04)
 		)
 		(stroke
@@ -8240,6 +8470,16 @@
 			(type default)
 		)
 		(uuid "ce579c6a-91a5-4d93-b962-378b846da881")
+	)
+	(wire
+		(pts
+			(xy 212.09 93.98) (xy 212.09 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfc24daf-8be1-4840-ac80-3071cba2b2b2")
 	)
 	(wire
 		(pts
@@ -8620,6 +8860,16 @@
 			(type default)
 		)
 		(uuid "fa4778c2-7a07-4243-8b9b-7edbf03ac257")
+	)
+	(wire
+		(pts
+			(xy 212.09 68.58) (xy 212.09 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb3ce06e-0a27-4990-b115-480d875eec05")
 	)
 	(wire
 		(pts
@@ -10321,6 +10571,28 @@
 			)
 		)
 	)
+	(global_label "MCU_VDD"
+		(shape passive)
+		(at 217.17 68.58 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ce3f253b-c437-43da-86b6-ba007262eb7d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 227.692 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "FMC_D18"
 		(shape passive)
 		(at 238.76 236.22 180)
@@ -10917,7 +11189,7 @@
 	)
 	(symbol
 		(lib_id "PCM_SL_Devices:Push_Button")
-		(at 165.1 83.82 0)
+		(at 212.09 87.63 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10926,23 +11198,25 @@
 		(fields_autoplaced yes)
 		(uuid "02e7fa8f-7e33-42af-972b-5ee3d85092ce")
 		(property "Reference" "SW1"
-			(at 165.1 76.2 0)
+			(at 213.36 86.3599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "reset_btn"
-			(at 165.1 78.74 0)
+			(at 213.36 88.8999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
-			(at 164.973 86.995 0)
+			(at 215.265 87.757 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10951,7 +11225,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 165.1 83.82 0)
+			(at 212.09 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10960,7 +11234,7 @@
 			)
 		)
 		(property "Description" "Common 6mmx6mm Push Button"
-			(at 165.1 83.82 0)
+			(at 212.09 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11312,6 +11586,72 @@
 			(project "bldc_motor_controller"
 				(path "/a25adab6-a8c3-4e0e-8ba9-baac00aaa394/f1d28d97-f090-4298-9a06-d9576d5adbbf"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 212.09 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "27f8ad2d-709a-4a10-badd-23848a099e80")
+		(property "Reference" "#PWR043"
+			(at 212.09 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 212.09 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 212.09 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 212.09 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 212.09 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5c539aa9-cea4-4311-bd9e-d979e0961f20")
+		)
+		(instances
+			(project "bldc_motor_controller"
+				(path "/a25adab6-a8c3-4e0e-8ba9-baac00aaa394/f1d28d97-f090-4298-9a06-d9576d5adbbf"
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -12823,6 +13163,76 @@
 			(project "bldc_motor_controller"
 				(path "/a25adab6-a8c3-4e0e-8ba9-baac00aaa394/f1d28d97-f090-4298-9a06-d9576d5adbbf"
 					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 212.09 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8ceda5e4-8e6d-4c6f-936a-fba9c394b831")
+		(property "Reference" "R85"
+			(at 214.63 72.3899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2K/0.063w"
+			(at 214.63 74.9299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 212.09 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 212.09 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 212.09 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d6f6fdbd-5d20-4ec7-9236-04bf8c9aa607")
+		)
+		(pin "2"
+			(uuid "cce11df6-6d8e-4160-a756-92861429673d")
+		)
+		(instances
+			(project ""
+				(path "/a25adab6-a8c3-4e0e-8ba9-baac00aaa394/f1d28d97-f090-4298-9a06-d9576d5adbbf"
+					(reference "R85")
 					(unit 1)
 				)
 			)
@@ -14409,6 +14819,76 @@
 			(project "bldc_motor_controller"
 				(path "/a25adab6-a8c3-4e0e-8ba9-baac00aaa394/f1d28d97-f090-4298-9a06-d9576d5adbbf"
 					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small_US")
+		(at 224.79 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ddcc38b7-f699-4185-bbfb-b80eaa1810b3")
+		(property "Reference" "C28"
+			(at 227.33 86.4869 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF/16V"
+			(at 227.33 89.0269 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 224.79 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 224.79 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "capacitor, small US symbol"
+			(at 224.79 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b4b3847c-c60b-4357-b8d6-8734e9ebb1dc")
+		)
+		(pin "2"
+			(uuid "c82f2e13-6ead-45d9-9d30-cc92b3c22c5a")
+		)
+		(instances
+			(project "bldc_motor_controller"
+				(path "/a25adab6-a8c3-4e0e-8ba9-baac00aaa394/f1d28d97-f090-4298-9a06-d9576d5adbbf"
+					(reference "C28")
 					(unit 1)
 				)
 			)
