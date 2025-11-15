@@ -1689,6 +1689,261 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "LED:WS2812B"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 5.08 5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right bottom)
+				)
+			)
+			(property "Value" "WS2812B"
+				(at 1.27 -5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+				(at 1.27 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+				(at 2.54 -9.525 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "RGB LED with integrated controller"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "RGB LED NeoPixel addressable"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED*WS2812*PLCC*5.0x5.0mm*P3.2mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "WS2812B_0_0"
+				(text "RGB"
+					(at 2.286 -4.191 0)
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(symbol "WS2812B_0_1"
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 1.778 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -3.556) (xy 1.778 -3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -1.524) (xy 1.27 -2.54) (xy 1.27 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -2.54) (xy 1.27 -3.556) (xy 1.27 -3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.683 -1.016) (xy 3.683 -3.556) (xy 3.683 -4.064)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.699 -1.524) (xy 2.667 -1.524) (xy 3.683 -3.556) (xy 4.699 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.699 -3.556) (xy 2.667 -3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 5.08 5.08)
+					(end -5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "WS2812B_1_1"
+				(pin input line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "DIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "DOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "PCM_Diode_Schottky_AKL:NSR0240V2"
 			(pin_numbers
 				(hide yes)
@@ -2314,6 +2569,12 @@
 		(uuid "5a40066c-1a4b-4437-b787-8cdc0a05c4a1")
 	)
 	(junction
+		(at 101.6 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8bd1e083-8179-4dc0-b6fc-fa0b33f97bc2")
+	)
+	(junction
 		(at 134.62 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2526,6 +2787,16 @@
 			(type default)
 		)
 		(uuid "16619ca5-45ac-42a1-bc65-9c5c8a7757e7")
+	)
+	(wire
+		(pts
+			(xy 109.22 138.43) (xy 119.38 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16f32013-80bc-43b2-ab28-c9be2a84d023")
 	)
 	(wire
 		(pts
@@ -2766,6 +3037,26 @@
 			(type default)
 		)
 		(uuid "47a88f1a-db29-4d79-845a-fd47cb826290")
+	)
+	(wire
+		(pts
+			(xy 127 130.81) (xy 127 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4845e8db-9b27-4b26-91a3-1d757311dcd7")
+	)
+	(wire
+		(pts
+			(xy 127 146.05) (xy 127 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a0c2cb6-f467-4357-b381-e3c3633c7aba")
 	)
 	(wire
 		(pts
@@ -3209,6 +3500,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 127) (xy 101.6 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0d4d85e-b75a-4b97-ae40-e4ae2dbf3d5e")
+	)
+	(wire
+		(pts
 			(xy 127 41.91) (xy 125.73 41.91)
 		)
 		(stroke
@@ -3216,6 +3517,16 @@
 			(type default)
 		)
 		(uuid "a53803b1-d5b7-45ba-9b4f-c9874d7bd55b")
+	)
+	(wire
+		(pts
+			(xy 101.6 127) (xy 101.6 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a69b0bb6-9a0d-499f-af2e-f6c9f1a6b5bd")
 	)
 	(wire
 		(pts
@@ -3319,6 +3630,16 @@
 	)
 	(wire
 		(pts
+			(xy 91.44 127) (xy 101.6 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b99b7e81-9efa-401b-a8a3-82fd2f6942e8")
+	)
+	(wire
+		(pts
 			(xy 250.19 113.03) (xy 250.19 128.27)
 		)
 		(stroke
@@ -3336,6 +3657,16 @@
 			(type default)
 		)
 		(uuid "c1e366db-68b5-4101-81fc-945d1fe316f4")
+	)
+	(wire
+		(pts
+			(xy 101.6 146.05) (xy 101.6 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2cfa7f6-38e7-42f5-814d-f258ae1b4e7e")
 	)
 	(wire
 		(pts
@@ -5301,6 +5632,28 @@
 			)
 		)
 	)
+	(global_label "3V3_PWR"
+		(shape passive)
+		(at 91.44 127 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "edea7031-d980-424a-8952-ed3d71d1298b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 81.0995 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "LCD_B0"
 		(shape passive)
 		(at 247.65 67.31 180)
@@ -5574,7 +5927,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "01ae20eb-2de6-4406-aa9f-9ea298ee52d3")
-		(property "Reference" "R1"
+		(property "Reference" "R12"
 			(at 201.676 47.498 90)
 			(effects
 				(font
@@ -5627,7 +5980,7 @@
 		(instances
 			(project ""
 				(path "/a25adab6-a8c3-4e0e-8ba9-baac00aaa394/9ad5d27a-5f31-4a09-b7fb-9d62ecc953c1"
-					(reference "R1")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -5642,7 +5995,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "060e46e5-d446-48c3-8484-91cd2e7454d7")
-		(property "Reference" "R3"
+		(property "Reference" "R13"
 			(at 201.422 50.038 90)
 			(effects
 				(font
@@ -5695,7 +6048,7 @@
 		(instances
 			(project "bldc_motor_controller"
 				(path "/a25adab6-a8c3-4e0e-8ba9-baac00aaa394/9ad5d27a-5f31-4a09-b7fb-9d62ecc953c1"
-					(reference "R3")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -5711,7 +6064,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "06486ce6-29f5-4372-bbf3-865071e71158")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR044"
 			(at 134.62 92.71 0)
 			(effects
 				(font
@@ -5761,7 +6114,7 @@
 		(instances
 			(project "bldc_motor_controller"
 				(path "/a25adab6-a8c3-4e0e-8ba9-baac00aaa394/9ad5d27a-5f31-4a09-b7fb-9d62ecc953c1"
-					(reference "#PWR039")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -5776,7 +6129,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "06a06896-3b70-4f77-bc01-9bf2b9ec44a5")
-		(property "Reference" "R12"
+		(property "Reference" "R23"
 			(at 201.422 77.978 90)
 			(effects
 				(font
@@ -5829,7 +6182,7 @@
 		(instances
 			(project "bldc_motor_controller"
 				(path "/a25adab6-a8c3-4e0e-8ba9-baac00aaa394/9ad5d27a-5f31-4a09-b7fb-9d62ecc953c1"
-					(reference "R12")
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -5845,7 +6198,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1ec68988-c856-43c3-9d8f-c714649090d0")
-		(property "Reference" "R83"
+		(property "Reference" "R11"
 			(at 137.16 80.0099 0)
 			(effects
 				(font
@@ -5899,7 +6252,7 @@
 		(instances
 			(project ""
 				(path "/a25adab6-a8c3-4e0e-8ba9-baac00aaa394/9ad5d27a-5f31-4a09-b7fb-9d62ecc953c1"
-					(reference "R83")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -5915,7 +6268,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "263c7bb1-bacc-4c88-a96e-3fe72ee92bd6")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR047"
 			(at 250.19 138.43 0)
 			(effects
 				(font
@@ -5965,7 +6318,7 @@
 		(instances
 			(project ""
 				(path "/a25adab6-a8c3-4e0e-8ba9-baac00aaa394/9ad5d27a-5f31-4a09-b7fb-9d62ecc953c1"
-					(reference "#PWR022")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -5980,7 +6333,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2ce9a4c8-ad8d-4433-ae7b-2418e9082e73")
-		(property "Reference" "R8"
+		(property "Reference" "R19"
 			(at 201.422 65.278 90)
 			(effects
 				(font
@@ -6033,7 +6386,7 @@
 		(instances
 			(project "bldc_motor_controller"
 				(path "/a25adab6-a8c3-4e0e-8ba9-baac00aaa394/9ad5d27a-5f31-4a09-b7fb-9d62ecc953c1"
-					(reference "R8")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -6048,7 +6401,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2d507687-6048-4974-9e5e-543e6df87a6f")
-		(property "Reference" "R13"
+		(property "Reference" "R24"
 			(at 201.422 80.518 90)
 			(effects
 				(font
@@ -6101,7 +6454,7 @@
 		(instances
 			(project "bldc_motor_controller"
 				(path "/a25adab6-a8c3-4e0e-8ba9-baac00aaa394/9ad5d27a-5f31-4a09-b7fb-9d62ecc953c1"
-					(reference "R13")
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -6116,7 +6469,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2d948736-e0c0-4a3f-8624-a20b6fc8a77d")
-		(property "Reference" "R11"
+		(property "Reference" "R22"
 			(at 201.422 75.438 90)
 			(effects
 				(font
@@ -6169,7 +6522,7 @@
 		(instances
 			(project "bldc_motor_controller"
 				(path "/a25adab6-a8c3-4e0e-8ba9-baac00aaa394/9ad5d27a-5f31-4a09-b7fb-9d62ecc953c1"
-					(reference "R11")
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -6184,7 +6537,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3463ad51-04b4-4c52-9c46-6e75b6b24d2b")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR046"
 			(at 139.7 77.47 0)
 			(effects
 				(font
@@ -6234,7 +6587,7 @@
 		(instances
 			(project "bldc_motor_controller"
 				(path "/a25adab6-a8c3-4e0e-8ba9-baac00aaa394/9ad5d27a-5f31-4a09-b7fb-9d62ecc953c1"
-					(reference "#PWR042")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -6249,7 +6602,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "37fc1c22-673f-434b-a677-dfd107da85a3")
-		(property "Reference" "C27"
+		(property "Reference" "C40"
 			(at 142.24 66.1669 0)
 			(effects
 				(font
@@ -6303,7 +6656,7 @@
 		(instances
 			(project "bldc_motor_controller"
 				(path "/a25adab6-a8c3-4e0e-8ba9-baac00aaa394/9ad5d27a-5f31-4a09-b7fb-9d62ecc953c1"
-					(reference "C27")
+					(reference "C40")
 					(unit 1)
 				)
 			)
@@ -6318,7 +6671,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3c472288-cc19-45d7-b671-4a021bb14dc7")
-		(property "Reference" "R19"
+		(property "Reference" "R30"
 			(at 201.422 98.298 90)
 			(effects
 				(font
@@ -6371,7 +6724,7 @@
 		(instances
 			(project "bldc_motor_controller"
 				(path "/a25adab6-a8c3-4e0e-8ba9-baac00aaa394/9ad5d27a-5f31-4a09-b7fb-9d62ecc953c1"
-					(reference "R19")
+					(reference "R30")
 					(unit 1)
 				)
 			)
@@ -6387,7 +6740,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "418b3db3-6ea4-41ba-9503-086843be095f")
-		(property "Reference" "L1"
+		(property "Reference" "L7"
 			(at 111.76 26.67 90)
 			(effects
 				(font
@@ -6439,7 +6792,7 @@
 		(instances
 			(project ""
 				(path "/a25adab6-a8c3-4e0e-8ba9-baac00aaa394/9ad5d27a-5f31-4a09-b7fb-9d62ecc953c1"
-					(reference "L1")
+					(reference "L7")
 					(unit 1)
 				)
 			)
@@ -6455,7 +6808,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4fb6f6e5-92d2-4271-aa27-e28c0a3f726d")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR042"
 			(at 129.54 87.63 0)
 			(effects
 				(font
@@ -6505,7 +6858,83 @@
 		(instances
 			(project "bldc_motor_controller"
 				(path "/a25adab6-a8c3-4e0e-8ba9-baac00aaa394/9ad5d27a-5f31-4a09-b7fb-9d62ecc953c1"
-					(reference "#PWR037")
+					(reference "#PWR042")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B")
+		(at 101.6 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "50617828-8f8d-4f1e-b2a1-70f8489b1e0b")
+		(property "Reference" "D5"
+			(at 113.03 132.0098 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 113.03 134.5498 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 102.87 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 104.14 147.955 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 101.6 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "229929e6-665d-4058-a030-e0e88839c884")
+		)
+		(pin "1"
+			(uuid "b9e1ed95-84cd-495a-9c65-3554df8269b6")
+		)
+		(pin "4"
+			(uuid "be740f88-f1d3-449f-b225-dd35ba093a6d")
+		)
+		(pin "2"
+			(uuid "066ef1b6-0fe1-4a7e-83f9-ab369102bcef")
+		)
+		(instances
+			(project ""
+				(path "/a25adab6-a8c3-4e0e-8ba9-baac00aaa394/9ad5d27a-5f31-4a09-b7fb-9d62ecc953c1"
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -6521,7 +6950,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "51184e4e-6605-4cb1-9f9f-dda8d43c844a")
-		(property "Reference" "L2"
+		(property "Reference" "L8"
 			(at 111.76 57.15 90)
 			(effects
 				(font
@@ -6573,7 +7002,7 @@
 		(instances
 			(project "bldc_motor_controller"
 				(path "/a25adab6-a8c3-4e0e-8ba9-baac00aaa394/9ad5d27a-5f31-4a09-b7fb-9d62ecc953c1"
-					(reference "L2")
+					(reference "L8")
 					(unit 1)
 				)
 			)
@@ -6588,7 +7017,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "58a807a2-6c3a-4c9d-acf9-c17d168b87e4")
-		(property "Reference" "D2"
+		(property "Reference" "D8"
 			(at 132.842 61.468 0)
 			(effects
 				(font
@@ -6640,7 +7069,7 @@
 		(instances
 			(project "bldc_motor_controller"
 				(path "/a25adab6-a8c3-4e0e-8ba9-baac00aaa394/9ad5d27a-5f31-4a09-b7fb-9d62ecc953c1"
-					(reference "D2")
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -6655,7 +7084,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "608d73e8-9d8a-48fb-90ac-b54344c82007")
-		(property "Reference" "R6"
+		(property "Reference" "R17"
 			(at 201.422 60.198 90)
 			(effects
 				(font
@@ -6708,7 +7137,7 @@
 		(instances
 			(project "bldc_motor_controller"
 				(path "/a25adab6-a8c3-4e0e-8ba9-baac00aaa394/9ad5d27a-5f31-4a09-b7fb-9d62ecc953c1"
-					(reference "R6")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -6723,7 +7152,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "63891236-f08b-4ab0-9186-2a6a2111ddec")
-		(property "Reference" "R5"
+		(property "Reference" "R16"
 			(at 201.676 57.658 90)
 			(effects
 				(font
@@ -6776,7 +7205,73 @@
 		(instances
 			(project "bldc_motor_controller"
 				(path "/a25adab6-a8c3-4e0e-8ba9-baac00aaa394/9ad5d27a-5f31-4a09-b7fb-9d62ecc953c1"
-					(reference "R5")
+					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 127 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6cc02c3d-a535-4cc8-81a5-d8d8b05527e1")
+		(property "Reference" "#PWR041"
+			(at 127 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 127 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 127 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d612e1c8-4639-46ca-9c6c-7a4ea02eb0dd")
+		)
+		(instances
+			(project "bldc_motor_controller"
+				(path "/a25adab6-a8c3-4e0e-8ba9-baac00aaa394/9ad5d27a-5f31-4a09-b7fb-9d62ecc953c1"
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -6791,7 +7286,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7a50fa01-ea69-4ab9-82b7-4b80dfb567ce")
-		(property "Reference" "R16"
+		(property "Reference" "R27"
 			(at 201.422 88.138 90)
 			(effects
 				(font
@@ -6844,7 +7339,7 @@
 		(instances
 			(project "bldc_motor_controller"
 				(path "/a25adab6-a8c3-4e0e-8ba9-baac00aaa394/9ad5d27a-5f31-4a09-b7fb-9d62ecc953c1"
-					(reference "R16")
+					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -6859,7 +7354,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7b406921-3b61-451e-8892-0d53eaed97a1")
-		(property "Reference" "R10"
+		(property "Reference" "R21"
 			(at 201.422 70.358 90)
 			(effects
 				(font
@@ -6912,7 +7407,7 @@
 		(instances
 			(project "bldc_motor_controller"
 				(path "/a25adab6-a8c3-4e0e-8ba9-baac00aaa394/9ad5d27a-5f31-4a09-b7fb-9d62ecc953c1"
-					(reference "R10")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -7087,7 +7582,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "83889b17-6bbb-46a4-980c-60f3ff22753d")
-		(property "Reference" "R4"
+		(property "Reference" "R15"
 			(at 201.422 55.118 90)
 			(effects
 				(font
@@ -7140,7 +7635,7 @@
 		(instances
 			(project "bldc_motor_controller"
 				(path "/a25adab6-a8c3-4e0e-8ba9-baac00aaa394/9ad5d27a-5f31-4a09-b7fb-9d62ecc953c1"
-					(reference "R4")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -7155,7 +7650,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "97de7117-124b-498b-8e2d-c6e85f4c7d28")
-		(property "Reference" "R15"
+		(property "Reference" "R26"
 			(at 201.422 85.598 90)
 			(effects
 				(font
@@ -7208,7 +7703,83 @@
 		(instances
 			(project "bldc_motor_controller"
 				(path "/a25adab6-a8c3-4e0e-8ba9-baac00aaa394/9ad5d27a-5f31-4a09-b7fb-9d62ecc953c1"
-					(reference "R15")
+					(reference "R26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B")
+		(at 127 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "99a59f46-dfca-40f1-962f-1d4a27a642f7")
+		(property "Reference" "D6"
+			(at 138.43 132.0098 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 138.43 134.5498 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 128.27 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 129.54 147.955 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 127 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "ff873e59-29ef-4455-bd2e-4f2a7c4379a8")
+		)
+		(pin "1"
+			(uuid "a0d39e63-392b-4520-8083-d96f2f870122")
+		)
+		(pin "4"
+			(uuid "b8b311c6-bb0a-4c87-8a60-8efcf8979f98")
+		)
+		(pin "2"
+			(uuid "ec30a491-2a89-49a3-bc85-f1f47619728e")
+		)
+		(instances
+			(project "bldc_motor_controller"
+				(path "/a25adab6-a8c3-4e0e-8ba9-baac00aaa394/9ad5d27a-5f31-4a09-b7fb-9d62ecc953c1"
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -7224,7 +7795,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a039803f-3e47-4876-b9f1-90c19e940fa4")
-		(property "Reference" "J5"
+		(property "Reference" "J6"
 			(at 260.35 77.4699 0)
 			(effects
 				(font
@@ -7392,7 +7963,7 @@
 		(instances
 			(project ""
 				(path "/a25adab6-a8c3-4e0e-8ba9-baac00aaa394/9ad5d27a-5f31-4a09-b7fb-9d62ecc953c1"
-					(reference "J5")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -7408,7 +7979,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b118c81b-89e3-4344-9b39-233cb21461bb")
-		(property "Reference" "R84"
+		(property "Reference" "R10"
 			(at 137.16 49.5299 0)
 			(effects
 				(font
@@ -7462,7 +8033,7 @@
 		(instances
 			(project "bldc_motor_controller"
 				(path "/a25adab6-a8c3-4e0e-8ba9-baac00aaa394/9ad5d27a-5f31-4a09-b7fb-9d62ecc953c1"
-					(reference "R84")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -7477,7 +8048,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ba7fe97b-dc52-4f62-b68d-9d519635c1ba")
-		(property "Reference" "R20"
+		(property "Reference" "R31"
 			(at 201.422 100.838 90)
 			(effects
 				(font
@@ -7530,7 +8101,7 @@
 		(instances
 			(project "bldc_motor_controller"
 				(path "/a25adab6-a8c3-4e0e-8ba9-baac00aaa394/9ad5d27a-5f31-4a09-b7fb-9d62ecc953c1"
-					(reference "R20")
+					(reference "R31")
 					(unit 1)
 				)
 			)
@@ -7545,7 +8116,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c635d33b-0898-4f19-8084-39f30fa7f603")
-		(property "Reference" "C25"
+		(property "Reference" "C38"
 			(at 87.63 34.4169 0)
 			(effects
 				(font
@@ -7599,7 +8170,7 @@
 		(instances
 			(project "bldc_motor_controller"
 				(path "/a25adab6-a8c3-4e0e-8ba9-baac00aaa394/9ad5d27a-5f31-4a09-b7fb-9d62ecc953c1"
-					(reference "C25")
+					(reference "C38")
 					(unit 1)
 				)
 			)
@@ -7614,7 +8185,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c74f4df1-f3c6-4d3e-af5e-7e6c47bb2364")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR043"
 			(at 134.62 62.23 0)
 			(effects
 				(font
@@ -7660,6 +8231,72 @@
 		)
 		(pin "1"
 			(uuid "ea082606-c3c5-4296-b341-734a184cd502")
+		)
+		(instances
+			(project "bldc_motor_controller"
+				(path "/a25adab6-a8c3-4e0e-8ba9-baac00aaa394/9ad5d27a-5f31-4a09-b7fb-9d62ecc953c1"
+					(reference "#PWR043")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 101.6 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cc9f85b9-d02b-46e6-a3d8-5009dfc7c969")
+		(property "Reference" "#PWR040"
+			(at 101.6 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 101.6 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 101.6 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1206244e-1ed4-4e58-b79f-4b71e56d8246")
 		)
 		(instances
 			(project "bldc_motor_controller"
@@ -7839,7 +8476,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d31a1751-40d4-4785-aad9-762f3097500f")
-		(property "Reference" "R9"
+		(property "Reference" "R20"
 			(at 201.676 67.818 90)
 			(effects
 				(font
@@ -7892,7 +8529,7 @@
 		(instances
 			(project "bldc_motor_controller"
 				(path "/a25adab6-a8c3-4e0e-8ba9-baac00aaa394/9ad5d27a-5f31-4a09-b7fb-9d62ecc953c1"
-					(reference "R9")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -7907,7 +8544,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d4845040-5c3b-4010-bf06-bbae4261a9e3")
-		(property "Reference" "R22"
+		(property "Reference" "R33"
 			(at 201.422 105.918 90)
 			(effects
 				(font
@@ -7960,7 +8597,7 @@
 		(instances
 			(project "bldc_motor_controller"
 				(path "/a25adab6-a8c3-4e0e-8ba9-baac00aaa394/9ad5d27a-5f31-4a09-b7fb-9d62ecc953c1"
-					(reference "R22")
+					(reference "R33")
 					(unit 1)
 				)
 			)
@@ -7975,7 +8612,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d4af6c1b-b0c6-41c7-9006-182b4299b0bf")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR045"
 			(at 139.7 46.99 0)
 			(effects
 				(font
@@ -8025,7 +8662,7 @@
 		(instances
 			(project "bldc_motor_controller"
 				(path "/a25adab6-a8c3-4e0e-8ba9-baac00aaa394/9ad5d27a-5f31-4a09-b7fb-9d62ecc953c1"
-					(reference "#PWR041")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -8040,7 +8677,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ddf58734-49ac-4c1e-b328-7fab6570373c")
-		(property "Reference" "R2"
+		(property "Reference" "R14"
 			(at 201.422 52.578 90)
 			(effects
 				(font
@@ -8093,7 +8730,7 @@
 		(instances
 			(project "bldc_motor_controller"
 				(path "/a25adab6-a8c3-4e0e-8ba9-baac00aaa394/9ad5d27a-5f31-4a09-b7fb-9d62ecc953c1"
-					(reference "R2")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -8108,7 +8745,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e0f82dfc-5190-48e9-b9f3-e172a0706033")
-		(property "Reference" "R7"
+		(property "Reference" "R18"
 			(at 201.422 62.738 90)
 			(effects
 				(font
@@ -8161,7 +8798,7 @@
 		(instances
 			(project "bldc_motor_controller"
 				(path "/a25adab6-a8c3-4e0e-8ba9-baac00aaa394/9ad5d27a-5f31-4a09-b7fb-9d62ecc953c1"
-					(reference "R7")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -8176,7 +8813,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e605c6b4-de54-413f-966e-2c29efd7a074")
-		(property "Reference" "R17"
+		(property "Reference" "R28"
 			(at 201.422 93.218 90)
 			(effects
 				(font
@@ -8229,7 +8866,7 @@
 		(instances
 			(project "bldc_motor_controller"
 				(path "/a25adab6-a8c3-4e0e-8ba9-baac00aaa394/9ad5d27a-5f31-4a09-b7fb-9d62ecc953c1"
-					(reference "R17")
+					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -8245,7 +8882,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f1985539-3824-46a4-a4f1-bb7b2c6a3d0d")
-		(property "Reference" "D1"
+		(property "Reference" "D7"
 			(at 136.2075 25.4 0)
 			(effects
 				(font
@@ -8297,7 +8934,7 @@
 		(instances
 			(project ""
 				(path "/a25adab6-a8c3-4e0e-8ba9-baac00aaa394/9ad5d27a-5f31-4a09-b7fb-9d62ecc953c1"
-					(reference "D1")
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -8312,7 +8949,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f49fe071-3d2f-44b2-b21b-3a22d1512da1")
-		(property "Reference" "R14"
+		(property "Reference" "R25"
 			(at 201.422 83.058 90)
 			(effects
 				(font
@@ -8365,7 +9002,7 @@
 		(instances
 			(project "bldc_motor_controller"
 				(path "/a25adab6-a8c3-4e0e-8ba9-baac00aaa394/9ad5d27a-5f31-4a09-b7fb-9d62ecc953c1"
-					(reference "R14")
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -8380,7 +9017,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f65a3ecf-8192-4830-bafe-eced97baedac")
-		(property "Reference" "R18"
+		(property "Reference" "R29"
 			(at 201.422 95.758 90)
 			(effects
 				(font
@@ -8433,7 +9070,7 @@
 		(instances
 			(project "bldc_motor_controller"
 				(path "/a25adab6-a8c3-4e0e-8ba9-baac00aaa394/9ad5d27a-5f31-4a09-b7fb-9d62ecc953c1"
-					(reference "R18")
+					(reference "R29")
 					(unit 1)
 				)
 			)
@@ -8448,7 +9085,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f80640a3-c6fb-4fc9-8fc4-d058dcc4c4f2")
-		(property "Reference" "C26"
+		(property "Reference" "C39"
 			(at 142.24 35.6869 0)
 			(effects
 				(font
@@ -8502,7 +9139,7 @@
 		(instances
 			(project "bldc_motor_controller"
 				(path "/a25adab6-a8c3-4e0e-8ba9-baac00aaa394/9ad5d27a-5f31-4a09-b7fb-9d62ecc953c1"
-					(reference "C26")
+					(reference "C39")
 					(unit 1)
 				)
 			)
@@ -8517,7 +9154,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f95962b8-4d4a-4a10-be16-41f6ca5dfd60")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR039"
 			(at 85.09 44.45 0)
 			(effects
 				(font
@@ -8567,7 +9204,7 @@
 		(instances
 			(project "bldc_motor_controller"
 				(path "/a25adab6-a8c3-4e0e-8ba9-baac00aaa394/9ad5d27a-5f31-4a09-b7fb-9d62ecc953c1"
-					(reference "#PWR038")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -8582,7 +9219,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fcd678a4-bde6-4ab0-92e8-55d822e103b9")
-		(property "Reference" "R21"
+		(property "Reference" "R32"
 			(at 201.422 103.378 90)
 			(effects
 				(font
@@ -8635,7 +9272,7 @@
 		(instances
 			(project "bldc_motor_controller"
 				(path "/a25adab6-a8c3-4e0e-8ba9-baac00aaa394/9ad5d27a-5f31-4a09-b7fb-9d62ecc953c1"
-					(reference "R21")
+					(reference "R32")
 					(unit 1)
 				)
 			)
