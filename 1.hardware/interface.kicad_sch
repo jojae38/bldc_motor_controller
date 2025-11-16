@@ -5754,7 +5754,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Reset_Btn"
+		(property "Value" "Esp32_Btn"
 			(at 66.04 130.8099 90)
 			(effects
 				(font
