@@ -3527,7 +3527,7 @@
 	)
 	(text "I2C"
 		(exclude_from_sim no)
-		(at 176.276 45.72 0)
+		(at 112.268 19.558 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3537,7 +3537,7 @@
 	)
 	(text "CAN"
 		(exclude_from_sim no)
-		(at 176.276 47.752 0)
+		(at 112.522 53.848 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3557,7 +3557,7 @@
 	)
 	(text "USB"
 		(exclude_from_sim no)
-		(at 34.036 18.796 0)
+		(at 30.48 18.796 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4173,6 +4173,16 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 142.24) (xy 161.29 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57b9db19-b32f-4429-95ca-abf223a3ed50")
+	)
+	(wire
+		(pts
 			(xy 54.61 113.03) (xy 64.77 113.03)
 		)
 		(stroke
@@ -4260,6 +4270,16 @@
 			(type default)
 		)
 		(uuid "75ef22ed-50bc-400f-be76-fc1c241e5f50")
+	)
+	(wire
+		(pts
+			(xy 152.4 139.7) (xy 161.29 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "776eafe5-561c-4b19-a7bb-1e8f20bbc60c")
 	)
 	(wire
 		(pts
@@ -4420,6 +4440,16 @@
 			(type default)
 		)
 		(uuid "9590cead-55bc-4646-82af-ae0511c5d903")
+	)
+	(wire
+		(pts
+			(xy 152.4 144.78) (xy 161.29 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "992faf89-47f1-469c-b7a2-c9e9012458ad")
 	)
 	(wire
 		(pts
@@ -4723,6 +4753,16 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 147.32) (xy 161.29 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d752ac29-90a0-43b1-891b-e0dcc0a23d10")
+	)
+	(wire
+		(pts
 			(xy 22.86 157.48) (xy 27.94 157.48)
 		)
 		(stroke
@@ -4937,7 +4977,7 @@
 	)
 	(global_label "FSPID"
 		(shape passive)
-		(at 170.18 154.94 180)
+		(at 152.4 147.32 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4947,7 +4987,7 @@
 		)
 		(uuid "1b0c7278-9864-43e6-98f1-59e15713f746")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 162.8632 154.94 0)
+			(at 145.0832 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4981,7 +5021,7 @@
 	)
 	(global_label "FSPICSO"
 		(shape passive)
-		(at 170.18 162.56 180)
+		(at 152.4 139.7 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4991,7 +5031,7 @@
 		)
 		(uuid "2a7b04fa-a1a6-4eb6-8ebb-1401b3ccc64a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 160.3232 162.56 0)
+			(at 142.5432 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5025,7 +5065,7 @@
 	)
 	(global_label "ESP32_SPI2_MISO"
 		(shape passive)
-		(at 181.61 146.05 0)
+		(at 161.29 144.78 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5035,7 +5075,7 @@
 		)
 		(uuid "3cdd4ade-ab89-443b-9380-800cd412e70b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 200.3566 146.05 0)
+			(at 180.0366 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5069,7 +5109,7 @@
 	)
 	(global_label "FSPICLK"
 		(shape passive)
-		(at 170.18 152.4 180)
+		(at 152.4 142.24 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5079,7 +5119,7 @@
 		)
 		(uuid "486d7667-a4ec-4eae-bb89-a38cb8af8ffb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 160.5651 152.4 0)
+			(at 142.7851 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5113,7 +5153,7 @@
 	)
 	(global_label "ESP32_SPI2_MOSI"
 		(shape passive)
-		(at 173.99 148.59 0)
+		(at 161.29 147.32 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5123,7 +5163,7 @@
 		)
 		(uuid "58a492b9-9920-4185-a468-975a19c68b0d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 192.7366 148.59 0)
+			(at 180.0366 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5157,7 +5197,7 @@
 	)
 	(global_label "ESP32_SPI2_SCK"
 		(shape passive)
-		(at 181.61 143.51 0)
+		(at 161.29 142.24 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5167,7 +5207,7 @@
 		)
 		(uuid "76b7417d-8d6e-4d7f-b34b-c764b98574d9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 199.5099 143.51 0)
+			(at 179.1899 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5201,7 +5241,7 @@
 	)
 	(global_label "ESP32_SPI2_NSS"
 		(shape passive)
-		(at 181.61 140.97 0)
+		(at 161.29 139.7 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5211,7 +5251,7 @@
 		)
 		(uuid "7f5d09ee-acf0-49b6-baec-644e9ecc54a5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 199.5099 140.97 0)
+			(at 179.1899 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5289,7 +5329,7 @@
 	)
 	(global_label "FSPIQ"
 		(shape passive)
-		(at 168.91 148.59 180)
+		(at 152.4 144.78 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5299,7 +5339,7 @@
 		)
 		(uuid "b7c262d0-a00c-4395-8b41-89c10acde6d6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 161.5327 148.59 0)
+			(at 145.0227 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5466,7 +5506,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 161.29 118.11 0)
 			(effects
 				(font
@@ -5653,7 +5693,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 49.53 82.55 0)
 			(effects
 				(font
@@ -5775,7 +5815,7 @@
 		(dnp no)
 		(uuid "21e11b53-3c13-4c98-b366-5cda37b6cc34")
 		(property "Reference" "LED5"
-			(at 22.86 125.7299 90)
+			(at 18.034 124.714 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5852,7 +5892,7 @@
 				)
 			)
 		)
-		(property "Value" "Connector_USB_C_Receptacle_USB2.0"
+		(property "Value" "USB_C"
 			(at 34.29 21.59 0)
 			(effects
 				(font
@@ -6038,7 +6078,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 157.48 118.11 0)
 			(effects
 				(font
@@ -6175,7 +6215,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 36.83 82.55 0)
 			(effects
 				(font
@@ -6288,6 +6328,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 109.22 64.77 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "39ac7aba-af08-429b-8dc1-bfdd05090471")
+		(property "Reference" "J16"
+			(at 109.22 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Can_conn"
+			(at 109.22 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.22 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 109.22 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 109.22 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dedae2cd-598d-42e9-b9d7-7d50e3aba90f")
+		)
+		(pin "2"
+			(uuid "e84f1490-b877-4d6b-b234-a959286c05c4")
+		)
+		(instances
+			(project "bldc_motor_controller"
+				(path "/a25adab6-a8c3-4e0e-8ba9-baac00aaa394/430b6e73-4ab5-4f88-adfd-520e070c0b15"
+					(reference "J16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 40.64 123.19 0)
 		(unit 1)
@@ -6305,14 +6413,14 @@
 			)
 		)
 		(property "Value" "4.7K/0.063w"
-			(at 47.752 125.222 0)
+			(at 34.036 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 40.64 123.19 0)
 			(effects
 				(font
@@ -6445,14 +6553,14 @@
 			)
 		)
 		(property "Value" "4.7K/0.063w"
-			(at 60.198 124.968 0)
+			(at 48.26 125.984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 54.61 123.19 0)
 			(effects
 				(font
@@ -6585,7 +6693,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 17.78 118.11 0)
 			(effects
 				(font
@@ -6725,7 +6833,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 81.28 118.11 0)
 			(effects
 				(font
@@ -7116,6 +7224,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 109.22 30.48 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "79a93ff2-d030-40ce-8841-439a015584ed")
+		(property "Reference" "J15"
+			(at 109.22 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "I2C_conn"
+			(at 109.22 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.22 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 109.22 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 109.22 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "193f4b9a-29d5-45dd-bd9b-b107c3f00959")
+		)
+		(pin "2"
+			(uuid "c1c7847e-d4a9-4647-9f2b-7c63a5d670c7")
+		)
+		(instances
+			(project ""
+				(path "/a25adab6-a8c3-4e0e-8ba9-baac00aaa394/430b6e73-4ab5-4f88-adfd-520e070c0b15"
+					(reference "J15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 72.39 34.29 0)
 		(unit 1)
@@ -7140,7 +7316,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 72.39 34.29 0)
 			(effects
 				(font
@@ -7734,14 +7910,14 @@
 			)
 		)
 		(property "Value" "4.7K/0.063w"
-			(at 70.358 120.396 0)
+			(at 71.12 120.396 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 64.77 118.11 0)
 			(effects
 				(font
@@ -7945,7 +8121,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 72.39 27.94 0)
 			(effects
 				(font
