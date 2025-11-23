@@ -22,6 +22,7 @@
 #include "adc.h"
 #include "dac.h"
 #include "dma2d.h"
+#include "fdcan.h"
 #include "i2c.h"
 #include "ltdc.h"
 #include "spi.h"
@@ -116,6 +117,7 @@ int main(void)
   MX_TIM2_Init();
   MX_TIM3_Init();
   MX_UART5_Init();
+  MX_FDCAN1_Init();
   /* USER CODE BEGIN 2 */
 
   /* USER CODE END 2 */

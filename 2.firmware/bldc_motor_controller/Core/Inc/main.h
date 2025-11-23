@@ -63,14 +63,22 @@ void Error_Handler(void);
 #define Motor_W_GPIO_Port GPIOF
 #define Motor_U_Pin GPIO_PIN_3
 #define Motor_U_GPIO_Port GPIOC
+#define WS2812B_PWM_Pin GPIO_PIN_0
+#define WS2812B_PWM_GPIO_Port GPIOA
 #define Speaker_Pin GPIO_PIN_4
 #define Speaker_GPIO_Port GPIOA
+#define MOTOR_W_Pin GPIO_PIN_0
+#define MOTOR_W_GPIO_Port GPIOB
+#define WATCHDOG_PWM_Pin GPIO_PIN_1
+#define WATCHDOG_PWM_GPIO_Port GPIOK
 #define MOTOR_U_Pin GPIO_PIN_6
 #define MOTOR_U_GPIO_Port GPIOC
 #define MOTOR_V_Pin GPIO_PIN_7
 #define MOTOR_V_GPIO_Port GPIOC
-#define MOTOR_W_Pin GPIO_PIN_8
-#define MOTOR_W_GPIO_Port GPIOC
+#define I2C1_SCL_Pin GPIO_PIN_6
+#define I2C1_SCL_GPIO_Port GPIOB
+#define I2C1_SDA_Pin GPIO_PIN_7
+#define I2C1_SDA_GPIO_Port GPIOB
 
 /* USER CODE BEGIN Private defines */
 
