@@ -615,32 +615,32 @@
       "Root"
     ],
     [
-      "f1d28d97-f090-4298-9a06-d9576d5adbbf",
-      "mcu"
-    ],
-    [
       "fa552ebf-4859-4df7-97cc-cc5957e0d3a3",
-      "power"
+      "1.power"
     ],
     [
-      "41a95291-f7f2-4bdf-b0a1-cf2084f10036",
-      "sensor"
-    ],
-    [
-      "9ad5d27a-5f31-4a09-b7fb-9d62ecc953c1",
-      "lcd"
-    ],
-    [
-      "0efc9baf-c353-4a72-9983-7a1660fbd7db",
-      "motor_control"
-    ],
-    [
-      "9f644060-1b86-41d4-818c-d38193d04e6e",
-      "memory"
+      "f1d28d97-f090-4298-9a06-d9576d5adbbf",
+      "2.mcu"
     ],
     [
       "430b6e73-4ab5-4f88-adfd-520e070c0b15",
-      "interface"
+      "3.interface"
+    ],
+    [
+      "9f644060-1b86-41d4-818c-d38193d04e6e",
+      "4.memory"
+    ],
+    [
+      "9ad5d27a-5f31-4a09-b7fb-9d62ecc953c1",
+      "5.lcd"
+    ],
+    [
+      "41a95291-f7f2-4bdf-b0a1-cf2084f10036",
+      "6.sensor"
+    ],
+    [
+      "0efc9baf-c353-4a72-9983-7a1660fbd7db",
+      "7.motor_control"
     ]
   ],
   "text_variables": {}
