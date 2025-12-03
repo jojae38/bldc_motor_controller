@@ -7170,6 +7170,194 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "SamacSys_Parts:TSB008A2518A"
+			(pin_names
+				(offset 0.762)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "S"
+				(at 19.05 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "TSB008A2518A"
+				(at 19.05 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "TSB008A2518A"
+				(at 19.05 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2108261830_BZCN-TSB008A2518A_C2888455.pdf"
+				(at 19.05 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "3.5mm 2.5mm Rectangle button 50mA Brick nogging 6mm 180gf 12V SMD Tactile Switches ROHS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "3.5mm 2.5mm Rectangle button 50mA Brick nogging 6mm 180gf 12V SMD Tactile Switches ROHS"
+				(at 19.05 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Height" "2.75"
+				(at 19.05 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "BZCN"
+				(at 19.05 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "TSB008A2518A"
+				(at 19.05 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" ""
+				(at 19.05 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" ""
+				(at 19.05 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" ""
+				(at 19.05 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" ""
+				(at 19.05 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(symbol "TSB008A2518A_0_0"
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "COM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "NO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "TSB008A2518A_0_1"
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 17.78 2.54) (xy 17.78 -5.08) (xy 5.08 -5.08) (xy 5.08 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Simulation_SPICE:NMOS"
 			(pin_numbers
 				(hide yes)
@@ -8322,6 +8510,12 @@
 		(uuid "0706ecea-f314-4c16-b0c2-e2e9de3b88ec")
 	)
 	(junction
+		(at 113.03 207.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0b92617c-cbb7-4fe1-9ff3-14f2ff218529")
+	)
+	(junction
 		(at 135.89 179.07)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8422,6 +8616,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5ddf050b-2dbe-4658-80a5-d48d351fc3f5")
+	)
+	(junction
+		(at 64.77 207.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "62a99cb6-035d-428c-91e8-4cafccde81c4")
 	)
 	(junction
 		(at 275.59 66.04)
@@ -9090,6 +9290,16 @@
 			(type default)
 		)
 		(uuid "234c48fe-e687-424c-b401-02654a1fbf6f")
+	)
+	(wire
+		(pts
+			(xy 113.03 204.47) (xy 113.03 207.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "237d7e67-0f7a-412f-af18-178447411c7c")
 	)
 	(wire
 		(pts
@@ -9853,6 +10063,16 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 207.01) (xy 114.3 207.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66a5a0ea-9866-400d-bd37-049791ad77d9")
+	)
+	(wire
+		(pts
 			(xy 298.45 71.12) (xy 298.45 66.04)
 		)
 		(stroke
@@ -10183,6 +10403,16 @@
 	)
 	(wire
 		(pts
+			(xy 64.77 207.01) (xy 66.04 207.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78cef63b-6e47-4690-bfd6-dfaa96675d0d")
+	)
+	(wire
+		(pts
 			(xy 295.91 71.12) (xy 295.91 66.04)
 		)
 		(stroke
@@ -10413,6 +10643,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 209.55) (xy 66.04 214.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c8a9eae-ca65-4267-b95f-7ba88a1c98a4")
+	)
+	(wire
+		(pts
 			(xy 149.86 148.59) (xy 149.86 156.21)
 		)
 		(stroke
@@ -10580,6 +10820,16 @@
 			(type default)
 		)
 		(uuid "96b47f52-9d07-456a-ad04-f519ebd2215a")
+	)
+	(wire
+		(pts
+			(xy 110.49 207.01) (xy 113.03 207.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9839b2e3-0d62-4794-9971-74084e161cac")
 	)
 	(wire
 		(pts
@@ -10920,6 +11170,16 @@
 			(type default)
 		)
 		(uuid "a9c181c1-8625-4722-b662-47ef0eff1b29")
+	)
+	(wire
+		(pts
+			(xy 67.31 196.85) (xy 64.77 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aaa23782-d664-4ed6-8ded-d2ae98237b66")
 	)
 	(wire
 		(pts
@@ -11343,6 +11603,16 @@
 	)
 	(wire
 		(pts
+			(xy 115.57 196.85) (xy 113.03 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd082c2a-ce71-4ee5-a04e-27165ca6656a")
+	)
+	(wire
+		(pts
 			(xy 238.76 167.64) (xy 245.11 167.64)
 		)
 		(stroke
@@ -11443,6 +11713,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 209.55) (xy 114.3 214.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d60aa3f1-6d63-44b3-a8a9-b6dda4a8f3f6")
+	)
+	(wire
+		(pts
 			(xy 278.13 71.12) (xy 278.13 66.04)
 		)
 		(stroke
@@ -11473,6 +11753,16 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 196.85) (xy 113.03 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d75c402d-27af-4bcc-897f-23cff63cf97d")
+	)
+	(wire
+		(pts
 			(xy 238.76 180.34) (xy 245.11 180.34)
 		)
 		(stroke
@@ -11500,6 +11790,16 @@
 			(type default)
 		)
 		(uuid "d84b0007-f5c2-47dd-a3bc-030eed37d3d2")
+	)
+	(wire
+		(pts
+			(xy 62.23 207.01) (xy 64.77 207.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8b1459a-a426-4da0-a2f3-7372464a1b8b")
 	)
 	(wire
 		(pts
@@ -11663,6 +11963,16 @@
 	)
 	(wire
 		(pts
+			(xy 64.77 204.47) (xy 64.77 207.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e39d041a-adb4-45cd-a04c-561dfdc12877")
+	)
+	(wire
+		(pts
 			(xy 285.75 345.44) (xy 285.75 349.25)
 		)
 		(stroke
@@ -11690,6 +12000,16 @@
 			(type default)
 		)
 		(uuid "e6d0a763-e915-472d-8fe8-1edb7bed9626")
+	)
+	(wire
+		(pts
+			(xy 64.77 196.85) (xy 64.77 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6dc9d2f-f231-49b6-8418-9567d05073c9")
 	)
 	(wire
 		(pts
@@ -12215,6 +12535,28 @@
 			)
 		)
 	)
+	(global_label "3V3_MCU"
+		(shape passive)
+		(at 67.31 196.85 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0e5f84c0-5337-49f7-ac62-542ad6af6582")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 77.711 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "FMC_D6"
 		(shape passive)
 		(at 328.93 276.86 0)
@@ -12589,6 +12931,28 @@
 			)
 		)
 	)
+	(global_label "BTN1"
+		(shape passive)
+		(at 62.23 207.01 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2d851558-966a-49b6-b010-43137a254bf2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 55.5785 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "FMC_NBL1"
 		(shape passive)
 		(at 328.93 256.54 0)
@@ -12717,6 +13081,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "BTN1"
+		(shape passive)
+		(at 117.9382 238.3714 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3eaf119d-13d0-4a26-a19c-b48db3f0ef6f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 111.2867 238.3714 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -13777,6 +14163,28 @@
 			)
 		)
 	)
+	(global_label "BTN2"
+		(shape passive)
+		(at 110.49 207.01 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8885da7d-d65f-48c7-baa4-c3343654b161")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 103.8385 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "WATCHDOG_OUT"
 		(shape passive)
 		(at 240.03 81.28 180)
@@ -14098,6 +14506,28 @@
 		(uuid "9adae369-962e-453b-99b9-140474c16a80")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 428.7754 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "3V3_MCU"
+		(shape passive)
+		(at 115.57 196.85 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9ea6de4e-3b43-4b47-931a-5351963afcdd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 125.971 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14868,6 +15298,28 @@
 		(uuid "dbb01da5-47f0-4fbb-8cae-36411a8594b3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 362.979 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "BTN2"
+		(shape passive)
+		(at 166.1982 238.3714 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "dbdf2393-5883-40f3-85ec-61028dca75a8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 159.5467 238.3714 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16017,6 +16469,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 64.77 201.93 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "150b42e4-270a-47ee-a96b-6f05bdb189bf")
+		(property "Reference" "R143"
+			(at 57.912 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k/0.063w"
+			(at 71.628 200.152 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 64.77 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 64.77 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 64.77 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e4343ba8-8119-4fea-b472-eb5c379e2ba1")
+		)
+		(pin "2"
+			(uuid "7992067c-0eda-435a-af90-01e702392113")
+		)
+		(instances
+			(project "bldc_motor_controller"
+				(path "/a25adab6-a8c3-4e0e-8ba9-baac00aaa394/f1d28d97-f090-4298-9a06-d9576d5adbbf"
+					(reference "R143")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_Diode_AKL:LL4148")
 		(at 135.89 152.4 270)
 		(unit 1)
@@ -16081,6 +16600,72 @@
 			(project ""
 				(path "/a25adab6-a8c3-4e0e-8ba9-baac00aaa394/f1d28d97-f090-4298-9a06-d9576d5adbbf"
 					(reference "D10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 114.3 214.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "15f4a635-9124-4671-9dd5-40ec66ce4cab")
+		(property "Reference" "#PWR063"
+			(at 114.3 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 114.3 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.3 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 114.3 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "da76099a-8b88-433c-b252-54bcb07e4efa")
+		)
+		(instances
+			(project "bldc_motor_controller"
+				(path "/a25adab6-a8c3-4e0e-8ba9-baac00aaa394/f1d28d97-f090-4298-9a06-d9576d5adbbf"
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -18665,6 +19250,158 @@
 		)
 	)
 	(symbol
+		(lib_id "SamacSys_Parts:TSB008A2518A")
+		(at 66.04 207.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "72264599-81ab-4aba-b94f-97acd3ff016b")
+		(property "Reference" "S1"
+			(at 85.09 207.0099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TSB008A2518A"
+			(at 85.09 209.5499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SamacSys_Parts:TSB008A2518A"
+			(at 85.09 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2108261830_BZCN-TSB008A2518A_C2888455.pdf"
+			(at 85.09 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "3.5mm 2.5mm Rectangle button 50mA Brick nogging 6mm 180gf 12V SMD Tactile Switches ROHS"
+			(at 66.04 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "3.5mm 2.5mm Rectangle button 50mA Brick nogging 6mm 180gf 12V SMD Tactile Switches ROHS"
+			(at 85.09 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Height" "2.75"
+			(at 85.09 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "BZCN"
+			(at 85.09 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "TSB008A2518A"
+			(at 85.09 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 85.09 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 85.09 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 85.09 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 85.09 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0daf7c2d-af76-4044-8452-a7290ea6e3f3")
+		)
+		(pin "1"
+			(uuid "e0b5af3e-6b59-4ac0-86ac-6e1e57d1dd25")
+		)
+		(instances
+			(project "bldc_motor_controller"
+				(path "/a25adab6-a8c3-4e0e-8ba9-baac00aaa394/f1d28d97-f090-4298-9a06-d9576d5adbbf"
+					(reference "S1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 135.89 140.97 0)
 		(unit 1)
@@ -19271,6 +20008,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 66.04 214.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "89df4217-c72c-424a-be25-577d804a1463")
+		(property "Reference" "#PWR062"
+			(at 66.04 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 66.04 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 66.04 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "24be2f82-fd21-4236-b691-af1141e2dd31")
+		)
+		(instances
+			(project "bldc_motor_controller"
+				(path "/a25adab6-a8c3-4e0e-8ba9-baac00aaa394/f1d28d97-f090-4298-9a06-d9576d5adbbf"
+					(reference "#PWR062")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 38.1 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -19462,6 +20265,73 @@
 			(project "bldc_motor_controller"
 				(path "/a25adab6-a8c3-4e0e-8ba9-baac00aaa394/f1d28d97-f090-4298-9a06-d9576d5adbbf"
 					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 113.03 201.93 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9a3a9ca3-b817-4cc5-8455-ec779560db62")
+		(property "Reference" "R144"
+			(at 106.172 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k/0.063w"
+			(at 119.888 200.152 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 113.03 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 113.03 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 113.03 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "18ee1b12-a420-431a-a46e-e8f051931961")
+		)
+		(pin "2"
+			(uuid "76206510-8da8-4ac6-93b0-dce2b205e4ed")
+		)
+		(instances
+			(project "bldc_motor_controller"
+				(path "/a25adab6-a8c3-4e0e-8ba9-baac00aaa394/f1d28d97-f090-4298-9a06-d9576d5adbbf"
+					(reference "R144")
 					(unit 1)
 				)
 			)
@@ -22407,6 +23277,158 @@
 			(project ""
 				(path "/a25adab6-a8c3-4e0e-8ba9-baac00aaa394/f1d28d97-f090-4298-9a06-d9576d5adbbf"
 					(reference "IC3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:TSB008A2518A")
+		(at 114.3 207.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ea1ef8c9-d401-4b4a-8e9d-9c9bb93b99e6")
+		(property "Reference" "S3"
+			(at 133.35 207.0099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TSB008A2518A"
+			(at 133.35 209.5499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SamacSys_Parts:TSB008A2518A"
+			(at 133.35 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2108261830_BZCN-TSB008A2518A_C2888455.pdf"
+			(at 133.35 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "3.5mm 2.5mm Rectangle button 50mA Brick nogging 6mm 180gf 12V SMD Tactile Switches ROHS"
+			(at 114.3 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "3.5mm 2.5mm Rectangle button 50mA Brick nogging 6mm 180gf 12V SMD Tactile Switches ROHS"
+			(at 133.35 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Height" "2.75"
+			(at 133.35 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "BZCN"
+			(at 133.35 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "TSB008A2518A"
+			(at 133.35 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 133.35 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 133.35 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 133.35 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 133.35 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e39022ea-a063-4fcf-924a-757d92841166")
+		)
+		(pin "1"
+			(uuid "2ca3a429-7d40-4b6d-98c9-33c1b7000ee3")
+		)
+		(instances
+			(project "bldc_motor_controller"
+				(path "/a25adab6-a8c3-4e0e-8ba9-baac00aaa394/f1d28d97-f090-4298-9a06-d9576d5adbbf"
+					(reference "S3")
 					(unit 1)
 				)
 			)
