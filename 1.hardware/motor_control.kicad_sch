@@ -1374,7 +1374,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "SamacSys_Parts:2ED2182S06F"
+		(symbol "SamacSys_Parts:SN74HC266D"
 			(pin_names
 				(offset 0.762)
 			)
@@ -1390,7 +1390,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "2ED2182S06F"
+			(property "Value" "SN74HC266D"
 				(at 21.59 5.08 0)
 				(effects
 					(font
@@ -1399,7 +1399,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "SOIC127P600X172-8N"
+			(property "Footprint" "SOIC127P600X175-14N"
 				(at 21.59 2.54 0)
 				(effects
 					(font
@@ -1409,7 +1409,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-2ED2182-4-S06F-J-DataSheet-v02_20-EN.pdf?fileId=5546d4626cb27db2016cb8d7368a29e3"
+			(property "Datasheet" "http://www.ti.com/lit/gpn/sn74hc266"
 				(at 21.59 0 0)
 				(effects
 					(font
@@ -1419,7 +1419,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Half-B.GateDrv 650V 2.5A DSO-8"
+			(property "Description" "Texas Instruments SN74HC266D, XNOR Quad 2 Input XNOR, 2  6 V, 14-Pin SOIC"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1428,7 +1428,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description_1" "Half-B.GateDrv 650V 2.5A DSO-8"
+			(property "Description_1" "Texas Instruments SN74HC266D, XNOR Quad 2 Input XNOR, 2  6 V, 14-Pin SOIC"
 				(at 21.59 -2.54 0)
 				(effects
 					(font
@@ -1438,7 +1438,7 @@
 					(hide yes)
 				)
 			)
-			(property "Height" "1.72"
+			(property "Height" "1.75"
 				(at 21.59 -5.08 0)
 				(effects
 					(font
@@ -1448,7 +1448,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Name" "Infineon"
+			(property "Manufacturer_Name" "Texas Instruments"
 				(at 21.59 -7.62 0)
 				(effects
 					(font
@@ -1458,7 +1458,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Part_Number" "2ED2182S06F"
+			(property "Manufacturer_Part_Number" "SN74HC266D"
 				(at 21.59 -10.16 0)
 				(effects
 					(font
@@ -1468,7 +1468,7 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser Part Number" "N/A"
+			(property "Mouser Part Number" "595-SN74HC266D"
 				(at 21.59 -12.7 0)
 				(effects
 					(font
@@ -1478,7 +1478,7 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=N%2FA"
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74HC266D?qs=spW5eSrOWB4kz9ML8sACyA%3D%3D"
 				(at 21.59 -15.24 0)
 				(effects
 					(font
@@ -1488,7 +1488,7 @@
 					(hide yes)
 				)
 			)
-			(property "Arrow Part Number" ""
+			(property "Arrow Part Number" "SN74HC266D"
 				(at 21.59 -17.78 0)
 				(effects
 					(font
@@ -1498,7 +1498,7 @@
 					(hide yes)
 				)
 			)
-			(property "Arrow Price/Stock" ""
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/sn74hc266d/texas-instruments?region=nac"
 				(at 21.59 -20.32 0)
 				(effects
 					(font
@@ -1508,11 +1508,415 @@
 					(hide yes)
 				)
 			)
-			(symbol "2ED2182S06F_0_0"
+			(symbol "SN74HC266D_0_0"
+				(pin input line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "1B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "1Y"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 0 -7.62 0)
+					(length 5.08)
+					(name "2Y"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -10.16 0)
+					(length 5.08)
+					(name "2A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -12.7 0)
+					(length 5.08)
+					(name "2B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -15.24 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 25.4 0 180)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 25.4 -2.54 180)
+					(length 5.08)
+					(name "4B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 25.4 -5.08 180)
+					(length 5.08)
+					(name "4A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 25.4 -7.62 180)
+					(length 5.08)
+					(name "4Y"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 25.4 -10.16 180)
+					(length 5.08)
+					(name "3Y"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 25.4 -12.7 180)
+					(length 5.08)
+					(name "3B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 25.4 -15.24 180)
+					(length 5.08)
+					(name "3A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "SN74HC266D_0_1"
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 20.32 2.54) (xy 20.32 -17.78) (xy 5.08 -17.78) (xy 5.08 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "SamacSys_Parts:STL130N6F7"
+			(pin_names
+				(offset 0.762)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 21.59 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "STL130N6F7"
+				(at 21.59 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "FERD20U50DJFTR"
+				(at 21.59 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.st.com/resource/en/datasheet/stl130n6f7.pdf"
+				(at 21.59 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "N-channel 60 V, 0.003  typ., 130 A STripFET F7 Power MOSFET in a PowerFLAT 5x6 package"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "N-channel 60 V, 0.003  typ., 130 A STripFET F7 Power MOSFET in a PowerFLAT 5x6 package"
+				(at 21.59 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Height" "1"
+				(at 21.59 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "STMicroelectronics"
+				(at 21.59 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "STL130N6F7"
+				(at 21.59 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "511-STL130N6F7"
+				(at 21.59 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/STL130N6F7?qs=bKenfurwlsn66DUeXqgWIw%3D%3D"
+				(at 21.59 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" "STL130N6F7"
+				(at 21.59 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/stl130n6f7/stmicroelectronics?utm_currency=USD&region=nac"
+				(at 21.59 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(symbol "STL130N6F7_0_0"
 				(pin passive line
 					(at 0 0 0)
 					(length 5.08)
-					(name "HIN"
+					(name "S_1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1530,7 +1934,7 @@
 				(pin passive line
 					(at 0 -2.54 0)
 					(length 5.08)
-					(name "LIN"
+					(name "S_2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1548,7 +1952,7 @@
 				(pin passive line
 					(at 0 -5.08 0)
 					(length 5.08)
-					(name "COM"
+					(name "S_3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1566,7 +1970,321 @@
 				(pin passive line
 					(at 0 -7.62 0)
 					(length 5.08)
-					(name "LO"
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -10.16 0)
+					(length 5.08)
+					(name "D_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 0 180)
+					(length 5.08)
+					(name "D_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 -2.54 180)
+					(length 5.08)
+					(name "D_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 -5.08 180)
+					(length 5.08)
+					(name "D_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 -7.62 180)
+					(length 5.08)
+					(name "D_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "STL130N6F7_0_1"
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 20.32 2.54) (xy 20.32 -12.7) (xy 5.08 -12.7) (xy 5.08 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "SamacSys_Parts:UCC27712QDRQ1"
+			(pin_names
+				(offset 0.762)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "IC"
+				(at 21.59 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "UCC27712QDRQ1"
+				(at 21.59 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "SOIC127P600X175-8N"
+				(at 21.59 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ucc27712-q1.pdf"
+				(at 21.59 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "Automotive 620-V, 1.8-A, 2.8-A High-Side Low-Side Gate Driver With Interlock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "Automotive 620-V, 1.8-A, 2.8-A High-Side Low-Side Gate Driver With Interlock"
+				(at 21.59 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Height" "1.75"
+				(at 21.59 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Texas Instruments"
+				(at 21.59 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "UCC27712QDRQ1"
+				(at 21.59 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "595-UCC27712QDRQ1"
+				(at 21.59 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/UCC27712QDRQ1?qs=BZBei1rCqCBvSoThMTpBlA%3D%3D"
+				(at 21.59 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" "UCC27712QDRQ1"
+				(at 21.59 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/ucc27712qdrq1/texas-instruments?utm_currency=USD&region=nac"
+				(at 21.59 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(symbol "UCC27712QDRQ1_0_0"
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "LI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "HI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 0)
+					(length 5.08)
+					(name "COM"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1584,7 +2302,7 @@
 				(pin passive line
 					(at 25.4 0 180)
 					(length 5.08)
-					(name "VB"
+					(name "HB"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1620,7 +2338,7 @@
 				(pin passive line
 					(at 25.4 -5.08 180)
 					(length 5.08)
-					(name "VS"
+					(name "HS"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1638,7 +2356,7 @@
 				(pin passive line
 					(at 25.4 -7.62 180)
 					(length 5.08)
-					(name "VCC"
+					(name "LO"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1654,335 +2372,10 @@
 					)
 				)
 			)
-			(symbol "2ED2182S06F_0_1"
+			(symbol "UCC27712QDRQ1_0_1"
 				(polyline
 					(pts
 						(xy 5.08 2.54) (xy 20.32 2.54) (xy 20.32 -10.16) (xy 5.08 -10.16) (xy 5.08 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "SamacSys_Parts:IRFZ44NSTRLPBF"
-			(pin_names
-				(offset 0.762)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 11.43 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "IRFZ44NSTRLPBF"
-				(at 11.43 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "IRFZ44NSTRLPBF"
-				(at 11.43 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.mouser.co.uk/datasheet/2/196/Infineon_IRFZ44NS_DataSheet_v01_01_EN-3363127.pdf"
-				(at 11.43 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" "N-Channel 55 V 49A (Tc) 3.8W (Ta), 94W (Tc) Surface Mount D2PAK"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description_1" "N-Channel 55 V 49A (Tc) 3.8W (Ta), 94W (Tc) Surface Mount D2PAK"
-				(at 11.43 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Height" ""
-				(at 11.43 -8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "Infineon"
-				(at 11.43 -11.43 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "IRFZ44NSTRLPBF"
-				(at 11.43 -13.97 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" "942-IRFZ44NSTRLPBF"
-				(at 11.43 -16.51 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/IRFZ44NSTRLPBF?qs=9%252BKlkBgLFf2g3fcs7l0nig%3D%3D"
-				(at 11.43 -19.05 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Arrow Part Number" "IRFZ44NSTRLPBF"
-				(at 11.43 -21.59 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/irfz44nstrlpbf/infineon-technologies-ag?utm_currency=USD&region=europe"
-				(at 11.43 -24.13 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(symbol "IRFZ44NSTRLPBF_0_0"
-				(pin passive line
-					(at 0 0 0)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 10.16 270)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -5.08 90)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "IRFZ44NSTRLPBF_0_1"
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 5.08 0) (xy 5.08 5.08)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.842 5.588) (xy 5.842 4.572)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.842 2.54) (xy 6.858 3.048) (xy 6.858 2.032) (xy 5.842 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.842 2.032) (xy 5.842 3.048)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.842 0) (xy 7.62 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.842 -0.508) (xy 5.842 0.508)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 6.35 2.54)
-					(radius 3.81)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 5.08) (xy 5.842 5.08)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 5.08) (xy 7.62 7.62)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 2.54) (xy 5.842 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 2.54) (xy 7.62 -2.54)
 					)
 					(stroke
 						(width 0.1524)
@@ -3431,28 +3824,6 @@
 		)
 		(uuid "fb91e5da-a597-434f-87cb-97ded0c04704")
 	)
-	(global_label "HALL_B"
-		(shape passive)
-		(at 99.06 40.64 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "086b60fd-ff55-481d-91a9-e5cef42df94d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 90.4732 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "PWR_INPUT(5V~24V)"
 		(shape passive)
 		(at 317.5 99.06 0)
@@ -3563,28 +3934,6 @@
 			)
 		)
 	)
-	(global_label "HALL_C"
-		(shape passive)
-		(at 99.06 43.18 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "6b7260de-5a57-4707-abd3-6444f3cdb64c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 90.4732 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "MOTOR_U"
 		(shape passive)
 		(at 31.75 25.4 180)
@@ -3620,28 +3969,6 @@
 		(uuid "6f62edbb-417e-4c18-9cad-566a11d54e22")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 23.1632 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "MOTOR_U"
-		(shape passive)
-		(at 130.81 38.1 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "71c743f4-c151-4350-b1e3-217b04825c6d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 120.288 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3739,50 +4066,6 @@
 			)
 		)
 	)
-	(global_label "MOTOR_V"
-		(shape passive)
-		(at 130.81 40.64 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "979dc30d-d855-4578-a64a-70b3164fce15")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 120.5299 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "MOTOR_W"
-		(shape passive)
-		(at 130.81 43.18 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a35e97ef-6915-4a55-9f0f-160c415e562e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 120.1671 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "CURRENT_W"
 		(shape passive)
 		(at 355.6 152.4 0)
@@ -3801,28 +4084,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "HALL_A"
-		(shape passive)
-		(at 99.06 38.1 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b46e9373-d15c-44e9-8a74-d66540f1d00b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 90.6546 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -3982,6 +4243,177 @@
 		)
 	)
 	(symbol
+		(lib_id "SamacSys_Parts:STL130N6F7")
+		(at 248.92 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0188e079-62a2-46f0-a45f-377e2cdc15ab")
+		(property "Reference" "Q8"
+			(at 261.62 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "STL130N6F7"
+			(at 261.62 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "FERD20U50DJFTR"
+			(at 270.51 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/stl130n6f7.pdf"
+			(at 270.51 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "N-channel 60 V, 0.003  typ., 130 A STripFET F7 Power MOSFET in a PowerFLAT 5x6 package"
+			(at 248.92 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "N-channel 60 V, 0.003  typ., 130 A STripFET F7 Power MOSFET in a PowerFLAT 5x6 package"
+			(at 270.51 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Height" "1"
+			(at 270.51 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "STMicroelectronics"
+			(at 270.51 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "STL130N6F7"
+			(at 270.51 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "511-STL130N6F7"
+			(at 270.51 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/STL130N6F7?qs=bKenfurwlsn66DUeXqgWIw%3D%3D"
+			(at 270.51 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "STL130N6F7"
+			(at 270.51 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/stl130n6f7/stmicroelectronics?utm_currency=USD&region=nac"
+			(at 270.51 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "5c71d900-e56d-4b02-8c0d-0b6da4c667d8")
+		)
+		(pin "2"
+			(uuid "4bc3337e-63b1-4c95-812e-fcfdedc7ee07")
+		)
+		(pin "3"
+			(uuid "08502ef3-f588-495f-ba14-692dc050d15e")
+		)
+		(pin "6"
+			(uuid "56035a7f-15aa-453b-a36a-5fe489081d48")
+		)
+		(pin "7"
+			(uuid "7697c03e-906c-4fdb-bda5-7478557a17d9")
+		)
+		(pin "8"
+			(uuid "ac0f5598-ba82-4bd8-b1b7-293fd0a0c0f3")
+		)
+		(pin "1"
+			(uuid "d1b1daae-c570-4ea7-a6a4-5b5644c6e751")
+		)
+		(pin "4"
+			(uuid "7369fe48-4f6d-41a0-a098-5e1a59b4fa98")
+		)
+		(pin "9"
+			(uuid "47eac2f6-702e-451d-9ee4-887259b392f4")
+		)
+		(instances
+			(project "bldc_motor_controller"
+				(path "/a25adab6-a8c3-4e0e-8ba9-baac00aaa394/0efc9baf-c353-4a72-9983-7a1660fbd7db"
+					(reference "Q8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 36.83 49.53 0)
 		(unit 1)
@@ -4047,35 +4479,33 @@
 		)
 	)
 	(symbol
-		(lib_id "SamacSys_Parts:IRFZ44NSTRLPBF")
-		(at 69.85 137.16 0)
+		(lib_id "SamacSys_Parts:UCC27712QDRQ1")
+		(at 116.84 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "13354e8e-7c04-422a-a4ec-e78172fc01d7")
-		(property "Reference" "Q9"
-			(at 81.28 133.3499 0)
+		(uuid "0a4e0567-503a-458f-ae40-ee9bbf843ac4")
+		(property "Reference" "IC1"
+			(at 129.54 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "IRFZ44NSTRLPBF"
-			(at 81.28 135.8899 0)
+		(property "Value" "UCC27712QDRQ1"
+			(at 129.54 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:IRFZ44NSTRLPBF"
-			(at 81.28 138.43 0)
+		(property "Footprint" "SOIC127P600X175-8N"
+			(at 138.43 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4084,8 +4514,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.co.uk/datasheet/2/196/Infineon_IRFZ44NS_DataSheet_v01_01_EN-3363127.pdf"
-			(at 81.28 140.97 0)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ucc27712-q1.pdf"
+			(at 138.43 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4094,8 +4524,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "N-Channel 55 V 49A (Tc) 3.8W (Ta), 94W (Tc) Surface Mount D2PAK"
-			(at 69.85 137.16 0)
+		(property "Description" "Automotive 620-V, 1.8-A, 2.8-A High-Side Low-Side Gate Driver With Interlock"
+			(at 116.84 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4103,8 +4533,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description_1" "N-Channel 55 V 49A (Tc) 3.8W (Ta), 94W (Tc) Surface Mount D2PAK"
-			(at 81.28 143.51 0)
+		(property "Description_1" "Automotive 620-V, 1.8-A, 2.8-A High-Side Low-Side Gate Driver With Interlock"
+			(at 138.43 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4113,8 +4543,8 @@
 				(hide yes)
 			)
 		)
-		(property "Height" ""
-			(at 81.28 146.05 0)
+		(property "Height" "1.75"
+			(at 138.43 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4123,8 +4553,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Infineon"
-			(at 81.28 148.59 0)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 138.43 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4133,8 +4563,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "IRFZ44NSTRLPBF"
-			(at 81.28 151.13 0)
+		(property "Manufacturer_Part_Number" "UCC27712QDRQ1"
+			(at 138.43 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4143,8 +4573,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "942-IRFZ44NSTRLPBF"
-			(at 81.28 153.67 0)
+		(property "Mouser Part Number" "595-UCC27712QDRQ1"
+			(at 138.43 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4153,8 +4583,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/IRFZ44NSTRLPBF?qs=9%252BKlkBgLFf2g3fcs7l0nig%3D%3D"
-			(at 81.28 156.21 0)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/UCC27712QDRQ1?qs=BZBei1rCqCBvSoThMTpBlA%3D%3D"
+			(at 138.43 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4163,8 +4593,8 @@
 				(hide yes)
 			)
 		)
-		(property "Arrow Part Number" "IRFZ44NSTRLPBF"
-			(at 81.28 158.75 0)
+		(property "Arrow Part Number" "UCC27712QDRQ1"
+			(at 138.43 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4173,8 +4603,8 @@
 				(hide yes)
 			)
 		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/irfz44nstrlpbf/infineon-technologies-ag?utm_currency=USD&region=europe"
-			(at 81.28 161.29 0)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/ucc27712qdrq1/texas-instruments?utm_currency=USD&region=nac"
+			(at 138.43 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4182,20 +4612,392 @@
 				(justify left)
 				(hide yes)
 			)
+		)
+		(pin "8"
+			(uuid "a2d73fc2-7a51-4164-949d-ae9a9cc1f37c")
 		)
 		(pin "1"
-			(uuid "c8502434-6c87-446e-97a4-f785192f961b")
+			(uuid "fe5bdf0c-9c0a-4f97-88c6-4d46ff97beef")
 		)
 		(pin "3"
-			(uuid "e29766c5-5579-4df7-b9d9-f30cda15d725")
+			(uuid "1aa14ad4-43bf-4f12-947e-c9022d9e71e1")
 		)
 		(pin "2"
-			(uuid "185c30c7-fd26-4a47-9933-fa22e42acbe4")
+			(uuid "84bbbdfd-ce7a-4b12-894e-62851dc34bcd")
+		)
+		(pin "7"
+			(uuid "0228a103-c8a4-4ba5-89f8-5996e5e22770")
+		)
+		(pin "5"
+			(uuid "44748bd1-172a-46f6-9d54-989bcc22d62d")
+		)
+		(pin "4"
+			(uuid "c08b2bab-1c60-4171-b8b7-b961d4bc54b8")
+		)
+		(pin "6"
+			(uuid "8749e4be-6e1e-4086-86b7-f395bbdcf06c")
 		)
 		(instances
-			(project "bldc_motor_controller"
+			(project ""
 				(path "/a25adab6-a8c3-4e0e-8ba9-baac00aaa394/0efc9baf-c353-4a72-9983-7a1660fbd7db"
-					(reference "Q9")
+					(reference "IC1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:STL130N6F7")
+		(at 111.76 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1580f846-1694-4657-a0e2-a949186c7fef")
+		(property "Reference" "Q2"
+			(at 124.46 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "STL130N6F7"
+			(at 124.46 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "FERD20U50DJFTR"
+			(at 133.35 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/stl130n6f7.pdf"
+			(at 133.35 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "N-channel 60 V, 0.003  typ., 130 A STripFET F7 Power MOSFET in a PowerFLAT 5x6 package"
+			(at 111.76 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "N-channel 60 V, 0.003  typ., 130 A STripFET F7 Power MOSFET in a PowerFLAT 5x6 package"
+			(at 133.35 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Height" "1"
+			(at 133.35 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "STMicroelectronics"
+			(at 133.35 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "STL130N6F7"
+			(at 133.35 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "511-STL130N6F7"
+			(at 133.35 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/STL130N6F7?qs=bKenfurwlsn66DUeXqgWIw%3D%3D"
+			(at 133.35 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "STL130N6F7"
+			(at 133.35 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/stl130n6f7/stmicroelectronics?utm_currency=USD&region=nac"
+			(at 133.35 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "b93ba9bd-3c71-4a6f-932d-6dc4c5348707")
+		)
+		(pin "2"
+			(uuid "3599afc2-36bb-46a2-95eb-3b3616825ea2")
+		)
+		(pin "3"
+			(uuid "66d8961c-d339-4144-8d02-e3867a5089ef")
+		)
+		(pin "6"
+			(uuid "65fa2a8f-a052-4017-abf5-c8240f7ea1cb")
+		)
+		(pin "7"
+			(uuid "0cdf82c1-106e-4d97-974e-17559403e3ce")
+		)
+		(pin "8"
+			(uuid "8337941d-2a7a-4f87-b7d3-a3e80838a7f1")
+		)
+		(pin "1"
+			(uuid "830ada3f-dd91-4d2e-9fc2-9720b4c7d8bc")
+		)
+		(pin "4"
+			(uuid "25d4d0f5-5a95-4d6a-af66-8f790b6133b8")
+		)
+		(pin "9"
+			(uuid "4e0367f0-b1cf-41d5-bc6f-a9b4c6b855b6")
+		)
+		(instances
+			(project ""
+				(path "/a25adab6-a8c3-4e0e-8ba9-baac00aaa394/0efc9baf-c353-4a72-9983-7a1660fbd7db"
+					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:SN74HC266D")
+		(at 168.91 201.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "18227e68-c3ae-4b66-bbdc-cd706d635fd0")
+		(property "Reference" "IC4"
+			(at 181.61 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SN74HC266D"
+			(at 181.61 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SOIC127P600X175-14N"
+			(at 190.5 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74hc266"
+			(at 190.5 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Texas Instruments SN74HC266D, XNOR Quad 2 Input XNOR, 2  6 V, 14-Pin SOIC"
+			(at 168.91 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Texas Instruments SN74HC266D, XNOR Quad 2 Input XNOR, 2  6 V, 14-Pin SOIC"
+			(at 190.5 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.75"
+			(at 190.5 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 190.5 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SN74HC266D"
+			(at 190.5 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "595-SN74HC266D"
+			(at 190.5 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74HC266D?qs=spW5eSrOWB4kz9ML8sACyA%3D%3D"
+			(at 190.5 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "SN74HC266D"
+			(at 190.5 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/sn74hc266d/texas-instruments?region=nac"
+			(at 190.5 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "14"
+			(uuid "9bf6b61e-15f2-4814-bb1d-62b783347d7a")
+		)
+		(pin "3"
+			(uuid "ef68647a-27be-4fca-a052-2e985a0b1eb3")
+		)
+		(pin "6"
+			(uuid "4b99d793-ed3e-4872-8495-540a6d666091")
+		)
+		(pin "1"
+			(uuid "6b5bcfde-b234-4001-bee5-291c42e229f1")
+		)
+		(pin "12"
+			(uuid "b66b656a-ec22-458d-8f89-5af3b5572a78")
+		)
+		(pin "11"
+			(uuid "eb11adeb-2983-48d2-b47b-77f5df98f6fb")
+		)
+		(pin "2"
+			(uuid "aad60b6b-e9cd-4d18-866a-bc72389851e8")
+		)
+		(pin "4"
+			(uuid "d05f32eb-322b-4cee-910c-e39238474f60")
+		)
+		(pin "7"
+			(uuid "1dcb20f2-3f3c-431d-a67a-8a94e53742ce")
+		)
+		(pin "13"
+			(uuid "8597f5cf-db23-4227-b4fc-78fb4f124315")
+		)
+		(pin "10"
+			(uuid "0e72757e-d3f3-4712-a5c2-ae87c8239473")
+		)
+		(pin "8"
+			(uuid "c272c2a6-3677-4d95-ae36-b70fe5ed7d8f")
+		)
+		(pin "5"
+			(uuid "e7020717-cba1-439f-bdc5-27cea62c9806")
+		)
+		(pin "9"
+			(uuid "e51bc5a9-5005-4de7-ac6b-077945f36a62")
+		)
+		(instances
+			(project ""
+				(path "/a25adab6-a8c3-4e0e-8ba9-baac00aaa394/0efc9baf-c353-4a72-9983-7a1660fbd7db"
+					(reference "IC4")
 					(unit 1)
 				)
 			)
@@ -4411,161 +5213,6 @@
 		)
 	)
 	(symbol
-		(lib_id "SamacSys_Parts:IRFZ44NSTRLPBF")
-		(at 199.39 114.3 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2410540c-342f-4c48-8474-3eb3efcba4d2")
-		(property "Reference" "Q10"
-			(at 210.82 110.4899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "IRFZ44NSTRLPBF"
-			(at 210.82 113.0299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "SamacSys_Parts:IRFZ44NSTRLPBF"
-			(at 210.82 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.co.uk/datasheet/2/196/Infineon_IRFZ44NS_DataSheet_v01_01_EN-3363127.pdf"
-			(at 210.82 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "N-Channel 55 V 49A (Tc) 3.8W (Ta), 94W (Tc) Surface Mount D2PAK"
-			(at 199.39 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "N-Channel 55 V 49A (Tc) 3.8W (Ta), 94W (Tc) Surface Mount D2PAK"
-			(at 210.82 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Height" ""
-			(at 210.82 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Infineon"
-			(at 210.82 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "IRFZ44NSTRLPBF"
-			(at 210.82 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "942-IRFZ44NSTRLPBF"
-			(at 210.82 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/IRFZ44NSTRLPBF?qs=9%252BKlkBgLFf2g3fcs7l0nig%3D%3D"
-			(at 210.82 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "IRFZ44NSTRLPBF"
-			(at 210.82 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/irfz44nstrlpbf/infineon-technologies-ag?utm_currency=USD&region=europe"
-			(at 210.82 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5f32445d-a593-4bcb-8857-963fe7ca48fe")
-		)
-		(pin "3"
-			(uuid "5f4b8993-3be5-4e3e-b7bb-36572b2731a9")
-		)
-		(pin "2"
-			(uuid "8a9d54b6-745a-47ed-a461-86fb7e7eadd2")
-		)
-		(instances
-			(project "bldc_motor_controller"
-				(path "/a25adab6-a8c3-4e0e-8ba9-baac00aaa394/0efc9baf-c353-4a72-9983-7a1660fbd7db"
-					(reference "Q10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GNDPWR")
 		(at 184.15 171.45 0)
 		(unit 1)
@@ -4699,6 +5346,177 @@
 		)
 	)
 	(symbol
+		(lib_id "SamacSys_Parts:STL130N6F7")
+		(at 345.44 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3681dc8d-77b2-4142-80a2-8cd50f0f506e")
+		(property "Reference" "Q9"
+			(at 358.14 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "STL130N6F7"
+			(at 358.14 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "FERD20U50DJFTR"
+			(at 367.03 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/stl130n6f7.pdf"
+			(at 367.03 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "N-channel 60 V, 0.003  typ., 130 A STripFET F7 Power MOSFET in a PowerFLAT 5x6 package"
+			(at 345.44 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "N-channel 60 V, 0.003  typ., 130 A STripFET F7 Power MOSFET in a PowerFLAT 5x6 package"
+			(at 367.03 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Height" "1"
+			(at 367.03 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "STMicroelectronics"
+			(at 367.03 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "STL130N6F7"
+			(at 367.03 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "511-STL130N6F7"
+			(at 367.03 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/STL130N6F7?qs=bKenfurwlsn66DUeXqgWIw%3D%3D"
+			(at 367.03 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "STL130N6F7"
+			(at 367.03 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/stl130n6f7/stmicroelectronics?utm_currency=USD&region=nac"
+			(at 367.03 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "4c3d3ba8-ef9a-40c8-8a1d-6c179e7471e7")
+		)
+		(pin "2"
+			(uuid "f85bc485-53f0-403b-8a03-835b0d345d60")
+		)
+		(pin "3"
+			(uuid "460e9628-84f7-4fcf-87e1-f563da4f8fa2")
+		)
+		(pin "6"
+			(uuid "16fbe264-be7c-4d74-a032-730a6521bdbb")
+		)
+		(pin "7"
+			(uuid "f01241a0-ed4d-42f2-8c3c-3edd9211be98")
+		)
+		(pin "8"
+			(uuid "b3289357-4b6f-483f-a5d0-48bb9b6e1edb")
+		)
+		(pin "1"
+			(uuid "6585e7df-bfb3-46c6-9039-2fb8a271a69e")
+		)
+		(pin "4"
+			(uuid "c0d640cf-a1e3-4beb-a4ca-b6931bc7540c")
+		)
+		(pin "9"
+			(uuid "e43e8990-4f3b-49da-83e9-2ca250c3ec12")
+		)
+		(instances
+			(project "bldc_motor_controller"
+				(path "/a25adab6-a8c3-4e0e-8ba9-baac00aaa394/0efc9baf-c353-4a72-9983-7a1660fbd7db"
+					(reference "Q9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x05")
 		(at 45.72 41.91 0)
 		(unit 1)
@@ -4717,7 +5535,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "HALL_SENSOR"
+		(property "Value" "MOTOR_1_HALL_SENSOR"
 			(at 48.26 43.1799 0)
 			(effects
 				(font
@@ -5287,7 +6105,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MOTOR_UVW"
+		(property "Value" "MOTOR_1_UVW"
 			(at 48.26 29.2099 0)
 			(effects
 				(font
@@ -5336,174 +6154,6 @@
 			(project ""
 				(path "/a25adab6-a8c3-4e0e-8ba9-baac00aaa394/0efc9baf-c353-4a72-9983-7a1660fbd7db"
 					(reference "J10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SamacSys_Parts:2ED2182S06F")
-		(at 21.59 121.92 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6843fb46-c69e-413d-8f25-0398d33660e6")
-		(property "Reference" "IC6"
-			(at 34.29 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "2ED2182S06F"
-			(at 34.29 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SOIC127P600X172-8N"
-			(at 43.18 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-2ED2182-4-S06F-J-DataSheet-v02_20-EN.pdf?fileId=5546d4626cb27db2016cb8d7368a29e3"
-			(at 43.18 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "Half-B.GateDrv 650V 2.5A DSO-8"
-			(at 21.59 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "Half-B.GateDrv 650V 2.5A DSO-8"
-			(at 43.18 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Height" "1.72"
-			(at 43.18 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Infineon"
-			(at 43.18 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "2ED2182S06F"
-			(at 43.18 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "N/A"
-			(at 43.18 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=N%2FA"
-			(at 43.18 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 43.18 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 43.18 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "8"
-			(uuid "bdb6c3c6-d0c7-4af2-8429-ef76bce2dff6")
-		)
-		(pin "1"
-			(uuid "5bd736d0-a44e-43b4-ac7b-965f5a770e3f")
-		)
-		(pin "3"
-			(uuid "5d3133ee-2736-47b1-9b78-553b615de1cb")
-		)
-		(pin "4"
-			(uuid "3b796ebd-72c0-4c93-9ef3-d54e64f3ce0b")
-		)
-		(pin "5"
-			(uuid "2a9c90a4-950f-4b88-99a5-fcf915533077")
-		)
-		(pin "7"
-			(uuid "34bfb889-f4be-40d7-a048-b5b37353b5bd")
-		)
-		(pin "6"
-			(uuid "df18b3bd-54db-4d2d-a338-3e3541e9ab43")
-		)
-		(pin "2"
-			(uuid "1394a092-1fd2-4794-a2e8-29a61967666b")
-		)
-		(instances
-			(project ""
-				(path "/a25adab6-a8c3-4e0e-8ba9-baac00aaa394/0efc9baf-c353-4a72-9983-7a1660fbd7db"
-					(reference "IC6")
 					(unit 1)
 				)
 			)
@@ -5723,6 +6373,177 @@
 			(project "bldc_motor_controller"
 				(path "/a25adab6-a8c3-4e0e-8ba9-baac00aaa394/0efc9baf-c353-4a72-9983-7a1660fbd7db"
 					(reference "R136")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:STL130N6F7")
+		(at 121.92 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7c3052a0-2cdb-4a49-b938-a347885e67d4")
+		(property "Reference" "Q3"
+			(at 134.62 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "STL130N6F7"
+			(at 134.62 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "FERD20U50DJFTR"
+			(at 143.51 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/stl130n6f7.pdf"
+			(at 143.51 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "N-channel 60 V, 0.003  typ., 130 A STripFET F7 Power MOSFET in a PowerFLAT 5x6 package"
+			(at 121.92 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "N-channel 60 V, 0.003  typ., 130 A STripFET F7 Power MOSFET in a PowerFLAT 5x6 package"
+			(at 143.51 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Height" "1"
+			(at 143.51 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "STMicroelectronics"
+			(at 143.51 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "STL130N6F7"
+			(at 143.51 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "511-STL130N6F7"
+			(at 143.51 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/STL130N6F7?qs=bKenfurwlsn66DUeXqgWIw%3D%3D"
+			(at 143.51 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "STL130N6F7"
+			(at 143.51 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/stl130n6f7/stmicroelectronics?utm_currency=USD&region=nac"
+			(at 143.51 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "ad51466b-08fd-4413-a324-956b87c5377a")
+		)
+		(pin "2"
+			(uuid "ae54c531-6023-47f8-adfd-fea2efaffe7c")
+		)
+		(pin "3"
+			(uuid "810d551d-5434-4dda-ac62-8d8e7e731f61")
+		)
+		(pin "6"
+			(uuid "e7aec71a-e51e-4fa8-b731-d8a273de1427")
+		)
+		(pin "7"
+			(uuid "bb87616f-3d67-4c92-9508-6a6b6a29f31e")
+		)
+		(pin "8"
+			(uuid "f53ffbd7-586a-45b9-a0ce-f16613005970")
+		)
+		(pin "1"
+			(uuid "ae3e34ca-26ae-45de-8223-11a206745a6f")
+		)
+		(pin "4"
+			(uuid "63a2c5a9-26f7-4eb1-a7d8-17a9a2083019")
+		)
+		(pin "9"
+			(uuid "a1c1a63e-a7cb-4f8f-86f8-06a82c818901")
+		)
+		(instances
+			(project "bldc_motor_controller"
+				(path "/a25adab6-a8c3-4e0e-8ba9-baac00aaa394/0efc9baf-c353-4a72-9983-7a1660fbd7db"
+					(reference "Q3")
 					(unit 1)
 				)
 			)
@@ -6289,174 +7110,6 @@
 		)
 	)
 	(symbol
-		(lib_id "SamacSys_Parts:2ED2182S06F")
-		(at 170.18 87.63 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9b6221f7-ea7c-4722-ba35-2c1dffdefedb")
-		(property "Reference" "IC7"
-			(at 182.88 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "2ED2182S06F"
-			(at 182.88 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SOIC127P600X172-8N"
-			(at 191.77 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-2ED2182-4-S06F-J-DataSheet-v02_20-EN.pdf?fileId=5546d4626cb27db2016cb8d7368a29e3"
-			(at 191.77 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "Half-B.GateDrv 650V 2.5A DSO-8"
-			(at 170.18 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "Half-B.GateDrv 650V 2.5A DSO-8"
-			(at 191.77 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Height" "1.72"
-			(at 191.77 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Infineon"
-			(at 191.77 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "2ED2182S06F"
-			(at 191.77 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "N/A"
-			(at 191.77 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=N%2FA"
-			(at 191.77 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 191.77 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 191.77 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "8"
-			(uuid "0191f68f-37a1-46f7-a43d-cab79027b978")
-		)
-		(pin "1"
-			(uuid "dbbb28bc-b3ca-4e1d-8267-ec84aa003982")
-		)
-		(pin "3"
-			(uuid "b73f9c64-eaf0-4438-aeaa-2f60a295864f")
-		)
-		(pin "4"
-			(uuid "2cb820c6-a66e-435e-96f8-0642bbd0495d")
-		)
-		(pin "5"
-			(uuid "aa958db2-512b-4840-90f7-9cc453a5cd74")
-		)
-		(pin "7"
-			(uuid "b17c4ff2-e6f6-4f3e-a932-9428f2abb066")
-		)
-		(pin "6"
-			(uuid "9c543522-2f5d-4754-88aa-73ccb8ff6947")
-		)
-		(pin "2"
-			(uuid "a8fe5007-056b-47e2-9d9b-27807cae4cc1")
-		)
-		(instances
-			(project "bldc_motor_controller"
-				(path "/a25adab6-a8c3-4e0e-8ba9-baac00aaa394/0efc9baf-c353-4a72-9983-7a1660fbd7db"
-					(reference "IC7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 207.01 146.05 90)
 		(unit 1)
@@ -6524,45 +7177,33 @@
 		)
 	)
 	(symbol
-		(lib_id "SamacSys_Parts:IRFZ44NSTRLPBF")
-		(at 307.34 114.3 0)
+		(lib_id "SamacSys_Parts:STL130N6F7")
+		(at 243.84 113.03 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "a05638bc-9a21-4596-af61-5907acfd180f")
-		(property "Reference" "Q12"
-			(at 318.77 110.4899 0)
+		(uuid "a09c9972-67cf-4a87-94af-b09a8a3d9d5b")
+		(property "Reference" "Q4"
+			(at 256.54 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "IRFZ44NSTRLPBF"
-			(at 318.77 113.0299 0)
+		(property "Value" "STL130N6F7"
+			(at 256.54 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:IRFZ44NSTRLPBF"
-			(at 318.77 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.co.uk/datasheet/2/196/Infineon_IRFZ44NS_DataSheet_v01_01_EN-3363127.pdf"
-			(at 318.77 118.11 0)
+		(property "Footprint" "FERD20U50DJFTR"
+			(at 265.43 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6571,17 +7212,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "N-Channel 55 V 49A (Tc) 3.8W (Ta), 94W (Tc) Surface Mount D2PAK"
-			(at 307.34 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "N-Channel 55 V 49A (Tc) 3.8W (Ta), 94W (Tc) Surface Mount D2PAK"
-			(at 318.77 120.65 0)
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/stl130n6f7.pdf"
+			(at 265.43 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6590,8 +7222,17 @@
 				(hide yes)
 			)
 		)
-		(property "Height" ""
-			(at 318.77 123.19 0)
+		(property "Description" "N-channel 60 V, 0.003  typ., 130 A STripFET F7 Power MOSFET in a PowerFLAT 5x6 package"
+			(at 243.84 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "N-channel 60 V, 0.003  typ., 130 A STripFET F7 Power MOSFET in a PowerFLAT 5x6 package"
+			(at 265.43 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6600,8 +7241,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Infineon"
-			(at 318.77 125.73 0)
+		(property "Height" "1"
+			(at 265.43 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6610,8 +7251,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "IRFZ44NSTRLPBF"
-			(at 318.77 128.27 0)
+		(property "Manufacturer_Name" "STMicroelectronics"
+			(at 265.43 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6620,8 +7261,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "942-IRFZ44NSTRLPBF"
-			(at 318.77 130.81 0)
+		(property "Manufacturer_Part_Number" "STL130N6F7"
+			(at 265.43 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6630,8 +7271,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/IRFZ44NSTRLPBF?qs=9%252BKlkBgLFf2g3fcs7l0nig%3D%3D"
-			(at 318.77 133.35 0)
+		(property "Mouser Part Number" "511-STL130N6F7"
+			(at 265.43 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6640,8 +7281,8 @@
 				(hide yes)
 			)
 		)
-		(property "Arrow Part Number" "IRFZ44NSTRLPBF"
-			(at 318.77 135.89 0)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/STL130N6F7?qs=bKenfurwlsn66DUeXqgWIw%3D%3D"
+			(at 265.43 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6650,8 +7291,8 @@
 				(hide yes)
 			)
 		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/irfz44nstrlpbf/infineon-technologies-ag?utm_currency=USD&region=europe"
-			(at 318.77 138.43 0)
+		(property "Arrow Part Number" "STL130N6F7"
+			(at 265.43 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6660,19 +7301,47 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "9d2b3b9a-6dec-4537-b2c7-c5d1a94bb3be")
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/stl130n6f7/stmicroelectronics?utm_currency=USD&region=nac"
+			(at 265.43 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
 		)
-		(pin "3"
-			(uuid "0cb7a90c-3a21-410e-811b-e586cba1dd49")
+		(pin "5"
+			(uuid "8a426170-74c2-4896-b842-71152759be64")
 		)
 		(pin "2"
-			(uuid "8175e8e1-e4fb-42fc-85a0-9e7db0a2cd61")
+			(uuid "11743be0-d28b-4130-a6c6-f6d809247680")
+		)
+		(pin "3"
+			(uuid "9a2c7c87-29b6-4a38-a559-700548f13bd7")
+		)
+		(pin "6"
+			(uuid "99a90a71-bfc5-43ff-9ae4-78b5595e5b31")
+		)
+		(pin "7"
+			(uuid "629bc633-e85c-4be7-837a-10789f0f94e8")
+		)
+		(pin "8"
+			(uuid "0b88243c-c70e-404b-9fa7-0215d8c39d03")
+		)
+		(pin "1"
+			(uuid "829f1eda-c6ba-4962-ab93-ee672d1a0109")
+		)
+		(pin "4"
+			(uuid "6a0a7463-d1f6-45a3-bbbd-897228dab872")
+		)
+		(pin "9"
+			(uuid "e8d58eb7-1bb6-4f6c-81c5-a6ce52af2f3f")
 		)
 		(instances
 			(project "bldc_motor_controller"
 				(path "/a25adab6-a8c3-4e0e-8ba9-baac00aaa394/0efc9baf-c353-4a72-9983-7a1660fbd7db"
-					(reference "Q12")
+					(reference "Q4")
 					(unit 1)
 				)
 			)
@@ -6943,316 +7612,6 @@
 		)
 	)
 	(symbol
-		(lib_id "SamacSys_Parts:IRFZ44NSTRLPBF")
-		(at 307.34 135.89 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c34ae588-01db-400e-8a64-0e534db16ff6")
-		(property "Reference" "Q13"
-			(at 318.77 132.0799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "IRFZ44NSTRLPBF"
-			(at 318.77 134.6199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "SamacSys_Parts:IRFZ44NSTRLPBF"
-			(at 318.77 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.co.uk/datasheet/2/196/Infineon_IRFZ44NS_DataSheet_v01_01_EN-3363127.pdf"
-			(at 318.77 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "N-Channel 55 V 49A (Tc) 3.8W (Ta), 94W (Tc) Surface Mount D2PAK"
-			(at 307.34 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "N-Channel 55 V 49A (Tc) 3.8W (Ta), 94W (Tc) Surface Mount D2PAK"
-			(at 318.77 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Height" ""
-			(at 318.77 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Infineon"
-			(at 318.77 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "IRFZ44NSTRLPBF"
-			(at 318.77 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "942-IRFZ44NSTRLPBF"
-			(at 318.77 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/IRFZ44NSTRLPBF?qs=9%252BKlkBgLFf2g3fcs7l0nig%3D%3D"
-			(at 318.77 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "IRFZ44NSTRLPBF"
-			(at 318.77 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/irfz44nstrlpbf/infineon-technologies-ag?utm_currency=USD&region=europe"
-			(at 318.77 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ee0b8f41-8614-4fe2-b7ca-c16894453ba3")
-		)
-		(pin "3"
-			(uuid "e55c8790-2c5e-4ba7-9a6c-8eaf8fb24566")
-		)
-		(pin "2"
-			(uuid "f9d676c6-e0b7-4443-a930-9b991d4bc53c")
-		)
-		(instances
-			(project "bldc_motor_controller"
-				(path "/a25adab6-a8c3-4e0e-8ba9-baac00aaa394/0efc9baf-c353-4a72-9983-7a1660fbd7db"
-					(reference "Q13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SamacSys_Parts:IRFZ44NSTRLPBF")
-		(at 199.39 135.89 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cba8325e-d6b1-44a2-8ddc-52effee3ba0a")
-		(property "Reference" "Q11"
-			(at 210.82 132.0799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "IRFZ44NSTRLPBF"
-			(at 210.82 134.6199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "SamacSys_Parts:IRFZ44NSTRLPBF"
-			(at 210.82 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.co.uk/datasheet/2/196/Infineon_IRFZ44NS_DataSheet_v01_01_EN-3363127.pdf"
-			(at 210.82 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "N-Channel 55 V 49A (Tc) 3.8W (Ta), 94W (Tc) Surface Mount D2PAK"
-			(at 199.39 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "N-Channel 55 V 49A (Tc) 3.8W (Ta), 94W (Tc) Surface Mount D2PAK"
-			(at 210.82 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Height" ""
-			(at 210.82 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Infineon"
-			(at 210.82 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "IRFZ44NSTRLPBF"
-			(at 210.82 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "942-IRFZ44NSTRLPBF"
-			(at 210.82 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/IRFZ44NSTRLPBF?qs=9%252BKlkBgLFf2g3fcs7l0nig%3D%3D"
-			(at 210.82 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "IRFZ44NSTRLPBF"
-			(at 210.82 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/irfz44nstrlpbf/infineon-technologies-ag?utm_currency=USD&region=europe"
-			(at 210.82 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cf1b463d-adcd-4c67-94bd-c6675c357505")
-		)
-		(pin "3"
-			(uuid "594ead7a-5b81-4182-aea0-3b266920a87a")
-		)
-		(pin "2"
-			(uuid "4acf4936-ce36-4215-9da1-362feb4146bf")
-		)
-		(instances
-			(project "bldc_motor_controller"
-				(path "/a25adab6-a8c3-4e0e-8ba9-baac00aaa394/0efc9baf-c353-4a72-9983-7a1660fbd7db"
-					(reference "Q11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 64.77 137.16 90)
 		(unit 1)
@@ -7463,6 +7822,177 @@
 		)
 	)
 	(symbol
+		(lib_id "SamacSys_Parts:STL130N6F7")
+		(at 388.62 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d3d06444-88ef-4bbd-a005-24a9527a4fb6")
+		(property "Reference" "Q10"
+			(at 401.32 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "STL130N6F7"
+			(at 401.32 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "FERD20U50DJFTR"
+			(at 410.21 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/stl130n6f7.pdf"
+			(at 410.21 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "N-channel 60 V, 0.003  typ., 130 A STripFET F7 Power MOSFET in a PowerFLAT 5x6 package"
+			(at 388.62 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "N-channel 60 V, 0.003  typ., 130 A STripFET F7 Power MOSFET in a PowerFLAT 5x6 package"
+			(at 410.21 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Height" "1"
+			(at 410.21 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "STMicroelectronics"
+			(at 410.21 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "STL130N6F7"
+			(at 410.21 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "511-STL130N6F7"
+			(at 410.21 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/STL130N6F7?qs=bKenfurwlsn66DUeXqgWIw%3D%3D"
+			(at 410.21 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "STL130N6F7"
+			(at 410.21 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/stl130n6f7/stmicroelectronics?utm_currency=USD&region=nac"
+			(at 410.21 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "a476891f-f572-4ddc-b48a-579a9db82eb9")
+		)
+		(pin "2"
+			(uuid "2cc6a067-a0b3-4779-a490-3ef4125ff1eb")
+		)
+		(pin "3"
+			(uuid "756b51c4-3416-4793-98b6-5ae5d652555e")
+		)
+		(pin "6"
+			(uuid "8ef79fde-a4f6-49fa-81bb-6cb8cd45dfda")
+		)
+		(pin "7"
+			(uuid "958f115d-b99f-4070-94b4-e208b940633a")
+		)
+		(pin "8"
+			(uuid "f103e3df-1b31-49b4-adf9-a84063121f66")
+		)
+		(pin "1"
+			(uuid "68a2e46c-75f8-4c51-8169-c45ab4fd93bd")
+		)
+		(pin "4"
+			(uuid "0b346b97-ffda-426d-befb-e5e506f03a5d")
+		)
+		(pin "9"
+			(uuid "50a2d443-8142-44b2-a3eb-9553df8770d2")
+		)
+		(instances
+			(project "bldc_motor_controller"
+				(path "/a25adab6-a8c3-4e0e-8ba9-baac00aaa394/0efc9baf-c353-4a72-9983-7a1660fbd7db"
+					(reference "Q10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 77.47 172.72 0)
 		(unit 1)
@@ -7590,161 +8120,6 @@
 			(project "bldc_motor_controller"
 				(path "/a25adab6-a8c3-4e0e-8ba9-baac00aaa394/0efc9baf-c353-4a72-9983-7a1660fbd7db"
 					(reference "R133")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SamacSys_Parts:IRFZ44NSTRLPBF")
-		(at 69.85 115.57 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f046425c-a72b-4659-9de2-21e8eb0667fe")
-		(property "Reference" "Q8"
-			(at 81.28 111.7599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "IRFZ44NSTRLPBF"
-			(at 81.28 114.2999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "SamacSys_Parts:IRFZ44NSTRLPBF"
-			(at 81.28 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.co.uk/datasheet/2/196/Infineon_IRFZ44NS_DataSheet_v01_01_EN-3363127.pdf"
-			(at 81.28 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "N-Channel 55 V 49A (Tc) 3.8W (Ta), 94W (Tc) Surface Mount D2PAK"
-			(at 69.85 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "N-Channel 55 V 49A (Tc) 3.8W (Ta), 94W (Tc) Surface Mount D2PAK"
-			(at 81.28 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Height" ""
-			(at 81.28 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Infineon"
-			(at 81.28 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "IRFZ44NSTRLPBF"
-			(at 81.28 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "942-IRFZ44NSTRLPBF"
-			(at 81.28 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/IRFZ44NSTRLPBF?qs=9%252BKlkBgLFf2g3fcs7l0nig%3D%3D"
-			(at 81.28 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "IRFZ44NSTRLPBF"
-			(at 81.28 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/irfz44nstrlpbf/infineon-technologies-ag?utm_currency=USD&region=europe"
-			(at 81.28 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8530727b-6261-44ae-a697-c135bc8b9f28")
-		)
-		(pin "3"
-			(uuid "7bcd5526-2849-460d-af25-7fdd35cb5f57")
-		)
-		(pin "2"
-			(uuid "3a4e9676-5244-4b4f-9e83-ca93cdcbb4b5")
-		)
-		(instances
-			(project ""
-				(path "/a25adab6-a8c3-4e0e-8ba9-baac00aaa394/0efc9baf-c353-4a72-9983-7a1660fbd7db"
-					(reference "Q8")
 					(unit 1)
 				)
 			)
