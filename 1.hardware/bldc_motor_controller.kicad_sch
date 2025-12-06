@@ -6,8 +6,8 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
-		(at 31.75 78.74)
-		(size 46.99 36.83)
+		(at 180.34 19.05)
+		(size 44.45 36.83)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -21,8 +21,8 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "0efc9baf-c353-4a72-9983-7a1660fbd7db")
-		(property "Sheetname" "7.motor_control"
-			(at 31.75 78.0284 0)
+		(property "Sheetname" "7.motor_control1"
+			(at 180.34 18.3384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31,7 +31,7 @@
 			)
 		)
 		(property "Sheetfile" "motor_control.kicad_sch"
-			(at 31.75 116.1546 0)
+			(at 180.34 56.4646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48,7 +48,7 @@
 		)
 	)
 	(sheet
-		(at 134.62 78.74)
+		(at 121.92 60.96)
 		(size 44.45 36.83)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -64,7 +64,7 @@
 		)
 		(uuid "41a95291-f7f2-4bdf-b0a1-cf2084f10036")
 		(property "Sheetname" "6.sensor"
-			(at 134.62 78.0284 0)
+			(at 121.92 60.2484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -73,7 +73,7 @@
 			)
 		)
 		(property "Sheetfile" "sensor.kicad_sch"
-			(at 134.62 116.1546 0)
+			(at 121.92 98.3746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -90,8 +90,8 @@
 		)
 	)
 	(sheet
-		(at 33.02 128.27)
-		(size 46.99 38.1)
+		(at 121.92 19.05)
+		(size 44.45 36.83)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -106,7 +106,7 @@
 		)
 		(uuid "430b6e73-4ab5-4f88-adfd-520e070c0b15")
 		(property "Sheetname" "3.interface"
-			(at 33.02 127.5584 0)
+			(at 121.92 18.3384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -115,7 +115,7 @@
 			)
 		)
 		(property "Sheetfile" "interface.kicad_sch"
-			(at 33.02 166.9546 0)
+			(at 121.92 56.4646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -132,8 +132,8 @@
 		)
 	)
 	(sheet
-		(at 83.82 78.74)
-		(size 45.72 36.83)
+		(at 69.85 60.96)
+		(size 46.99 36.83)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -148,7 +148,7 @@
 		)
 		(uuid "9ad5d27a-5f31-4a09-b7fb-9d62ecc953c1")
 		(property "Sheetname" "5.lcd"
-			(at 83.82 78.0284 0)
+			(at 69.85 60.2484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -157,7 +157,7 @@
 			)
 		)
 		(property "Sheetfile" "lcd.kicad_sch"
-			(at 83.82 116.1546 0)
+			(at 69.85 98.3746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -174,8 +174,8 @@
 		)
 	)
 	(sheet
-		(at 134.62 27.94)
-		(size 44.45 36.83)
+		(at 19.05 60.96)
+		(size 45.72 36.83)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -190,7 +190,7 @@
 		)
 		(uuid "9f644060-1b86-41d4-818c-d38193d04e6e")
 		(property "Sheetname" "4.memory"
-			(at 134.62 27.2284 0)
+			(at 19.05 60.2484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -199,7 +199,7 @@
 			)
 		)
 		(property "Sheetfile" "memory.kicad_sch"
-			(at 134.62 65.3546 0)
+			(at 19.05 98.3746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -216,7 +216,7 @@
 		)
 	)
 	(sheet
-		(at 85.09 128.27)
+		(at 180.34 106.68)
 		(size 44.45 38.1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -231,8 +231,8 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "bdf89dab-50fb-49a6-834c-b540f0a0399e")
-		(property "Sheetname" "8.motor_sense"
-			(at 85.09 127.5584 0)
+		(property "Sheetname" "9.motor_sense"
+			(at 180.34 105.9684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -241,7 +241,49 @@
 			)
 		)
 		(property "Sheetfile" "motor_sense.kicad_sch"
-			(at 85.09 166.9546 0)
+			(at 180.34 145.3646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "bldc_motor_controller"
+				(path "/a25adab6-a8c3-4e0e-8ba9-baac00aaa394"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 180.34 62.23)
+		(size 44.45 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e16e7450-77df-476f-a0fd-2ec48471c052")
+		(property "Sheetname" "8.motor_control2"
+			(at 180.34 61.5184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "motor_control2.kicad_sch"
+			(at 180.34 100.9146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -258,7 +300,7 @@
 		)
 	)
 	(sheet
-		(at 83.82 27.94)
+		(at 69.85 19.05)
 		(size 46.99 36.83)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -274,7 +316,7 @@
 		)
 		(uuid "f1d28d97-f090-4298-9a06-d9576d5adbbf")
 		(property "Sheetname" "2.mcu"
-			(at 83.82 27.2284 0)
+			(at 69.85 18.3384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -283,7 +325,7 @@
 			)
 		)
 		(property "Sheetfile" "mcu.kicad_sch"
-			(at 83.82 65.3546 0)
+			(at 69.85 56.4646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -300,7 +342,7 @@
 		)
 	)
 	(sheet
-		(at 33.02 27.94)
+		(at 19.05 19.05)
 		(size 45.72 36.83)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -316,7 +358,7 @@
 		)
 		(uuid "fa552ebf-4859-4df7-97cc-cc5957e0d3a3")
 		(property "Sheetname" "1.power"
-			(at 33.02 27.2284 0)
+			(at 19.05 18.3384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -325,7 +367,7 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 33.02 65.3546 0)
+			(at 19.05 56.4646 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -640,11 +640,15 @@
     ],
     [
       "0efc9baf-c353-4a72-9983-7a1660fbd7db",
-      "7.motor_control"
+      "7.motor_control1"
+    ],
+    [
+      "e16e7450-77df-476f-a0fd-2ec48471c052",
+      "8.motor_control2"
     ],
     [
       "bdf89dab-50fb-49a6-834c-b540f0a0399e",
-      "8.motor_sense"
+      "9.motor_sense"
     ]
   ],
   "text_variables": {}
