@@ -7665,7 +7665,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7K/0.063w"
+		(property "Value" "4.7k/0.063w"
 			(at 169.164 118.618 0)
 			(effects
 				(font
@@ -8067,7 +8067,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7K/0.063w"
+		(property "Value" "4.7k/0.063w"
 			(at 56.642 84.582 0)
 			(effects
 				(font
@@ -8134,7 +8134,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7K/0.063w"
+		(property "Value" "4.7k/0.063w"
 			(at 76.454 121.92 0)
 			(effects
 				(font
@@ -8601,7 +8601,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7K/0.063w"
+		(property "Value" "4.7k/0.063w"
 			(at 149.86 118.364 0)
 			(effects
 				(font
@@ -8804,7 +8804,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7K/0.063w"
+		(property "Value" "4.7k/0.063w"
 			(at 43.18 84.836 0)
 			(effects
 				(font
@@ -9014,7 +9014,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7K/0.063w"
+		(property "Value" "4.7k/0.063w"
 			(at 55.626 121.666 0)
 			(effects
 				(font
@@ -9213,7 +9213,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7K/0.063w"
+		(property "Value" "4.7k/0.063w"
 			(at 27.432 120.142 0)
 			(effects
 				(font
@@ -9574,7 +9574,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "120R"
+		(property "Value" "120/0.125w"
 			(at 160.02 62.2299 0)
 			(effects
 				(font
@@ -10455,8 +10455,8 @@
 				)
 			)
 		)
-		(property "Value" "4.7K"
-			(at 74.93 36.576 0)
+		(property "Value" "4.7k/0.1w"
+			(at 79.502 36.576 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11275,7 +11275,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NC_4.7K"
+		(property "Value" "NC_4.7k/0.1w"
 			(at 72.898 29.972 0)
 			(effects
 				(font
