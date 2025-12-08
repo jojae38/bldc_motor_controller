@@ -3111,8 +3111,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TP_U2"
-			(at 36.83 17.78 0)
+		(property "Value" "TP_MOTOR2_U"
+			(at 29.464 28.194 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3516,8 +3516,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "TP_HB2"
-			(at 41.148 48.514 0)
+		(property "Value" "TP_HALL2_B"
+			(at 39.624 51.308 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3658,8 +3658,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TP_W2"
-			(at 49.53 17.78 0)
+		(property "Value" "TP_MOTOR2_W"
+			(at 44.196 28.448 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3790,8 +3790,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "TP_HA2"
-			(at 33.528 48.514 0)
+		(property "Value" "TP_HALL2_A"
+			(at 30.48 48.514 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4133,8 +4133,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "TP_HC2"
-			(at 49.022 48.514 0)
+		(property "Value" "TP_HALL2_C"
+			(at 48.26 49.276 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4755,8 +4755,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TP_V2"
-			(at 43.434 17.78 0)
+		(property "Value" "TP_MOTOR2_V"
+			(at 36.576 30.226 0)
 			(effects
 				(font
 					(size 1.27 1.27)

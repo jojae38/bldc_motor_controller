@@ -2244,7 +2244,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "TP_JH2"
 			(at 117.094 90.678 0)
 			(effects
 				(font
@@ -3004,7 +3004,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "TP_JH1"
 			(at 41.656 91.1861 0)
 			(effects
 				(font
@@ -3377,7 +3377,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "TP_JV2"
 			(at 168.656 93.218 0)
 			(effects
 				(font
@@ -3512,7 +3512,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "TP_JV1"
 			(at 87.376 90.6781 0)
 			(effects
 				(font
