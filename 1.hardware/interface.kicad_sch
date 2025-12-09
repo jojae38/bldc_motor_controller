@@ -5759,16 +5759,6 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 113.03) (xy 185.42 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "73e22a90-24e3-441b-b715-214393cc969d")
-	)
-	(wire
-		(pts
 			(xy 203.2 50.8) (xy 222.25 50.8)
 		)
 		(stroke
@@ -5939,7 +5929,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 113.03) (xy 170.18 113.03)
+			(xy 161.29 113.03) (xy 185.42 113.03)
 		)
 		(stroke
 			(width 0)
@@ -8652,76 +8642,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 170.18 107.95 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2d31794e-f01f-462b-8bf4-c889af184abd")
-		(property "Reference" "J1"
-			(at 175.26 106.6799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Conn_01x02"
-			(at 175.26 109.2199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 170.18 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 170.18 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 170.18 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ec9d0c7c-842a-470e-8d21-d4dadb690516")
-		)
-		(pin "1"
-			(uuid "fdb5ca33-d80b-437c-8bb4-a294e9bb1453")
-		)
-		(instances
-			(project ""
-				(path "/a25adab6-a8c3-4e0e-8ba9-baac00aaa394/430b6e73-4ab5-4f88-adfd-520e070c0b15"
-					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 121.92 54.61 0)
 		(unit 1)
@@ -9282,7 +9202,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x03"
+		(property "Value" "ESP_DBG"
 			(at 173.99 128.2699 0)
 			(effects
 				(font
@@ -9643,7 +9563,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x02"
+		(property "Value" "ESP_DP_COMM"
 			(at 44.45 167.64 90)
 			(effects
 				(font
@@ -9712,7 +9632,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x02"
+		(property "Value" "ESP_BOOT_CONN"
 			(at 109.22 172.72 90)
 			(effects
 				(font
@@ -10588,7 +10508,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Conn_01x02"
+		(property "Value" "ESP_DM_COMM"
 			(at 44.196 149.606 90)
 			(effects
 				(font

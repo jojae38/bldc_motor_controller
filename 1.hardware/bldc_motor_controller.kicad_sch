@@ -21,7 +21,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "0efc9baf-c353-4a72-9983-7a1660fbd7db")
-		(property "Sheetname" "7.motor_control1"
+		(property "Sheetname" "7.motor_control"
 			(at 180.34 18.3384 0)
 			(effects
 				(font
@@ -242,48 +242,6 @@
 		)
 		(property "Sheetfile" "motor_sense.kicad_sch"
 			(at 180.34 145.3646 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "bldc_motor_controller"
-				(path "/a25adab6-a8c3-4e0e-8ba9-baac00aaa394"
-					(page "10")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 180.34 62.23)
-		(size 44.45 38.1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "e16e7450-77df-476f-a0fd-2ec48471c052")
-		(property "Sheetname" "8.motor_control2"
-			(at 180.34 61.5184 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "motor_control2.kicad_sch"
-			(at 180.34 100.9146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
