@@ -8559,6 +8559,12 @@
 		(uuid "2c1dc059-5cd8-41c8-bf3d-d32e77c2f46a")
 	)
 	(junction
+		(at 419.1 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2db44a59-8617-45c1-aba0-b07d81b19b7d")
+	)
+	(junction
 		(at 267.97 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8625,6 +8631,12 @@
 		(uuid "694a872e-b50f-4cf9-b727-a85dfcc6b60b")
 	)
 	(junction
+		(at 431.8 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7158c2dd-46f6-4548-af3f-9bb58d0a468d")
+	)
+	(junction
 		(at 419.1 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8665,6 +8677,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "974405ff-f412-4117-bbb8-b6cfc1f987ca")
+	)
+	(junction
+		(at 419.1 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "975bf521-f8f3-484a-8b8d-633d0e3c7318")
 	)
 	(junction
 		(at 123.19 35.56)
@@ -8903,6 +8921,16 @@
 			(type default)
 		)
 		(uuid "056fbfc7-c1dc-4d53-8c69-2470ddbc4e4f")
+	)
+	(wire
+		(pts
+			(xy 412.75 130.81) (xy 419.1 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05d83894-1978-407e-ab53-a82b2ae58bd0")
 	)
 	(wire
 		(pts
@@ -9213,6 +9241,16 @@
 			(type default)
 		)
 		(uuid "1ef64c88-c8e5-4e05-ab04-aaa1d4644cb2")
+	)
+	(wire
+		(pts
+			(xy 419.1 139.7) (xy 419.1 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f0f6d9e-e2f7-4882-bc86-21da798441b6")
 	)
 	(wire
 		(pts
@@ -9586,6 +9624,16 @@
 	)
 	(wire
 		(pts
+			(xy 412.75 143.51) (xy 419.1 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e4abd0a-b542-470a-93d0-bb1b7c8ca564")
+	)
+	(wire
+		(pts
 			(xy 165.1 44.45) (xy 165.1 48.26)
 		)
 		(stroke
@@ -9646,6 +9694,16 @@
 	)
 	(wire
 		(pts
+			(xy 431.8 139.7) (xy 431.8 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41a9ca48-7b20-4ce1-a7ef-b56160fa1a39")
+	)
+	(wire
+		(pts
 			(xy 321.31 289.56) (xy 328.93 289.56)
 		)
 		(stroke
@@ -9673,6 +9731,16 @@
 			(type default)
 		)
 		(uuid "45f18c72-2fb5-48bb-bec2-759656737b29")
+	)
+	(wire
+		(pts
+			(xy 425.45 130.81) (xy 425.45 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "460e87e1-b961-4c32-a202-a25cf5c5420e")
 	)
 	(wire
 		(pts
@@ -10536,6 +10604,16 @@
 	)
 	(wire
 		(pts
+			(xy 431.8 143.51) (xy 439.42 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81f4d3b0-1a96-473e-989b-f281b8687e84")
+	)
+	(wire
+		(pts
 			(xy 26.67 88.9) (xy 41.91 88.9)
 		)
 		(stroke
@@ -10596,6 +10674,16 @@
 	)
 	(wire
 		(pts
+			(xy 425.45 130.81) (xy 419.1 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89d2adf0-06b6-4104-abed-8aa3de7117f5")
+	)
+	(wire
+		(pts
 			(xy 44.45 201.93) (xy 44.45 207.01)
 		)
 		(stroke
@@ -10643,6 +10731,16 @@
 			(type default)
 		)
 		(uuid "8e84d504-483c-42f2-9964-575d18ffc28d")
+	)
+	(wire
+		(pts
+			(xy 439.42 130.81) (xy 431.8 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f87f58c-8c55-4cf8-afd7-3082786653da")
 	)
 	(wire
 		(pts
@@ -10703,6 +10801,16 @@
 			(type default)
 		)
 		(uuid "935ac261-1370-4ca0-b627-641fdbeb5b7b")
+	)
+	(wire
+		(pts
+			(xy 431.8 130.81) (xy 431.8 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93636985-5741-4255-854b-2f0d31c060bb")
 	)
 	(wire
 		(pts
@@ -11566,6 +11674,16 @@
 	)
 	(wire
 		(pts
+			(xy 431.8 143.51) (xy 430.53 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce753b33-0f32-4730-9954-e97b51c534ac")
+	)
+	(wire
+		(pts
 			(xy 238.76 205.74) (xy 245.11 205.74)
 		)
 		(stroke
@@ -11806,6 +11924,16 @@
 	)
 	(wire
 		(pts
+			(xy 419.1 130.81) (xy 419.1 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd256c12-71e8-4054-bfc4-9c0e1258d338")
+	)
+	(wire
+		(pts
 			(xy 58.42 157.48) (xy 58.42 160.02)
 		)
 		(stroke
@@ -11973,6 +12101,16 @@
 			(type default)
 		)
 		(uuid "e6e3e66b-0547-4c20-9cf4-b41344f06a05")
+	)
+	(wire
+		(pts
+			(xy 419.1 143.51) (xy 420.37 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7266cee-9225-438f-bae6-d5ce1c198fcb")
 	)
 	(wire
 		(pts
@@ -13073,6 +13211,28 @@
 		(uuid "3eaf119d-13d0-4a26-a19c-b48db3f0ef6f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 171.1485 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "3V3_MCU"
+		(shape passive)
+		(at 412.75 130.81 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3eb76fd1-3bb7-4232-95ce-6f44846379f9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 402.349 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14292,6 +14452,28 @@
 			)
 		)
 	)
+	(global_label "MOTOR_DIR_INTR"
+		(shape passive)
+		(at 412.75 143.51 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8e597ffe-c7d4-47b8-90ca-7ed057c91f1b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 395.2732 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "LTDC_HSYNC"
 		(shape passive)
 		(at 328.93 304.8 0)
@@ -14644,6 +14826,28 @@
 			)
 		)
 	)
+	(global_label "5V"
+		(shape passive)
+		(at 439.42 130.81 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a3fecb6c-68ad-4aa8-b23e-1abee8f3f867")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 443.592 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "FMC_A9"
 		(shape passive)
 		(at 328.93 335.28 0)
@@ -14899,6 +15103,28 @@
 		(uuid "b3d44766-bd4e-4f2e-ad61-dfa9fd1f9b69")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 377.3101 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MOTOR_DIR"
+		(shape passive)
+		(at 439.42 143.51 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b71b4ab7-ac94-4d2b-bcd3-d8f114311127")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 451.7563 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17797,6 +18023,75 @@
 			(project "bldc_motor_controller"
 				(path "/a25adab6-a8c3-4e0e-8ba9-baac00aaa394/f1d28d97-f090-4298-9a06-d9576d5adbbf"
 					(reference "R120")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 431.8 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3141e25c-3aeb-48f9-a9cd-4fb28604d7e5")
+		(property "Reference" "R154"
+			(at 433.324 135.382 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2k/0.063w"
+			(at 433.578 138.176 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 431.8 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 431.8 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 431.8 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ba8e81c8-abd4-4560-9b39-afa327dd359f")
+		)
+		(pin "2"
+			(uuid "6736cf5c-715c-47ed-b465-8d7511d9954d")
+		)
+		(instances
+			(project "bldc_motor_controller"
+				(path "/a25adab6-a8c3-4e0e-8ba9-baac00aaa394/f1d28d97-f090-4298-9a06-d9576d5adbbf"
+					(reference "R154")
 					(unit 1)
 				)
 			)
@@ -23673,6 +23968,173 @@
 			(project "bldc_motor_controller"
 				(path "/a25adab6-a8c3-4e0e-8ba9-baac00aaa394/f1d28d97-f090-4298-9a06-d9576d5adbbf"
 					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 419.1 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f712f288-ddd9-4e3e-b2fe-266752a9d234")
+		(property "Reference" "R114"
+			(at 413.766 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2k/0.063w"
+			(at 405.384 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 419.1 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 419.1 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 419.1 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8b80e9bb-42d3-4cde-9146-93106743c6c1")
+		)
+		(pin "2"
+			(uuid "f3de670a-237d-42be-9ec0-fc40153e3305")
+		)
+		(instances
+			(project "bldc_motor_controller"
+				(path "/a25adab6-a8c3-4e0e-8ba9-baac00aaa394/f1d28d97-f090-4298-9a06-d9576d5adbbf"
+					(reference "R114")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Simulation_SPICE:NMOS")
+		(at 425.45 140.97 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f83c2848-e85f-40a5-9b51-f7a2f91a5733")
+		(property "Reference" "Q11"
+			(at 425.45 147.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NMOS"
+			(at 425.45 149.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 427.99 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+			(at 412.75 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N-MOSFET transistor, drain/source/gate"
+			(at 425.45 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "NMOS"
+			(at 408.305 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "VDMOS"
+			(at 406.4 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=D 2=G 3=S"
+			(at 410.21 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "f8980f51-06b1-4cc8-b03c-b675598b14b1")
+		)
+		(pin "1"
+			(uuid "eb4b313b-6de5-4959-b235-dbc9257554cb")
+		)
+		(pin "2"
+			(uuid "4db470eb-6a03-4a6f-ac0c-d5a653d7860b")
+		)
+		(instances
+			(project "bldc_motor_controller"
+				(path "/a25adab6-a8c3-4e0e-8ba9-baac00aaa394/f1d28d97-f090-4298-9a06-d9576d5adbbf"
+					(reference "Q11")
 					(unit 1)
 				)
 			)

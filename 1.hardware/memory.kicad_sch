@@ -3418,12 +3418,6 @@
 		(uuid "235cf5e8-7e9c-4f76-8985-8e9ae7bdbdcc")
 	)
 	(junction
-		(at 93.98 96.52)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2af1b536-8606-4bc0-b3de-8754a15f25dc")
-	)
-	(junction
 		(at 140.97 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3647,16 +3641,6 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 106.68) (xy 93.98 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "03d91915-cecf-4d58-8683-ae568912357f")
-	)
-	(wire
-		(pts
 			(xy 204.47 72.39) (xy 204.47 74.93)
 		)
 		(stroke
@@ -3767,7 +3751,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 96.52) (xy 107.95 96.52)
+			(xy 81.28 96.52) (xy 107.95 96.52)
 		)
 		(stroke
 			(width 0)
@@ -3944,16 +3928,6 @@
 			(type default)
 		)
 		(uuid "1c4627ef-99b5-4390-a531-d3867f85fdbd")
-	)
-	(wire
-		(pts
-			(xy 93.98 96.52) (xy 93.98 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1c6edb6f-6dbb-4c30-85d6-cc08329b763a")
 	)
 	(wire
 		(pts
@@ -4887,16 +4861,6 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 127) (xy 97.79 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6659369b-166d-40d4-97e1-18cdda6d72df")
-	)
-	(wire
-		(pts
 			(xy 300.99 99.06) (xy 300.99 92.71)
 		)
 		(stroke
@@ -4904,16 +4868,6 @@
 			(type default)
 		)
 		(uuid "667534e6-9cc9-4598-aa09-2e1d76f3ed54")
-	)
-	(wire
-		(pts
-			(xy 81.28 105.41) (xy 81.28 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "66f1f320-67ba-4a77-b7cf-bad8a92b2fec")
 	)
 	(wire
 		(pts
@@ -5267,16 +5221,6 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 110.49) (xy 81.28 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8941b82d-4f4a-40e2-abad-e7ff4b9f7a4b")
-	)
-	(wire
-		(pts
 			(xy 350.52 135.89) (xy 355.6 135.89)
 		)
 		(stroke
@@ -5514,16 +5458,6 @@
 			(type default)
 		)
 		(uuid "9ad723e8-9bd6-4ee4-853a-710b495bc155")
-	)
-	(wire
-		(pts
-			(xy 81.28 96.52) (xy 93.98 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9c594b49-12b7-4ad0-93bc-42681eea972e")
 	)
 	(wire
 		(pts
@@ -6014,16 +5948,6 @@
 			(type default)
 		)
 		(uuid "c4b07f2b-8fae-4fa2-9bb2-f5be3d54e970")
-	)
-	(wire
-		(pts
-			(xy 93.98 124.46) (xy 97.79 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c4b9805a-f8ec-43f3-a776-4eb0952c584f")
 	)
 	(wire
 		(pts
@@ -13626,75 +13550,6 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 81.28 107.95 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4e354c64-bfd2-4e2d-bcf6-2998416c522b")
-		(property "Reference" "R100"
-			(at 81.28 105.156 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k/0.063w"
-			(at 81.534 109.982 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 81.28 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 81.28 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small US symbol"
-			(at 81.28 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "781dae89-9c26-481c-a27c-524c2ea70276")
-		)
-		(pin "2"
-			(uuid "1ec7ab57-af9f-409a-80fb-cc881b43ae6f")
-		)
-		(instances
-			(project "bldc_motor_controller"
-				(path "/a25adab6-a8c3-4e0e-8ba9-baac00aaa394/9f644060-1b86-41d4-818c-d38193d04e6e"
-					(reference "R100")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small_US")
 		(at 201.93 140.97 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15212,75 +15067,6 @@
 			(project "bldc_motor_controller"
 				(path "/a25adab6-a8c3-4e0e-8ba9-baac00aaa394/9f644060-1b86-41d4-818c-d38193d04e6e"
 					(reference "C58")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 93.98 104.14 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "867ba5ed-eb48-4850-b9a8-5dc1527cd9ef")
-		(property "Reference" "R99"
-			(at 94.488 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k/0.063w"
-			(at 94.234 106.426 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 93.98 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 93.98 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small US symbol"
-			(at 93.98 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0812fdff-b6c4-4c99-a995-8f754d0d2457")
-		)
-		(pin "2"
-			(uuid "6db1df9d-1a6e-4470-b2c3-82da7297dc51")
-		)
-		(instances
-			(project "bldc_motor_controller"
-				(path "/a25adab6-a8c3-4e0e-8ba9-baac00aaa394/9f644060-1b86-41d4-818c-d38193d04e6e"
-					(reference "R99")
 					(unit 1)
 				)
 			)
