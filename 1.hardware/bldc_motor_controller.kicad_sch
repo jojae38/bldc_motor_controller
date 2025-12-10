@@ -216,7 +216,7 @@
 		)
 	)
 	(sheet
-		(at 180.34 106.68)
+		(at 180.34 60.96)
 		(size 44.45 38.1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -232,7 +232,7 @@
 		)
 		(uuid "bdf89dab-50fb-49a6-834c-b540f0a0399e")
 		(property "Sheetname" "9.motor_sense"
-			(at 180.34 105.9684 0)
+			(at 180.34 60.2484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -241,7 +241,7 @@
 			)
 		)
 		(property "Sheetfile" "motor_sense.kicad_sch"
-			(at 180.34 145.3646 0)
+			(at 180.34 99.6446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
