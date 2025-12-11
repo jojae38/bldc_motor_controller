@@ -2405,6 +2405,10 @@
 		(at 304.8 85.09)
 		(uuid "cfbbf5be-1cef-4400-8065-7ca2b80fb5c0")
 	)
+	(no_connect
+		(at 252.73 147.32)
+		(uuid "d8581979-5337-44c6-af14-7ef676ce424d")
+	)
 	(wire
 		(pts
 			(xy 190.5 132.08) (xy 186.69 132.08)
@@ -2484,6 +2488,16 @@
 			(type default)
 		)
 		(uuid "0b01bfc8-b9cb-437a-9fa8-bbbd534978d4")
+	)
+	(wire
+		(pts
+			(xy 252.73 147.32) (xy 247.65 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d736bf9-79f7-4748-8d2a-a2be8199d0d9")
 	)
 	(wire
 		(pts
@@ -3765,7 +3779,7 @@
 		)
 		(uuid "ffc2eb7d-9eeb-41e0-966e-64159d0fa109")
 	)
-	(global_label "LTDC_B1"
+	(global_label "LTDC_B3"
 		(shape passive)
 		(at 247.65 96.52 180)
 		(fields_autoplaced yes)
@@ -3800,6 +3814,28 @@
 		(uuid "0d98335c-33f6-4817-a450-8650be8fbc38")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 290.8914 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LTDC_R1"
+		(shape passive)
+		(at 247.65 147.32 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0ff584dd-4ec7-419a-a1b4-9bdfe7f4c762")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 237.7933 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3919,7 +3955,7 @@
 			)
 		)
 	)
-	(global_label "LTDC_R4"
+	(global_label "LTDC_R6"
 		(shape passive)
 		(at 247.65 139.7 180)
 		(fields_autoplaced yes)
@@ -4117,7 +4153,7 @@
 			)
 		)
 	)
-	(global_label "LTDC_G2"
+	(global_label "LTDC_G4"
 		(shape passive)
 		(at 247.65 116.84 180)
 		(fields_autoplaced yes)
@@ -4337,7 +4373,7 @@
 			)
 		)
 	)
-	(global_label "LTDC_G5"
+	(global_label "LTDC_G7"
 		(shape passive)
 		(at 247.65 124.46 180)
 		(fields_autoplaced yes)
@@ -4381,7 +4417,7 @@
 			)
 		)
 	)
-	(global_label "LTDC_R3"
+	(global_label "LTDC_R5"
 		(shape passive)
 		(at 247.65 137.16 180)
 		(fields_autoplaced yes)
@@ -4403,7 +4439,7 @@
 			)
 		)
 	)
-	(global_label "LTDC_R2"
+	(global_label "LTDC_R4"
 		(shape passive)
 		(at 247.65 134.62 180)
 		(fields_autoplaced yes)
@@ -4425,7 +4461,7 @@
 			)
 		)
 	)
-	(global_label "LTDC_G1"
+	(global_label "LTDC_G3"
 		(shape passive)
 		(at 247.65 114.3 180)
 		(fields_autoplaced yes)
@@ -4447,7 +4483,7 @@
 			)
 		)
 	)
-	(global_label "LTDC_B5"
+	(global_label "LTDC_B7"
 		(shape passive)
 		(at 247.65 106.68 180)
 		(fields_autoplaced yes)
@@ -4689,7 +4725,7 @@
 			)
 		)
 	)
-	(global_label "LTDC_R1"
+	(global_label "LTDC_R3"
 		(shape passive)
 		(at 247.65 132.08 180)
 		(fields_autoplaced yes)
@@ -4777,7 +4813,7 @@
 			)
 		)
 	)
-	(global_label "LTDC_B4"
+	(global_label "LTDC_B6"
 		(shape passive)
 		(at 247.65 104.14 180)
 		(fields_autoplaced yes)
@@ -4865,7 +4901,7 @@
 			)
 		)
 	)
-	(global_label "LTDC_G4"
+	(global_label "LTDC_G6"
 		(shape passive)
 		(at 247.65 121.92 180)
 		(fields_autoplaced yes)
@@ -4887,7 +4923,7 @@
 			)
 		)
 	)
-	(global_label "LTDC_B0"
+	(global_label "LTDC_B2"
 		(shape passive)
 		(at 247.65 93.98 180)
 		(fields_autoplaced yes)
@@ -4909,7 +4945,7 @@
 			)
 		)
 	)
-	(global_label "LTDC_R0"
+	(global_label "LTDC_R2"
 		(shape passive)
 		(at 247.65 129.54 180)
 		(fields_autoplaced yes)
@@ -5129,7 +5165,7 @@
 			)
 		)
 	)
-	(global_label "LTDC_G0"
+	(global_label "LTDC_G2"
 		(shape passive)
 		(at 247.65 111.76 180)
 		(fields_autoplaced yes)
@@ -5371,7 +5407,7 @@
 			)
 		)
 	)
-	(global_label "LTDC_B3"
+	(global_label "LTDC_B5"
 		(shape passive)
 		(at 247.65 101.6 180)
 		(fields_autoplaced yes)
@@ -5525,7 +5561,7 @@
 			)
 		)
 	)
-	(global_label "LTDC_B2"
+	(global_label "LTDC_B4"
 		(shape passive)
 		(at 247.65 99.06 180)
 		(fields_autoplaced yes)
@@ -5569,7 +5605,7 @@
 			)
 		)
 	)
-	(global_label "LTDC_R5"
+	(global_label "LTDC_R7"
 		(shape passive)
 		(at 247.65 142.24 180)
 		(fields_autoplaced yes)
@@ -5591,7 +5627,7 @@
 			)
 		)
 	)
-	(global_label "LTDC_G3"
+	(global_label "LTDC_G5"
 		(shape passive)
 		(at 247.65 119.38 180)
 		(fields_autoplaced yes)

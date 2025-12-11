@@ -7265,7 +7265,7 @@
 			)
 		)
 	)
-	(global_label "UART_TX"
+	(global_label "UART1_TX"
 		(shape passive)
 		(at 53.34 90.17 0)
 		(fields_autoplaced yes)
@@ -7277,7 +7277,7 @@
 		)
 		(uuid "9face6a2-bbb1-4de8-8734-e07ee97a459b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 63.0153 90.17 0)
+			(at 64.2248 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7529,7 +7529,7 @@
 			)
 		)
 	)
-	(global_label "UART_RX"
+	(global_label "UART1_RX"
 		(shape passive)
 		(at 53.34 92.71 0)
 		(fields_autoplaced yes)
@@ -7541,7 +7541,7 @@
 		)
 		(uuid "f3df2ba4-ff3d-40d7-a95f-8c8ca902a338")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 63.3177 92.71 0)
+			(at 64.5272 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)

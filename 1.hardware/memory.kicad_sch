@@ -3424,12 +3424,6 @@
 		(uuid "33561643-4e19-4a3a-8f3b-36c1b5d7ffdd")
 	)
 	(junction
-		(at 107.95 96.52)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3a45a8fd-687e-4255-ab42-dae2fdda7c81")
-	)
-	(junction
 		(at 250.19 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3748,16 +3742,6 @@
 			(type default)
 		)
 		(uuid "0d7c4a90-ba57-45d2-9171-012400cdb3ea")
-	)
-	(wire
-		(pts
-			(xy 81.28 96.52) (xy 107.95 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0faf6454-04a9-42bf-b4a7-a7cc74542018")
 	)
 	(wire
 		(pts
@@ -4108,6 +4092,16 @@
 			(type default)
 		)
 		(uuid "2b28f57e-ab06-47c6-b30e-c1a770eae769")
+	)
+	(wire
+		(pts
+			(xy 78.74 127) (xy 97.79 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b606501-a278-4932-95c2-85986b6ed3cb")
 	)
 	(wire
 		(pts
@@ -4728,6 +4722,16 @@
 			(type default)
 		)
 		(uuid "57b8edf4-8e52-4884-9729-81cbd62d0ad6")
+	)
+	(wire
+		(pts
+			(xy 78.74 124.46) (xy 97.79 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "592739ed-95df-43ec-b34a-5e44cbdcc054")
 	)
 	(wire
 		(pts
@@ -8173,7 +8177,7 @@
 			)
 		)
 	)
-	(global_label "W25q_FLASH_SPI1_MISO"
+	(global_label "W25q_FLASH_QUADSPI_IO1"
 		(shape passive)
 		(at 78.74 121.92 180)
 		(fields_autoplaced yes)
@@ -8185,7 +8189,7 @@
 		)
 		(uuid "5423f31e-1554-40b8-a63c-014d8f23733a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 54.3086 121.92 0)
+			(at 51.9499 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8609,6 +8613,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "W25q_FLASH_QUADSPI_IO2"
+		(shape passive)
+		(at 78.74 124.46 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6aea666a-3dd6-48b7-bec3-5509de16c1c8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 51.9499 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -9405,7 +9431,7 @@
 			)
 		)
 	)
-	(global_label "W25q_FLASH_SPI1_MOSI"
+	(global_label "W25q_FLASH_QUADSPI_IO0"
 		(shape passive)
 		(at 78.74 119.38 180)
 		(fields_autoplaced yes)
@@ -9417,7 +9443,7 @@
 		)
 		(uuid "9282f426-015e-4f8b-b517-0b9baabb315a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 54.3086 119.38 0)
+			(at 51.9499 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9713,7 +9739,7 @@
 			)
 		)
 	)
-	(global_label "W25q_FLASH_SPI1_NSS"
+	(global_label "W25q_FLASH_QUADSPI_NSS"
 		(shape passive)
 		(at 78.74 114.3 180)
 		(fields_autoplaced yes)
@@ -9725,7 +9751,7 @@
 		)
 		(uuid "9c3002de-a23d-41b9-b575-59487a08b94b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 55.1553 114.3 0)
+			(at 51.3452 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10527,6 +10553,28 @@
 			)
 		)
 	)
+	(global_label "W25q_FLASH_QUADSPI_IO3"
+		(shape passive)
+		(at 78.74 127 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d08571e7-133e-4478-81b6-e28420e1c3a1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 51.9499 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SDRAM_VDD"
 		(shape passive)
 		(at 350.52 80.01 180)
@@ -11121,7 +11169,7 @@
 			)
 		)
 	)
-	(global_label "W25q_FLASH_SPI1_SCK"
+	(global_label "W25q_FLASH_QUADSPI_SCK"
 		(shape passive)
 		(at 78.74 116.84 180)
 		(fields_autoplaced yes)
@@ -11133,7 +11181,7 @@
 		)
 		(uuid "ee250ef1-e0cc-420b-932a-77f826d6ec0c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 55.1553 116.84 0)
+			(at 51.3452 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
