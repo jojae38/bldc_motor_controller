@@ -6129,232 +6129,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "PCM_Diode_AKL:LL4148"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "LL4148"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "PCM_Diode_SMD_AKL:D_MiniMELF"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.tme.eu/Document/968b88464c4f5d5ff32cd1ca930873a4/LL4148-4448.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "MiniMELF Diode, Small Signal, Fast Switching, 75V, 150mA, 4ns, Alternate KiCad Library"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode LL4148 4148"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "LL4148_0_1"
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27) (xy 1.27 0) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "LL4148_0_2"
-				(polyline
-					(pts
-						(xy -2.54 -2.54) (xy 2.54 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.889 -0.889) (xy -1.778 0) (xy 0.889 0.889) (xy 0 -1.778) (xy -0.889 -0.889)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.778) (xy 1.778 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "LL4148_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "LL4148_1_2"
-				(pin passive line
-					(at -2.54 -2.54 0)
-					(length 0)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 2.54 180)
-					(length 0)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "PCM_LED_AKL:LED_0603_Blue"
 			(pin_numbers
 				(hide yes)
@@ -6682,6 +6456,230 @@
 								(size 1.27 1.27)
 							)
 						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "SamacSys_Parts:B5819WS"
+			(pin_names
+				(offset 0.762)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 11.43 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "B5819WS"
+				(at 11.43 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "SOD2613X100N"
+				(at 11.43 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.21yangjie.com/ggs/xxh/xxhxtdejg/B5817WS%20THRU%20B5819WS-SOD-323-%E6%B5%B7%E9%B8%A5%E8%84%9A.pdf"
+				(at 11.43 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "DIODE SCHOTTKY 40V 1A SOD323"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "DIODE SCHOTTKY 40V 1A SOD323"
+				(at 11.43 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Height" "1"
+				(at 11.43 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Yangzhou Yangjie Electronic Technology Co., Ltd."
+				(at 11.43 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "B5819WS"
+				(at 11.43 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" ""
+				(at 11.43 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" ""
+				(at 11.43 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" ""
+				(at 11.43 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" ""
+				(at 11.43 -22.86 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(symbol "B5819WS_0_0"
+				(pin power_in line
+					(at 0 0 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 15.24 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "B5819WS_0_1"
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 10.16 2.54) (xy 10.16 -2.54) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 0) (xy 12.7 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
 					)
 				)
 			)
@@ -8493,7 +8491,7 @@
 		(uuid "0b92617c-cbb7-4fe1-9ff3-14f2ff218529")
 	)
 	(junction
-		(at 115.57 165.1)
+		(at 115.57 171.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0d2027eb-8b01-489a-a753-7fd4a989129f")
@@ -9840,6 +9838,16 @@
 	)
 	(wire
 		(pts
+			(xy 115.57 148.59) (xy 115.57 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39b220c8-a6f9-4a17-ae39-15df23940a41")
+	)
+	(wire
+		(pts
 			(xy 288.29 71.12) (xy 288.29 66.04)
 		)
 		(stroke
@@ -9957,26 +9965,6 @@
 			(type default)
 		)
 		(uuid "3fae9a0d-6ffa-4818-99ac-5a9c98ee11ae")
-	)
-	(wire
-		(pts
-			(xy 115.57 132.08) (xy 115.57 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3fb4dd07-1d02-4b15-b93c-43a25e5aefe3")
-	)
-	(wire
-		(pts
-			(xy 115.57 142.24) (xy 115.57 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "400c9949-b25a-49e7-8f68-96df916e0fff")
 	)
 	(wire
 		(pts
@@ -10127,6 +10115,16 @@
 			(type default)
 		)
 		(uuid "4cec72a9-bb0d-4a39-acee-f790c4b32443")
+	)
+	(wire
+		(pts
+			(xy 107.95 132.08) (xy 107.95 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cef68e2-c3cd-4896-b57c-3733549b9aa9")
 	)
 	(wire
 		(pts
@@ -10780,7 +10778,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 149.86) (xy 115.57 152.4)
+			(xy 115.57 156.21) (xy 115.57 158.75)
 		)
 		(stroke
 			(width 0)
@@ -10900,16 +10898,6 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 149.86) (xy 107.95 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7ad0ae17-1d16-4009-9eee-0d5471a9770a")
-	)
-	(wire
-		(pts
 			(xy 234.95 35.56) (xy 220.98 35.56)
 		)
 		(stroke
@@ -11000,7 +10988,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 165.1) (xy 115.57 167.64)
+			(xy 115.57 171.45) (xy 115.57 173.99)
 		)
 		(stroke
 			(width 0)
@@ -11890,7 +11878,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 154.94) (xy 107.95 165.1)
+			(xy 107.95 161.29) (xy 107.95 171.45)
 		)
 		(stroke
 			(width 0)
@@ -11977,6 +11965,16 @@
 			(type default)
 		)
 		(uuid "bbcf2b41-703a-41ef-af71-c81fca1d2964")
+	)
+	(wire
+		(pts
+			(xy 115.57 133.35) (xy 115.57 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc7ec33b-1db7-49f2-8547-977637d574a9")
 	)
 	(wire
 		(pts
@@ -12410,7 +12408,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 162.56) (xy 115.57 165.1)
+			(xy 115.57 168.91) (xy 115.57 171.45)
 		)
 		(stroke
 			(width 0)
@@ -12820,7 +12818,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 165.1) (xy 115.57 165.1)
+			(xy 107.95 171.45) (xy 115.57 171.45)
 		)
 		(stroke
 			(width 0)
@@ -18158,76 +18156,6 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_Diode_AKL:LL4148")
-		(at 115.57 138.43 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "151f94d1-62ad-41ee-8715-e2c8b99b33bb")
-		(property "Reference" "D8"
-			(at 118.11 137.1599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "LL4148"
-			(at 118.11 139.6999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "PCM_Diode_SMD_AKL:D_MiniMELF"
-			(at 115.57 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.tme.eu/Document/968b88464c4f5d5ff32cd1ca930873a4/LL4148-4448.pdf"
-			(at 115.57 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "MiniMELF Diode, Small Signal, Fast Switching, 75V, 150mA, 4ns, Alternate KiCad Library"
-			(at 115.57 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c0f73082-3090-49fa-a591-3cd6767a5ea1")
-		)
-		(pin "2"
-			(uuid "58dbee55-b7b1-4428-ad15-9ce62d339a9c")
-		)
-		(instances
-			(project ""
-				(path "/a25adab6-a8c3-4e0e-8ba9-baac00aaa394/f1d28d97-f090-4298-9a06-d9576d5adbbf"
-					(reference "D8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 92.71 207.01 0)
 		(unit 1)
@@ -18634,7 +18562,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 115.57 167.64 0)
+		(at 115.57 173.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18643,7 +18571,7 @@
 		(fields_autoplaced yes)
 		(uuid "1fcb667d-e1c5-4a97-bff0-2e61751ade0c")
 		(property "Reference" "#PWR054"
-			(at 115.57 173.99 0)
+			(at 115.57 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18652,7 +18580,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 115.57 172.72 0)
+			(at 115.57 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18660,7 +18588,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 115.57 167.64 0)
+			(at 115.57 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18669,7 +18597,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 115.57 167.64 0)
+			(at 115.57 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18678,7 +18606,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 115.57 167.64 0)
+			(at 115.57 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19245,7 +19173,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small_US")
-		(at 107.95 152.4 0)
+		(at 107.95 158.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19253,7 +19181,7 @@
 		(dnp no)
 		(uuid "302ef046-2493-484b-8c6b-a813f089d839")
 		(property "Reference" "C41"
-			(at 103.886 150.876 0)
+			(at 103.886 157.226 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19262,7 +19190,7 @@
 			)
 		)
 		(property "Value" "0.1uF/50V"
-			(at 97.028 154.686 0)
+			(at 97.028 161.036 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19271,7 +19199,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 107.95 152.4 0)
+			(at 107.95 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19280,7 +19208,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 107.95 152.4 0)
+			(at 107.95 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19289,7 +19217,7 @@
 			)
 		)
 		(property "Description" "capacitor, small US symbol"
-			(at 107.95 152.4 0)
+			(at 107.95 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23471,6 +23399,158 @@
 		)
 	)
 	(symbol
+		(lib_id "SamacSys_Parts:B5819WS")
+		(at 115.57 148.59 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bce3fb41-45d9-4287-b4c0-356fee055d7b")
+		(property "Reference" "D8"
+			(at 119.38 139.6999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "B5819WS"
+			(at 119.38 142.2399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "SamacSys_Parts:SOD2613X100N"
+			(at 115.57 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.21yangjie.com/ggs/xxh/xxhxtdejg/B5817WS%20THRU%20B5819WS-SOD-323-%E6%B5%B7%E9%B8%A5%E8%84%9A.pdf"
+			(at 118.11 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "DIODE SCHOTTKY 40V 1A SOD323"
+			(at 115.57 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "DIODE SCHOTTKY 40V 1A SOD323"
+			(at 120.65 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Height" "1"
+			(at 123.19 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Yangzhou Yangjie Electronic Technology Co., Ltd."
+			(at 125.73 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "B5819WS"
+			(at 128.27 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 130.81 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 133.35 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 135.89 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 138.43 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e7e24bcb-6f90-493d-8114-68944b48a2f8")
+		)
+		(pin "1"
+			(uuid "67decce5-783b-427e-aa5a-64e503891478")
+		)
+		(instances
+			(project "bldc_motor_controller"
+				(path "/a25adab6-a8c3-4e0e-8ba9-baac00aaa394/f1d28d97-f090-4298-9a06-d9576d5adbbf"
+					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Simulation_SPICE:NMOS")
 		(at 425.45 95.25 270)
 		(unit 1)
@@ -23570,7 +23650,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 115.57 157.48 90)
+		(at 115.57 163.83 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23579,7 +23659,7 @@
 		(fields_autoplaced yes)
 		(uuid "c3d01d61-46ee-4e91-82e3-89709f71d464")
 		(property "Reference" "SW2"
-			(at 116.84 156.2099 90)
+			(at 116.84 162.5599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23588,7 +23668,7 @@
 			)
 		)
 		(property "Value" "Reset_Btn"
-			(at 116.84 158.7499 90)
+			(at 116.84 165.0999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23597,7 +23677,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 110.49 157.48 0)
+			(at 110.49 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23606,7 +23686,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 110.49 157.48 0)
+			(at 110.49 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23615,7 +23695,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 115.57 157.48 0)
+			(at 115.57 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23894,7 +23974,7 @@
 				)
 			)
 		)
-		(property "Value" "Debug"
+		(property "Value" "DEBUG_CONN"
 			(at 21.59 95.25 0)
 			(effects
 				(font
@@ -24165,7 +24245,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 115.57 147.32 0)
+		(at 115.57 153.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24173,7 +24253,7 @@
 		(dnp no)
 		(uuid "d18669ca-d11c-41c3-ae37-58128b830da3")
 		(property "Reference" "R20"
-			(at 115.824 144.78 0)
+			(at 115.824 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24182,7 +24262,7 @@
 			)
 		)
 		(property "Value" "100/0.063w"
-			(at 115.824 149.86 0)
+			(at 115.824 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24191,7 +24271,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 115.57 147.32 0)
+			(at 115.57 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24200,7 +24280,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 115.57 147.32 0)
+			(at 115.57 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24209,7 +24289,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 115.57 147.32 0)
+			(at 115.57 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)

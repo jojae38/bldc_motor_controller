@@ -7718,7 +7718,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "FPC_LCD_40"
+		(property "Value" "FPC_LCD_40_CONN"
 			(at 312.42 115.5699 0)
 			(effects
 				(font

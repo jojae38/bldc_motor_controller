@@ -5672,7 +5672,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOIC127P600X175-14N"
+		(property "Footprint" "SamacSys_Parts:SOIC127P600X175-14N"
 			(at 58.42 44.45 0)
 			(effects
 				(font
@@ -6229,7 +6229,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOP65P640X120-14N"
+		(property "Footprint" "SamacSys_Parts:SOP65P640X120-14N"
 			(at 83.82 157.48 0)
 			(effects
 				(font
@@ -7390,7 +7390,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOP50P310X90-8N"
+		(property "Footprint" "SamacSys_Parts:SOP50P310X90-8N"
 			(at 80.01 95.25 0)
 			(effects
 				(font

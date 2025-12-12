@@ -6477,7 +6477,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOD2613X100N"
+		(property "Footprint" "SamacSys_Parts:SOD2613X100N"
 			(at 109.22 55.88 0)
 			(effects
 				(font
@@ -6960,7 +6960,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOD2613X100N"
+		(property "Footprint" "SamacSys_Parts:SOD2613X100N"
 			(at 204.47 88.9 0)
 			(effects
 				(font
@@ -8166,7 +8166,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOD2613X100N"
+		(property "Footprint" "SamacSys_Parts:SOD2613X100N"
 			(at 203.2 44.45 0)
 			(effects
 				(font
@@ -9270,7 +9270,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "DIONM5436X244N"
+		(property "Footprint" "SamacSys_Parts:DIONM5436X244N"
 			(at 82.55 46.99 0)
 			(effects
 				(font
@@ -9820,7 +9820,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOD2613X100N"
+		(property "Footprint" "SamacSys_Parts:SOD2613X100N"
 			(at 204.47 133.35 0)
 			(effects
 				(font
@@ -13615,7 +13615,7 @@
 				)
 			)
 		)
-		(property "Value" "12V~48V BAT"
+		(property "Value" "12V~48V BAT_XT60_MALE"
 			(at 25.4 58.42 0)
 			(effects
 				(font
@@ -13623,7 +13623,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_AMASS:AMASS_XT60PW-M_1x02_P7.20mm_Horizontal"
 			(at 25.4 52.07 0)
 			(effects
 				(font

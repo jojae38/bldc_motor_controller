@@ -7651,7 +7651,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOIC127P600X175-8N"
+		(property "Footprint" "SamacSys_Parts:SOIC127P600X175-8N"
 			(at 190.5 45.72 0)
 			(effects
 				(font
@@ -8475,7 +8475,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FERD20U50DJFTR"
+		(property "Footprint" "SamacSys_Parts:FERD20U50DJFTR"
 			(at 261.62 24.13 0)
 			(effects
 				(font
@@ -8902,7 +8902,7 @@
 				)
 			)
 		)
-		(property "Value" "2.2/0.125w"
+		(property "Value" "2.2/0.25w"
 			(at 172.72 181.102 90)
 			(effects
 				(font
@@ -9617,7 +9617,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FERD20U50DJFTR"
+		(property "Footprint" "SamacSys_Parts:FERD20U50DJFTR"
 			(at 262.89 177.8 0)
 			(effects
 				(font
@@ -9848,7 +9848,7 @@
 				)
 			)
 		)
-		(property "Value" "2.2/0.125w"
+		(property "Value" "2.2/0.25w"
 			(at 172.72 104.902 90)
 			(effects
 				(font
@@ -10833,7 +10833,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FERD20U50DJFTR"
+		(property "Footprint" "SamacSys_Parts:FERD20U50DJFTR"
 			(at 262.89 207.01 0)
 			(effects
 				(font
@@ -12394,7 +12394,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FERD20U50DJFTR"
+		(property "Footprint" "SamacSys_Parts:FERD20U50DJFTR"
 			(at 262.89 130.81 0)
 			(effects
 				(font
@@ -12698,7 +12698,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FERD20U50DJFTR"
+		(property "Footprint" "SamacSys_Parts:FERD20U50DJFTR"
 			(at 262.89 101.6 0)
 			(effects
 				(font
@@ -12936,7 +12936,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FERD20U50DJFTR"
+		(property "Footprint" "SamacSys_Parts:FERD20U50DJFTR"
 			(at 261.62 53.34 0)
 			(effects
 				(font
@@ -13173,7 +13173,7 @@
 				)
 			)
 		)
-		(property "Value" "2.2/0.125w"
+		(property "Value" "2.2/0.25w"
 			(at 171.45 27.432 90)
 			(effects
 				(font
@@ -14991,7 +14991,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOIC127P600X175-8N"
+		(property "Footprint" "SamacSys_Parts:SOIC127P600X175-8N"
 			(at 191.77 199.39 0)
 			(effects
 				(font
@@ -15301,7 +15301,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOIC127P600X175-8N"
+		(property "Footprint" "SamacSys_Parts:SOIC127P600X175-8N"
 			(at 191.77 123.19 0)
 			(effects
 				(font
