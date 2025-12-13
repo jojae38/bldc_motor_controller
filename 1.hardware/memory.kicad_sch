@@ -16884,7 +16884,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:SOP50P1176X120-86N"
+		(property "Footprint" "SamacSys_Parts_Project:SOP50P1176X120-86N"
 			(at 384.81 77.47 0)
 			(effects
 				(font

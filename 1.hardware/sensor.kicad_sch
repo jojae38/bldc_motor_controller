@@ -2980,7 +2980,7 @@
 				)
 			)
 		)
-		(property "Footprint" "New_Footprints:Hall_Analog_Joystick"
+		(property "Footprint" "Library:Hall_Analog_Joystick"
 			(at 95.25 120.65 0)
 			(effects
 				(font
@@ -3272,7 +3272,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "THRMC1608X95N"
+		(property "Footprint" "SamacSys_Parts_Project:THRMC1608X95N"
 			(at 55.88 175.26 0)
 			(effects
 				(font
@@ -3422,7 +3422,7 @@
 				)
 			)
 		)
-		(property "Footprint" "New_Footprints:Hall_Analog_Joystick"
+		(property "Footprint" "Library:Hall_Analog_Joystick"
 			(at 95.25 73.66 0)
 			(effects
 				(font

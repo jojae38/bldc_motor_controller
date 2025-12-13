@@ -4884,7 +4884,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
 			(at 191.77 149.86 0)
 			(effects
 				(font
@@ -5059,7 +5059,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
 			(at 191.77 29.21 0)
 			(effects
 				(font
@@ -5163,7 +5163,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
 			(at 275.59 173.99 0)
 			(effects
 				(font
@@ -5672,7 +5672,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:SOIC127P600X175-14N"
+		(property "Footprint" "SamacSys_Parts_Project:SOIC127P600X175-14N"
 			(at 58.42 44.45 0)
 			(effects
 				(font
@@ -5858,7 +5858,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
 			(at 275.59 157.48 0)
 			(effects
 				(font
@@ -6229,7 +6229,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:SOP65P640X120-14N"
+		(property "Footprint" "SamacSys_Parts_Project:SOP65P640X120-14N"
 			(at 83.82 157.48 0)
 			(effects
 				(font
@@ -6550,7 +6550,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
 			(at 207.01 170.18 0)
 			(effects
 				(font
@@ -7390,7 +7390,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:SOP50P310X90-8N"
+		(property "Footprint" "SamacSys_Parts_Project:SOP50P310X90-8N"
 			(at 80.01 95.25 0)
 			(effects
 				(font
@@ -7693,7 +7693,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
 			(at 229.87 59.69 0)
 			(effects
 				(font
@@ -8338,7 +8338,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
 			(at 275.59 139.7 0)
 			(effects
 				(font
@@ -8643,7 +8643,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
 			(at 212.09 39.37 0)
 			(effects
 				(font
@@ -9767,7 +9767,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
 			(at 229.87 104.14 0)
 			(effects
 				(font
@@ -10831,7 +10831,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
 			(at 229.87 81.28 0)
 			(effects
 				(font

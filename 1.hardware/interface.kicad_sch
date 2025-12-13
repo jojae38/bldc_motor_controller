@@ -8298,7 +8298,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:TSB008A2518A"
+		(property "Footprint" "SamacSys_Parts_Project:TSB008A2518A"
 			(at 72.39 177.8 0)
 			(effects
 				(font
@@ -9373,7 +9373,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical"
 			(at 171.45 127 0)
 			(effects
 				(font
@@ -9516,7 +9516,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_SH_SM06B-SRSS-TB_1x06-1MP_P1.00mm_Horizontal"
 			(at 119.38 30.48 0)
 			(effects
 				(font
@@ -9734,7 +9734,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 105.41 175.26 0)
 			(effects
 				(font
@@ -10004,7 +10004,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical"
 			(at 26.67 90.17 0)
 			(effects
 				(font
@@ -11007,7 +11007,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical"
 			(at 166.37 31.75 0)
 			(effects
 				(font
@@ -11653,7 +11653,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical"
 			(at 203.2 31.75 0)
 			(effects
 				(font

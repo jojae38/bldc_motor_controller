@@ -1389,168 +1389,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:L"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "L"
-				(at -1.27 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "L"
-				(at 1.905 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Inductor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "inductor choke coil reactor magnetic"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "L_0_1"
-				(arc
-					(start 0 2.54)
-					(mid 0.6323 1.905)
-					(end 0 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 1.27)
-					(mid 0.6323 0.635)
-					(end 0 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 0)
-					(mid 0.6323 -0.635)
-					(end 0 -1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -1.27)
-					(mid 0.6323 -1.905)
-					(end 0 -2.54)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "L_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:R_Small_US"
 			(pin_numbers
 				(hide yes)
@@ -1939,6 +1777,230 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "SamacSys_Parts:SWPA4020S4R7MT"
+			(pin_names
+				(offset 0.762)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "L"
+				(at 16.51 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SWPA4020S4R7MT"
+				(at 16.51 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "INDPM4040X200N"
+				(at 16.51 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://datasheet.lcsc.com/szlcsc/Sunlord-SWPA4020S4R7MT_C48427.pdf"
+				(at 16.51 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power Inductors 4.7uH +/-20% 1.34A SMD,4.0x4.0x2.0mm RoHS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "Power Inductors 4.7uH +/-20% 1.34A SMD,4.0x4.0x2.0mm RoHS"
+				(at 16.51 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Height" "2"
+				(at 16.51 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "SUNLORD"
+				(at 16.51 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "SWPA4020S4R7MT"
+				(at 16.51 -11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" ""
+				(at 16.51 -13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" ""
+				(at 16.51 -16.51 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" ""
+				(at 16.51 -19.05 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" ""
+				(at 16.51 -21.59 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(symbol "SWPA4020S4R7MT_0_0"
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 0 180)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "SWPA4020S4R7MT_0_1"
+				(arc
+					(start 7.62 0)
+					(mid 6.35 -1.3218)
+					(end 5.08 0)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 10.16 0)
+					(mid 8.89 -1.3218)
+					(end 7.62 0)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 12.7 0)
+					(mid 11.43 -1.3218)
+					(end 10.16 0)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 15.24 0)
+					(mid 13.97 -1.3218)
+					(end 12.7 0)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "SamacSys_Parts:TPS61169DCKR"
 			(pin_names
 				(offset 0.762)
@@ -2284,22 +2346,22 @@
 		)
 	)
 	(junction
-		(at 147.32 97.79)
+		(at 179.07 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "282ac9ea-9dc2-4e4b-9e50-72d02c782c2c")
-	)
-	(junction
-		(at 147.32 67.31)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3683bccd-4236-4243-8c77-83dee04e5ce1")
+		(uuid "1616eef3-5057-4531-bd0f-b785d980d6b1")
 	)
 	(junction
 		(at 179.07 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "3c7c7a20-9b33-4f6d-9783-1bce0e2800c0")
+		(uuid "4154ff89-ef52-469d-ae61-08c5a3b68ee1")
+	)
+	(junction
+		(at 147.32 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "54123275-7da8-49ba-a5cb-193948e89df0")
 	)
 	(junction
 		(at 137.16 67.31)
@@ -2312,6 +2374,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5a40066c-1a4b-4437-b787-8cdc0a05c4a1")
+	)
+	(junction
+		(at 147.32 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "690ce8aa-7641-4dcd-98db-aee2219b5e95")
 	)
 	(junction
 		(at 243.84 64.77)
@@ -2348,12 +2416,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c93bf79c-641e-4e3c-929e-19957ab56eb8")
-	)
-	(junction
-		(at 179.07 97.79)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d2c07bd2-5f4d-4641-9734-63728644d93d")
 	)
 	(junction
 		(at 181.61 110.49)
@@ -2621,16 +2683,6 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 97.79) (xy 179.07 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1dbc5ad1-da2e-4823-a55e-c71370adb252")
-	)
-	(wire
-		(pts
 			(xy 179.07 97.79) (xy 179.07 107.95)
 		)
 		(stroke
@@ -2761,16 +2813,6 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 97.79) (xy 160.02 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "36fca8df-648c-4197-9284-728921530fbc")
-	)
-	(wire
-		(pts
 			(xy 137.16 67.31) (xy 147.32 67.31)
 		)
 		(stroke
@@ -2848,16 +2890,6 @@
 			(type default)
 		)
 		(uuid "47283221-e4ba-48c3-b538-da9a16998fb3")
-	)
-	(wire
-		(pts
-			(xy 147.32 110.49) (xy 147.32 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "47a88f1a-db29-4d79-845a-fd47cb826290")
 	)
 	(wire
 		(pts
@@ -2971,7 +3003,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 97.79) (xy 147.32 80.01)
+			(xy 147.32 80.01) (xy 147.32 97.79)
 		)
 		(stroke
 			(width 0)
@@ -3131,16 +3163,6 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 67.31) (xy 179.07 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "788c5b45-4636-4d33-a008-1b6cc7b385bb")
-	)
-	(wire
-		(pts
 			(xy 191.77 97.79) (xy 198.12 97.79)
 		)
 		(stroke
@@ -3148,6 +3170,26 @@
 			(type default)
 		)
 		(uuid "7befc9eb-f71e-4ebf-84fd-5ddc8b4dc861")
+	)
+	(wire
+		(pts
+			(xy 147.32 97.79) (xy 152.4 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c7a29b4-10a3-40ee-9358-40ad5062de19")
+	)
+	(wire
+		(pts
+			(xy 147.32 97.79) (xy 147.32 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7cbeb98a-f949-42b2-a404-5ee3cc2fed34")
 	)
 	(wire
 		(pts
@@ -3341,6 +3383,16 @@
 	)
 	(wire
 		(pts
+			(xy 172.72 97.79) (xy 179.07 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9643a863-8059-40ab-8d93-020fef495e37")
+	)
+	(wire
+		(pts
 			(xy 256.54 64.77) (xy 261.62 64.77)
 		)
 		(stroke
@@ -3411,6 +3463,16 @@
 	)
 	(wire
 		(pts
+			(xy 172.72 67.31) (xy 179.07 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa5cf9e7-5f54-4392-9e9f-4d128d26f3b0")
+	)
+	(wire
+		(pts
 			(xy 181.61 110.49) (xy 181.61 116.84)
 		)
 		(stroke
@@ -3438,6 +3500,16 @@
 			(type default)
 		)
 		(uuid "b189b810-340d-4c7e-96ac-e557c53d2198")
+	)
+	(wire
+		(pts
+			(xy 147.32 67.31) (xy 152.4 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2e6d202-a005-4817-b98b-b3d1b9bae742")
 	)
 	(wire
 		(pts
@@ -3658,16 +3730,6 @@
 			(type default)
 		)
 		(uuid "f0b87f24-e81d-4e0d-9ded-b4485a7eecbb")
-	)
-	(wire
-		(pts
-			(xy 160.02 67.31) (xy 147.32 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f1717ff9-b9dc-47c9-9dfd-dda71d8621ca")
 	)
 	(wire
 		(pts
@@ -6593,74 +6655,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:L")
-		(at 163.83 67.31 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "418b3db3-6ea4-41ba-9503-086843be095f")
-		(property "Reference" "L9"
-			(at 163.83 62.23 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "L"
-			(at 163.83 64.77 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 163.83 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 163.83 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Inductor"
-			(at 163.83 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "37f1fa47-cc29-49ef-99cb-c820a8016876")
-		)
-		(pin "2"
-			(uuid "6ec34ff4-f244-4fad-95c0-0cd34162d6d1")
-		)
-		(instances
-			(project ""
-				(path "/a25adab6-a8c3-4e0e-8ba9-baac00aaa394/9ad5d27a-5f31-4a09-b7fb-9d62ecc953c1"
-					(reference "L9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 181.61 116.84 0)
 		(unit 1)
@@ -6721,74 +6715,6 @@
 			(project "bldc_motor_controller"
 				(path "/a25adab6-a8c3-4e0e-8ba9-baac00aaa394/9ad5d27a-5f31-4a09-b7fb-9d62ecc953c1"
 					(reference "#PWR0105")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:L")
-		(at 163.83 97.79 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "51184e4e-6605-4cb1-9f9f-dda8d43c844a")
-		(property "Reference" "L10"
-			(at 163.83 92.71 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "L"
-			(at 163.83 95.25 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 163.83 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 163.83 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Inductor"
-			(at 163.83 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d95cabb0-d9e6-4f8b-90e5-dc2290b20d37")
-		)
-		(pin "2"
-			(uuid "0fdae5cc-5f68-41be-b20c-1ad4653242c6")
-		)
-		(instances
-			(project "bldc_motor_controller"
-				(path "/a25adab6-a8c3-4e0e-8ba9-baac00aaa394/9ad5d27a-5f31-4a09-b7fb-9d62ecc953c1"
-					(reference "L10")
 					(unit 1)
 				)
 			)
@@ -7066,6 +6992,156 @@
 		)
 	)
 	(symbol
+		(lib_id "SamacSys_Parts:SWPA4020S4R7MT")
+		(at 152.4 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6311bf76-b557-44a9-bc6f-9b9b4f605bed")
+		(property "Reference" "L11"
+			(at 162.56 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SWPA4020S4R7MT"
+			(at 162.56 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SamacSys_Parts_Project:INDPM4040X200N"
+			(at 168.91 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/szlcsc/Sunlord-SWPA4020S4R7MT_C48427.pdf"
+			(at 168.91 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power Inductors 4.7uH +/-20% 1.34A SMD,4.0x4.0x2.0mm RoHS"
+			(at 152.4 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Power Inductors 4.7uH +/-20% 1.34A SMD,4.0x4.0x2.0mm RoHS"
+			(at 168.91 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Height" "2"
+			(at 168.91 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "SUNLORD"
+			(at 168.91 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SWPA4020S4R7MT"
+			(at 168.91 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 168.91 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 168.91 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 168.91 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 168.91 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6c59c0b6-b636-4eaf-8142-9aac2d6851cc")
+		)
+		(pin "1"
+			(uuid "8d45198c-9117-4ac5-9f20-a462afa5c88f")
+		)
+		(instances
+			(project "bldc_motor_controller"
+				(path "/a25adab6-a8c3-4e0e-8ba9-baac00aaa394/9ad5d27a-5f31-4a09-b7fb-9d62ecc953c1"
+					(reference "L11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 256.54 93.98 90)
 		(unit 1)
@@ -7128,6 +7204,156 @@
 			(project "bldc_motor_controller"
 				(path "/a25adab6-a8c3-4e0e-8ba9-baac00aaa394/9ad5d27a-5f31-4a09-b7fb-9d62ecc953c1"
 					(reference "R113")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:SWPA4020S4R7MT")
+		(at 152.4 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "78c0baa1-76e0-4b0d-8061-c0fe7badaad1")
+		(property "Reference" "L9"
+			(at 162.56 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SWPA4020S4R7MT"
+			(at 162.56 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SamacSys_Parts_Project:INDPM4040X200N"
+			(at 168.91 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/szlcsc/Sunlord-SWPA4020S4R7MT_C48427.pdf"
+			(at 168.91 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power Inductors 4.7uH +/-20% 1.34A SMD,4.0x4.0x2.0mm RoHS"
+			(at 152.4 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Power Inductors 4.7uH +/-20% 1.34A SMD,4.0x4.0x2.0mm RoHS"
+			(at 168.91 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Height" "2"
+			(at 168.91 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "SUNLORD"
+			(at 168.91 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SWPA4020S4R7MT"
+			(at 168.91 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 168.91 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 168.91 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 168.91 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 168.91 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f6ac7eff-a4cb-4386-9cc1-266e91f82b91")
+		)
+		(pin "1"
+			(uuid "3f3ca419-9192-426a-a799-3eaba05aa613")
+		)
+		(instances
+			(project "bldc_motor_controller"
+				(path "/a25adab6-a8c3-4e0e-8ba9-baac00aaa394/9ad5d27a-5f31-4a09-b7fb-9d62ecc953c1"
+					(reference "L9")
 					(unit 1)
 				)
 			)
@@ -7361,7 +7587,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:SOT65P210X110-5N"
+		(property "Footprint" "SamacSys_Parts_Project:SOT65P210X110-5N"
 			(at 153.67 105.41 0)
 			(effects
 				(font
@@ -7727,7 +7953,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_FFC-FPC:Amphenol_F32Q-1A7x1-11040_1x40-1MP_P0.5mm_Horizontal"
 			(at 309.88 113.03 0)
 			(effects
 				(font
@@ -8182,7 +8408,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:SOT65P210X110-5N"
+		(property "Footprint" "SamacSys_Parts_Project:SOT65P210X110-5N"
 			(at 153.67 74.93 0)
 			(effects
 				(font
