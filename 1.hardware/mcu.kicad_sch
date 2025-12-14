@@ -7421,6 +7421,12 @@
 		(uuid "53c91dc4-c6c4-4099-8206-ddb8399b77d9")
 	)
 	(junction
+		(at 190.5 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5461e2fe-b069-433b-bbf5-62c5811841a0")
+	)
+	(junction
 		(at 262.89 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7473,12 +7479,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8c50e037-7cb8-4196-a79b-40b008045146")
-	)
-	(junction
-		(at 190.5 97.79)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8fea9d81-3dc8-42dc-980c-759220f8e81d")
 	)
 	(junction
 		(at 273.05 66.04)
@@ -8194,16 +8194,6 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 81.28) (xy 190.5 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "23ba9e70-f7cd-4c48-a21e-566312671232")
-	)
-	(wire
-		(pts
 			(xy 100.33 119.38) (xy 97.79 119.38)
 		)
 		(stroke
@@ -8261,16 +8251,6 @@
 			(type default)
 		)
 		(uuid "271b2507-2446-4176-a3d7-a133331d6c81")
-	)
-	(wire
-		(pts
-			(xy 190.5 91.44) (xy 190.5 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "27c5731b-9419-4415-88e5-1b90f1eab079")
 	)
 	(wire
 		(pts
@@ -8451,6 +8431,16 @@
 			(type default)
 		)
 		(uuid "35401966-00b1-44ac-9cdf-c87ba49d4ac3")
+	)
+	(wire
+		(pts
+			(xy 190.5 81.28) (xy 190.5 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35e81876-5d34-496c-89fd-d3c7c43b3f96")
 	)
 	(wire
 		(pts
@@ -10951,6 +10941,16 @@
 			(type default)
 		)
 		(uuid "e5a6dffd-88cd-4fbd-b1f7-8b07ee8042cb")
+	)
+	(wire
+		(pts
+			(xy 190.5 92.71) (xy 190.5 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6683695-7ccc-4423-bd5e-121c4ca68502")
 	)
 	(wire
 		(pts
@@ -21968,16 +21968,16 @@
 	)
 	(symbol
 		(lib_id "SamacSys_Parts:TSB008A2518A")
-		(at 190.5 91.44 180)
+		(at 190.5 90.17 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "fa934ead-e363-4b39-9997-ab26bf215e36")
 		(property "Reference" "S4"
-			(at 179.07 81.28 0)
+			(at 179.07 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21985,7 +21985,7 @@
 			)
 		)
 		(property "Value" "TSB008A2518A"
-			(at 179.07 83.82 0)
+			(at 179.07 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21993,7 +21993,7 @@
 			)
 		)
 		(property "Footprint" "SamacSys_Parts_Project:TSB008A2518A"
-			(at 171.45 93.98 0)
+			(at 171.45 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22003,7 +22003,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2108261830_BZCN-TSB008A2518A_C2888455.pdf"
-			(at 171.45 91.44 0)
+			(at 171.45 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22013,7 +22013,7 @@
 			)
 		)
 		(property "Description" "3.5mm 2.5mm Rectangle button 50mA Brick nogging 6mm 180gf 12V SMD Tactile Switches ROHS"
-			(at 190.5 91.44 0)
+			(at 190.5 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22022,7 +22022,7 @@
 			)
 		)
 		(property "Description_1" "3.5mm 2.5mm Rectangle button 50mA Brick nogging 6mm 180gf 12V SMD Tactile Switches ROHS"
-			(at 171.45 88.9 0)
+			(at 171.45 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22032,7 +22032,7 @@
 			)
 		)
 		(property "Height" "2.75"
-			(at 171.45 86.36 0)
+			(at 171.45 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22042,7 +22042,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "BZCN"
-			(at 171.45 83.82 0)
+			(at 171.45 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22052,7 +22052,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "TSB008A2518A"
-			(at 171.45 81.28 0)
+			(at 171.45 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22062,7 +22062,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 171.45 78.74 0)
+			(at 171.45 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22072,7 +22072,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 171.45 76.2 0)
+			(at 171.45 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22082,7 +22082,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 171.45 73.66 0)
+			(at 171.45 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22092,7 +22092,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 171.45 71.12 0)
+			(at 171.45 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
