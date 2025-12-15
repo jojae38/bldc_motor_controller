@@ -6823,7 +6823,7 @@
 			)
 		)
 	)
-	(global_label "PWR_INPUT(5V~24V)"
+	(global_label "PWR_INPUT(12V~48V)"
 		(shape passive)
 		(at 215.9 29.21 0)
 		(fields_autoplaced yes)
@@ -6833,9 +6833,9 @@
 			)
 			(justify left)
 		)
-		(uuid "665558f0-0df5-44d5-9285-16f6ecbbfbf1")
+		(uuid "61630553-1cfe-42d2-b30c-8d2aba1b9a2a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 236.6425 29.21 0)
+			(at 237.852 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7043,28 +7043,6 @@
 			)
 		)
 	)
-	(global_label "PWR_INPUT(5V~24V)"
-		(shape passive)
-		(at 132.08 25.4 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "97815a0d-2272-4127-9b9d-ee4a1dfa85f1")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 152.8225 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "3V3_ESP32"
 		(shape passive)
 		(at 218.44 113.03 0)
@@ -7254,6 +7232,28 @@
 		(uuid "c29676dc-379b-4c47-a41b-9ff502d5e849")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 65.011 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PWR_INPUT(12V~48V)"
+		(shape passive)
+		(at 132.08 25.4 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cdb0d473-25f4-4c55-ad20-80c4ec71ac9f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 154.032 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
