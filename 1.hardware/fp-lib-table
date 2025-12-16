@@ -5,4 +5,5 @@
   (lib (name "ul_2060_453")(type "KiCad")(uri "${KICAD_BLDC_FOOTPRINT}/ul_2060-453-998-404/KiCADv6/footprints.pretty")(options "")(descr ""))
   (lib (name "ul_2061_602")(type "KiCad")(uri "${KICAD_BLDC_FOOTPRINT}/ul_2061-602-998-404/KiCADv6/footprints.pretty")(options "")(descr ""))
   (lib (name "ul_2061_603")(type "KiCad")(uri "${KICAD_BLDC_FOOTPRINT}/ul_2061-603-998-404/KiCADv6/footprints.pretty")(options "")(descr ""))
+  (lib (name "footprints")(type "KiCad")(uri "${KIPRJMOD}/lib/ul_4D02WGJ0330T/KiCADv6/footprints.pretty")(options "")(descr ""))
 )
