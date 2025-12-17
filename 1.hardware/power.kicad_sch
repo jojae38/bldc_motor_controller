@@ -3817,12 +3817,6 @@
 		(uuid "4610d85e-9a9c-4424-b614-7eae7df8f883")
 	)
 	(junction
-		(at 152.4 118.11)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4c1e0d30-8a31-41de-9d0e-ff8801bc89c8")
-	)
-	(junction
 		(at 320.04 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4009,16 +4003,6 @@
 			(type default)
 		)
 		(uuid "005f473a-032b-43f1-875c-a5eec9a05d60")
-	)
-	(wire
-		(pts
-			(xy 158.75 127) (xy 152.4 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "025add79-f248-4d35-8f79-426a32bfd7da")
 	)
 	(wire
 		(pts
@@ -4572,16 +4556,6 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 127) (xy 172.72 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "496d5363-fdfe-490a-a6b5-94d69db4393c")
-	)
-	(wire
-		(pts
 			(xy 278.13 73.66) (xy 308.61 73.66)
 		)
 		(stroke
@@ -4839,16 +4813,6 @@
 			(type default)
 		)
 		(uuid "623c532b-ca59-4fa4-a2f6-6ff28dd6413e")
-	)
-	(wire
-		(pts
-			(xy 152.4 118.11) (xy 152.4 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6400e396-2067-4854-b2cd-74758e6ee677")
 	)
 	(wire
 		(pts
@@ -6049,28 +6013,6 @@
 		(uuid "90389e29-5514-4080-996a-d2ee23b8e1c1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 148.6494 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "3V3_ESP32"
-		(shape passive)
-		(at 172.72 127 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a15325de-7196-432a-9702-77da3d9bec47")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 185.1166 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8956,74 +8898,6 @@
 			(project ""
 				(path "/a25adab6-a8c3-4e0e-8ba9-baac00aaa394/fa552ebf-4859-4df7-97cc-cc5957e0d3a3"
 					(reference "IC1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:L_Iron")
-		(at 162.56 127 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5f900e17-ee2b-4ec2-bf30-a692a17a5ff6")
-		(property "Reference" "L6"
-			(at 162.56 120.65 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "60R_100Mhz"
-			(at 162.56 123.19 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
-			(at 162.56 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 162.56 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Inductor with iron core"
-			(at 162.56 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d9689fc3-b24e-439e-a890-d1a3fc9186c8")
-		)
-		(pin "2"
-			(uuid "1d28f274-6376-4423-a47d-3dcdfa0633e7")
-		)
-		(instances
-			(project "bldc_motor_controller"
-				(path "/a25adab6-a8c3-4e0e-8ba9-baac00aaa394/fa552ebf-4859-4df7-97cc-cc5957e0d3a3"
-					(reference "L6")
 					(unit 1)
 				)
 			)

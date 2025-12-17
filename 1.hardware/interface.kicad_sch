@@ -6559,6 +6559,28 @@
 			)
 		)
 	)
+	(global_label "3V3_MCU"
+		(shape passive)
+		(at 218.44 113.03 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1cffbcc8-c8d2-47c7-adb6-4284836f0258")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 228.841 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "FSPICSO"
 		(shape passive)
 		(at 152.4 139.7 180)
@@ -7039,28 +7061,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "3V3_ESP32"
-		(shape passive)
-		(at 218.44 113.03 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "9c08811a-6ac8-4f77-8fad-7239e81b7f90")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 230.8366 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
