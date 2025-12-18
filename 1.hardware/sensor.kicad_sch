@@ -1579,7 +1579,7 @@
 			)
 		)
 	)
-	(global_label "ADC_VREF_2V5"
+	(global_label "3V3"
 		(shape passive)
 		(at 59.69 168.91 0)
 		(fields_autoplaced yes)
@@ -1589,9 +1589,9 @@
 			)
 			(justify left)
 		)
-		(uuid "c94e58ee-469e-404b-9ed6-4f36383b6ef4")
+		(uuid "cbf1a8c2-e496-44fc-be02-5cca1adce608")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 75.2315 168.91 0)
+			(at 65.0715 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
