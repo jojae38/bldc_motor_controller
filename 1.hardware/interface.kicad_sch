@@ -4688,16 +4688,6 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 39.37) (xy 254 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "15baf5ea-dea0-4ce5-9c55-aa6be929bd48")
-	)
-	(wire
-		(pts
 			(xy 49.53 77.47) (xy 49.53 80.01)
 		)
 		(stroke
@@ -4755,16 +4745,6 @@
 			(type default)
 		)
 		(uuid "1be0a5f0-4a4b-40c1-8987-7c4733f960f4")
-	)
-	(wire
-		(pts
-			(xy 248.92 29.21) (xy 254 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1c415690-a56a-4f21-a2fe-9c74d322960b")
 	)
 	(wire
 		(pts
@@ -5148,26 +5128,6 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 31.75) (xy 254 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "61763b60-973b-46ac-b8d6-cba23b2ae105")
-	)
-	(wire
-		(pts
-			(xy 248.92 26.67) (xy 254 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "64d635e7-29f0-4906-9ae9-686108dcc67b")
-	)
-	(wire
-		(pts
 			(xy 215.9 59.69) (xy 215.9 60.96)
 		)
 		(stroke
@@ -5515,16 +5475,6 @@
 			(type default)
 		)
 		(uuid "9ef695bb-c4ac-4c26-b264-b1d9476498d3")
-	)
-	(wire
-		(pts
-			(xy 254 41.91) (xy 254 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a04f4d3d-3e93-4213-bf58-ea675bb41c90")
 	)
 	(wire
 		(pts
@@ -5948,16 +5898,6 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 36.83) (xy 254 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e69a4942-f79d-485f-afde-e12f8d141e41")
-	)
-	(wire
-		(pts
 			(xy 34.29 95.25) (xy 34.29 97.79)
 		)
 		(stroke
@@ -6035,16 +5975,6 @@
 			(type default)
 		)
 		(uuid "eb8b97cb-82a0-4bb2-adaf-6e14c9114178")
-	)
-	(wire
-		(pts
-			(xy 248.92 34.29) (xy 254 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ebb3ef75-fed3-4448-871a-756ef5e34174")
 	)
 	(wire
 		(pts
@@ -6232,28 +6162,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "EXTRA_SPI3_MISO"
-		(shape passive)
-		(at 254 31.75 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "0dd44996-d356-45a9-8e6d-572b878a8c11")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 272.3838 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -6522,28 +6430,6 @@
 			)
 		)
 	)
-	(global_label "EXTRA_SPI3_NSS"
-		(shape passive)
-		(at 254 36.83 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "51b44376-e0af-4cf6-8500-bc113b7da9d3")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 271.5371 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "USB_DP"
 		(shape passive)
 		(at 73.66 160.02 180)
@@ -6588,28 +6474,6 @@
 			)
 		)
 	)
-	(global_label "EXTRA_SPI3_MOSI"
-		(shape passive)
-		(at 254 34.29 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "5d4eb11f-11b9-434f-8ca2-cb8a4fb52a63")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 272.3838 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "PWR_INPUT(12V~48V)"
 		(shape passive)
 		(at 215.9 29.21 0)
@@ -6623,6 +6487,28 @@
 		(uuid "61630553-1cfe-42d2-b30c-8d2aba1b9a2a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 237.852 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "3V3"
+		(shape passive)
+		(at 54.61 170.18 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "638226b5-0070-464f-8278-9bc6670d7a43")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 59.9915 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6962,28 +6848,6 @@
 			)
 		)
 	)
-	(global_label "3V3"
-		(shape passive)
-		(at 254 26.67 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b9c53966-0f2b-49d8-8b65-bb311dc1d780")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 259.3815 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "3V3_MCU"
 		(shape passive)
 		(at 119.38 53.34 180)
@@ -7024,28 +6888,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "3V3_MCU"
-		(shape passive)
-		(at 54.61 170.18 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c29676dc-379b-4c47-a41b-9ff502d5e849")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 65.011 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -7200,28 +7042,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "EXTRA_SPI3_SCK"
-		(shape passive)
-		(at 254 29.21 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ea8490ad-87ca-4bb9-ae65-72a725e20425")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 271.5371 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -8306,7 +8126,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 200.66 118.11 0)
 			(effects
 				(font
@@ -9186,72 +9006,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 254 41.91 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5d6791b0-47e5-4a37-a580-ac16e546df7c")
-		(property "Reference" "#PWR078"
-			(at 254 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 254 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 254 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 254 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 254 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "64329acc-b290-411f-881e-306bd424bf72")
-		)
-		(instances
-			(project "bldc_motor_controller"
-				(path "/a25adab6-a8c3-4e0e-8ba9-baac00aaa394/430b6e73-4ab5-4f88-adfd-520e070c0b15"
-					(reference "#PWR078")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 68.58 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9548,7 +9302,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 185.42 118.11 0)
 			(effects
 				(font
@@ -9789,88 +9543,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x06")
-		(at 243.84 31.75 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a9734ae0-5d8f-4f5a-804d-fb40259f50ad")
-		(property "Reference" "J7"
-			(at 241.3 31.7499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "EXTRA_SPI3_CONN"
-			(at 241.3 34.2899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical"
-			(at 243.84 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 243.84 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 243.84 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "45f3ec7a-a56c-4c3e-9317-e49e3c86b24c")
-		)
-		(pin "4"
-			(uuid "305df15b-28a6-47e1-b719-f5961b18bf4c")
-		)
-		(pin "1"
-			(uuid "002abeec-8335-45f6-8aba-1c3698c72559")
-		)
-		(pin "6"
-			(uuid "9855116e-6a02-4abf-ae28-562b9d2dc3ac")
-		)
-		(pin "5"
-			(uuid "2f89e89b-b71d-4f81-9ff8-1ce1bdf6c9d0")
-		)
-		(pin "2"
-			(uuid "3c55fd8a-9380-4e99-9c15-8bb004c03442")
-		)
-		(instances
-			(project "bldc_motor_controller"
-				(path "/a25adab6-a8c3-4e0e-8ba9-baac00aaa394/430b6e73-4ab5-4f88-adfd-520e070c0b15"
-					(reference "J7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 161.29 132.08 0)
 		(unit 1)
@@ -10029,7 +9701,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 215.9 57.15 0)
 			(effects
 				(font
@@ -10316,7 +9988,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 134.62 58.42 0)
 			(effects
 				(font
