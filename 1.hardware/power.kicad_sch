@@ -7589,7 +7589,7 @@
 				)
 			)
 		)
-		(property "Value" "10k/0.1w"
+		(property "Value" "10k/0.063w"
 			(at 327.152 143.002 0)
 			(effects
 				(font
@@ -9347,7 +9347,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 265.43 95.25 0)
 			(effects
 				(font
@@ -11035,7 +11035,7 @@
 		(at 124.46 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "9fd4a66c-21d8-497b-8999-1c330a91c81b")
@@ -11638,7 +11638,7 @@
 		(at 55.88 27.94 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "b2e5b3e4-6b1e-4df0-8b91-dd0361b2b8cd")
@@ -12516,7 +12516,7 @@
 		(at 238.76 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -12722,7 +12722,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "df219b4b-beac-40fd-a102-7c6ed83dad22")
-		(property "Reference" "L7"
+		(property "Reference" "L6"
 			(at 171.45 130.81 90)
 			(effects
 				(font
@@ -12774,7 +12774,7 @@
 		(instances
 			(project "bldc_motor_controller"
 				(path "/a25adab6-a8c3-4e0e-8ba9-baac00aaa394/fa552ebf-4859-4df7-97cc-cc5957e0d3a3"
-					(reference "L7")
+					(reference "L6")
 					(unit 1)
 				)
 			)
@@ -12785,7 +12785,7 @@
 		(at 238.76 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -13158,7 +13158,7 @@
 				)
 			)
 		)
-		(property "Value" "13.7k/0.1w"
+		(property "Value" "54.9k/0.063w"
 			(at 327.152 132.842 0)
 			(effects
 				(font
@@ -13492,7 +13492,7 @@
 				)
 			)
 		)
-		(property "Value" "13.7k/0.1w"
+		(property "Value" "33.2k/0.063w"
 			(at 327.152 88.392 0)
 			(effects
 				(font
@@ -13559,7 +13559,7 @@
 				)
 			)
 		)
-		(property "Value" "10k/0.1w"
+		(property "Value" "10k/0.063w"
 			(at 327.152 98.552 0)
 			(effects
 				(font
@@ -13636,7 +13636,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 308.61 78.74 0)
 			(effects
 				(font

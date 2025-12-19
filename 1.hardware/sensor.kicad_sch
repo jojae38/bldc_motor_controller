@@ -1508,7 +1508,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1255bb0d-bc1f-4d09-8b61-cbb8f5b8bf8c")
-		(property "Reference" "#PWR0115"
+		(property "Reference" "#PWR0111"
 			(at 93.98 100.33 0)
 			(effects
 				(font
@@ -1558,7 +1558,7 @@
 		(instances
 			(project "bldc_motor_controller"
 				(path "/a25adab6-a8c3-4e0e-8ba9-baac00aaa394/41a95291-f7f2-4bdf-b0a1-cf2084f10036"
-					(reference "#PWR0115")
+					(reference "#PWR0111")
 					(unit 1)
 				)
 			)
@@ -1573,7 +1573,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1c079105-1957-4d30-b6ae-4b8bd3664bad")
-		(property "Reference" "R118"
+		(property "Reference" "R117"
 			(at 54.102 194.818 0)
 			(effects
 				(font
@@ -1625,7 +1625,7 @@
 		(instances
 			(project "bldc_motor_controller"
 				(path "/a25adab6-a8c3-4e0e-8ba9-baac00aaa394/41a95291-f7f2-4bdf-b0a1-cf2084f10036"
-					(reference "R118")
+					(reference "R117")
 					(unit 1)
 				)
 			)
@@ -1641,7 +1641,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "48f96e83-5415-47c2-a785-d34406d16efd")
-		(property "Reference" "#PWR0112"
+		(property "Reference" "#PWR0109"
 			(at 60.96 90.17 0)
 			(effects
 				(font
@@ -1691,7 +1691,7 @@
 		(instances
 			(project "bldc_motor_controller"
 				(path "/a25adab6-a8c3-4e0e-8ba9-baac00aaa394/41a95291-f7f2-4bdf-b0a1-cf2084f10036"
-					(reference "#PWR0112")
+					(reference "#PWR0109")
 					(unit 1)
 				)
 			)
@@ -1706,7 +1706,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "53a0e57c-fca1-433a-b279-8ab8b373377a")
-		(property "Reference" "R115"
+		(property "Reference" "R114"
 			(at 65.532 71.374 90)
 			(effects
 				(font
@@ -1760,7 +1760,7 @@
 		(instances
 			(project "bldc_motor_controller"
 				(path "/a25adab6-a8c3-4e0e-8ba9-baac00aaa394/41a95291-f7f2-4bdf-b0a1-cf2084f10036"
-					(reference "R115")
+					(reference "R114")
 					(unit 1)
 				)
 			)
@@ -1776,7 +1776,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "53d64741-d693-4d54-a3dd-8399aa13552b")
-		(property "Reference" "#PWR0116"
+		(property "Reference" "#PWR0112"
 			(at 48.26 208.28 0)
 			(effects
 				(font
@@ -1826,7 +1826,7 @@
 		(instances
 			(project "bldc_motor_controller"
 				(path "/a25adab6-a8c3-4e0e-8ba9-baac00aaa394/41a95291-f7f2-4bdf-b0a1-cf2084f10036"
-					(reference "#PWR0116")
+					(reference "#PWR0112")
 					(unit 1)
 				)
 			)
@@ -1837,7 +1837,7 @@
 		(at 73.66 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "714fdc32-71c6-4b1c-8bd3-ad14bed87732")
@@ -1907,7 +1907,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7dbbc84f-78c6-492e-aec1-510b10941c14")
-		(property "Reference" "C81"
+		(property "Reference" "C82"
 			(at 63.5 77.5969 0)
 			(effects
 				(font
@@ -1961,7 +1961,7 @@
 		(instances
 			(project "bldc_motor_controller"
 				(path "/a25adab6-a8c3-4e0e-8ba9-baac00aaa394/41a95291-f7f2-4bdf-b0a1-cf2084f10036"
-					(reference "C81")
+					(reference "C82")
 					(unit 1)
 				)
 			)
@@ -1977,7 +1977,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b0724545-2e82-4d22-b436-73eeb679bdbc")
-		(property "Reference" "#PWR0117"
+		(property "Reference" "#PWR0113"
 			(at 57.15 208.28 0)
 			(effects
 				(font
@@ -2027,7 +2027,7 @@
 		(instances
 			(project "bldc_motor_controller"
 				(path "/a25adab6-a8c3-4e0e-8ba9-baac00aaa394/41a95291-f7f2-4bdf-b0a1-cf2084f10036"
-					(reference "#PWR0117")
+					(reference "#PWR0113")
 					(unit 1)
 				)
 			)
@@ -2280,7 +2280,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c3cf2c74-3ef6-4764-8a52-9d108ceb4835")
-		(property "Reference" "R117"
+		(property "Reference" "R116"
 			(at 103.124 93.98 0)
 			(effects
 				(font
@@ -2334,7 +2334,7 @@
 		(instances
 			(project "bldc_motor_controller"
 				(path "/a25adab6-a8c3-4e0e-8ba9-baac00aaa394/41a95291-f7f2-4bdf-b0a1-cf2084f10036"
-					(reference "R117")
+					(reference "R116")
 					(unit 1)
 				)
 			)
@@ -2349,7 +2349,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d3029f40-a188-42ea-ae71-0924150afd27")
-		(property "Reference" "C83"
+		(property "Reference" "C84"
 			(at 44.196 196.342 0)
 			(effects
 				(font
@@ -2403,7 +2403,7 @@
 		(instances
 			(project "bldc_motor_controller"
 				(path "/a25adab6-a8c3-4e0e-8ba9-baac00aaa394/41a95291-f7f2-4bdf-b0a1-cf2084f10036"
-					(reference "C83")
+					(reference "C84")
 					(unit 1)
 				)
 			)
@@ -2419,7 +2419,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "df33216a-364d-44ad-b9cb-6532acb225f3")
-		(property "Reference" "#PWR0113"
+		(property "Reference" "#PWR0110"
 			(at 130.81 90.17 0)
 			(effects
 				(font
@@ -2469,7 +2469,7 @@
 		(instances
 			(project "bldc_motor_controller"
 				(path "/a25adab6-a8c3-4e0e-8ba9-baac00aaa394/41a95291-f7f2-4bdf-b0a1-cf2084f10036"
-					(reference "#PWR0113")
+					(reference "#PWR0110")
 					(unit 1)
 				)
 			)
@@ -2480,7 +2480,7 @@
 		(at 118.11 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "e448c7be-7b43-4799-9e11-9e5f38773d1d")
@@ -2550,7 +2550,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e7cc896f-2709-49c2-9f35-9fc6884bc63d")
-		(property "Reference" "C82"
+		(property "Reference" "C83"
 			(at 133.35 77.5969 0)
 			(effects
 				(font
@@ -2604,7 +2604,7 @@
 		(instances
 			(project "bldc_motor_controller"
 				(path "/a25adab6-a8c3-4e0e-8ba9-baac00aaa394/41a95291-f7f2-4bdf-b0a1-cf2084f10036"
-					(reference "C82")
+					(reference "C83")
 					(unit 1)
 				)
 			)
@@ -2619,7 +2619,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e9ef27bb-80a2-467f-9cb9-797d8274f229")
-		(property "Reference" "R116"
+		(property "Reference" "R115"
 			(at 122.682 71.374 90)
 			(effects
 				(font
@@ -2673,7 +2673,7 @@
 		(instances
 			(project "bldc_motor_controller"
 				(path "/a25adab6-a8c3-4e0e-8ba9-baac00aaa394/41a95291-f7f2-4bdf-b0a1-cf2084f10036"
-					(reference "R116")
+					(reference "R115")
 					(unit 1)
 				)
 			)
