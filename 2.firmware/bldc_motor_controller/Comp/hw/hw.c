@@ -12,6 +12,8 @@ void hwInit(void)
 {
   ledInit();
   btnInit();
+  //파일
+  fileInit();
 
   //통신
   uartInit();
@@ -57,6 +59,7 @@ void hwMain(void)
     }
   }
   //상시 실행
+  fileMain();
   cliMain();
   esp32CliMain();
 }

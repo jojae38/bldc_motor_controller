@@ -17,6 +17,7 @@
 #include "_spi.h"
 #include "_uart.h"
 
+#include "file.h"
 #include "cli.h"
 //#include "esp32_cli.h"
 

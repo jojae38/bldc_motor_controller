@@ -122,8 +122,10 @@ bool cliInit(void)
   cliAdd("help", cliShowList);
   cliAdd("pwm_change", cliPwmChange);
 
-  cliAdd("pwm_change", cliPwmChange);
-  cliAdd("pwm_change", cliEmpty);
+  cliAdd("LED",        cliEmpty);
+  cliAdd("WS2812",     cliEmpty);
+  cliAdd("TEMP",       cliEmpty);
+
 
   cliOpen(_DEF_UART1_DBG, 115200);
   delay(100);
@@ -764,11 +766,6 @@ void cliPwmChange(cli_args_t *args)
   error:
   cliPrintf("Something Wrong With Arguments\r\n");
   cliPrintf("2 Argument Needed\r\n");
-}
-
-void cliMt6816Value(cli_args_t *args)
-{
-  cliPrintf("Mag Degree %d",getMt6816_Degree());
 }
 
 //방향 오른쪽 1 왼쪽 2

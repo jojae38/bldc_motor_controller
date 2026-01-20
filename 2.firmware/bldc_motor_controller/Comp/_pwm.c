@@ -13,6 +13,7 @@ extern TIM_HandleTypeDef htim3;
 extern TIM_HandleTypeDef htim8;
 extern TIM_HandleTypeDef htim12;
 
+//TODO 주파수 조정
 pwm_tbl_t pwm_tbl[PWM_CHANNEL_MAX] = {
 //타이머 1 모터쪽 H
     {.tim_handler = &htim1,.tim_channel = TIM_CHANNEL_1,.freq = 50000,.duty = 0.5,false},
@@ -30,7 +31,7 @@ pwm_tbl_t pwm_tbl[PWM_CHANNEL_MAX] = {
 
 void pwmInit(void)
 {
-
+  return;
 }
 
 void pwmMain(void)
