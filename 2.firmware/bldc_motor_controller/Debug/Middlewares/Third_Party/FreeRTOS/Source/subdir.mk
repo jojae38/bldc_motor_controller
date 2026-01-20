@@ -13,15 +13,6 @@ C_SRCS += \
 ../Middlewares/Third_Party/FreeRTOS/Source/tasks.c \
 ../Middlewares/Third_Party/FreeRTOS/Source/timers.c 
 
-C_DEPS += \
-./Middlewares/Third_Party/FreeRTOS/Source/croutine.d \
-./Middlewares/Third_Party/FreeRTOS/Source/event_groups.d \
-./Middlewares/Third_Party/FreeRTOS/Source/list.d \
-./Middlewares/Third_Party/FreeRTOS/Source/queue.d \
-./Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.d \
-./Middlewares/Third_Party/FreeRTOS/Source/tasks.d \
-./Middlewares/Third_Party/FreeRTOS/Source/timers.d 
-
 OBJS += \
 ./Middlewares/Third_Party/FreeRTOS/Source/croutine.o \
 ./Middlewares/Third_Party/FreeRTOS/Source/event_groups.o \
@@ -31,10 +22,19 @@ OBJS += \
 ./Middlewares/Third_Party/FreeRTOS/Source/tasks.o \
 ./Middlewares/Third_Party/FreeRTOS/Source/timers.o 
 
+C_DEPS += \
+./Middlewares/Third_Party/FreeRTOS/Source/croutine.d \
+./Middlewares/Third_Party/FreeRTOS/Source/event_groups.d \
+./Middlewares/Third_Party/FreeRTOS/Source/list.d \
+./Middlewares/Third_Party/FreeRTOS/Source/queue.d \
+./Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.d \
+./Middlewares/Third_Party/FreeRTOS/Source/tasks.d \
+./Middlewares/Third_Party/FreeRTOS/Source/timers.d 
+
 
 # Each subdirectory must supply rules for building sources it contributes
 Middlewares/Third_Party/FreeRTOS/Source/%.o Middlewares/Third_Party/FreeRTOS/Source/%.su Middlewares/Third_Party/FreeRTOS/Source/%.cyclo: ../Middlewares/Third_Party/FreeRTOS/Source/%.c Middlewares/Third_Party/FreeRTOS/Source/subdir.mk
-	arm-none-eabi-gcc "$<" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_PWR_LDO_SUPPLY -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "$@"
+	arm-none-eabi-gcc "$<" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_PWR_LDO_SUPPLY -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I"C:/Users/jojae/Desktop/github/bldc_motor_controller/2.firmware/bldc_motor_controller/Comp" -I"C:/Users/jojae/Desktop/github/bldc_motor_controller/2.firmware/bldc_motor_controller/Comp/ap" -I"C:/Users/jojae/Desktop/github/bldc_motor_controller/2.firmware/bldc_motor_controller/Comp/bsp" -I"C:/Users/jojae/Desktop/github/bldc_motor_controller/2.firmware/bldc_motor_controller/Comp/hw" -I"C:/Users/jojae/Desktop/github/bldc_motor_controller/2.firmware/bldc_motor_controller/Service" -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "$@"
 
 clean: clean-Middlewares-2f-Third_Party-2f-FreeRTOS-2f-Source
 
