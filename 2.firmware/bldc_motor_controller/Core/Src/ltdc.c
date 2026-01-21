@@ -49,9 +49,9 @@ void MX_LTDC_Init(void)
   hltdc.Init.VerticalSync = 3;
   hltdc.Init.AccumulatedHBP = 14;
   hltdc.Init.AccumulatedVBP = 5;
-  hltdc.Init.AccumulatedActiveW = 654;
+  hltdc.Init.AccumulatedActiveW = 494;
   hltdc.Init.AccumulatedActiveH = 485;
-  hltdc.Init.TotalWidth = 660;
+  hltdc.Init.TotalWidth = 500;
   hltdc.Init.TotalHeigh = 487;
   hltdc.Init.Backcolor.Blue = 0;
   hltdc.Init.Backcolor.Green = 0;
@@ -69,9 +69,9 @@ void MX_LTDC_Init(void)
   pLayerCfg.Alpha0 = 0;
   pLayerCfg.BlendingFactor1 = LTDC_BLENDING_FACTOR1_CA;
   pLayerCfg.BlendingFactor2 = LTDC_BLENDING_FACTOR2_CA;
-  pLayerCfg.FBStartAdress = 0;
-  pLayerCfg.ImageWidth = 0;
-  pLayerCfg.ImageHeight = 0;
+  pLayerCfg.FBStartAdress = 0xC0000000;
+  pLayerCfg.ImageWidth = 480;
+  pLayerCfg.ImageHeight = 480;
   pLayerCfg.Backcolor.Blue = 0;
   pLayerCfg.Backcolor.Green = 0;
   pLayerCfg.Backcolor.Red = 0;
@@ -88,9 +88,9 @@ void MX_LTDC_Init(void)
   pLayerCfg1.Alpha0 = 0;
   pLayerCfg1.BlendingFactor1 = LTDC_BLENDING_FACTOR1_CA;
   pLayerCfg1.BlendingFactor2 = LTDC_BLENDING_FACTOR2_CA;
-  pLayerCfg1.FBStartAdress = 0;
-  pLayerCfg1.ImageWidth = 0;
-  pLayerCfg1.ImageHeight = 0;
+  pLayerCfg1.FBStartAdress = 0xC4000000;
+  pLayerCfg1.ImageWidth = 480;
+  pLayerCfg1.ImageHeight = 480;
   pLayerCfg1.Backcolor.Blue = 0;
   pLayerCfg1.Backcolor.Green = 0;
   pLayerCfg1.Backcolor.Red = 0;

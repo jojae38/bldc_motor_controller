@@ -86,5 +86,6 @@
 "./Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.o"
 "./Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.o"
 "./Service/cli.o"
+"./Service/esp32_cli.o"
 "./Service/file.o"
 "./Service/oneshot_timer.o"

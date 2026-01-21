@@ -12,6 +12,7 @@ void hwInit(void)
 {
   ledInit();
   btnInit();
+
   //파일
   fileInit();
 
@@ -21,6 +22,9 @@ void hwInit(void)
   esp32CliInit();
 
   //센서
+
+  //lcd
+  lcdInit();
 }
 
 static __vo uint32_t timer_100ms = 0;
@@ -60,6 +64,7 @@ void hwMain(void)
   }
   //상시 실행
   fileMain();
+  lcdMain();
   cliMain();
   esp32CliMain();
 }
